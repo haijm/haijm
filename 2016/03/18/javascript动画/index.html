@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <meta name="description" content="学习笔记" />
+  
+
+  
+  
+  
+  
+  
+  
+  <title>javascript动画 | Haijm&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="学习笔记">
+<meta name="keywords" content="JS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="javascript动画">
+<meta property="og:url" content="http://haijm.github.io/2016/03/18/javascript动画/index.html">
+<meta property="og:site_name" content="Haijm&#39;s Blog">
+<meta property="og:description" content="学习笔记">
+<meta property="og:updated_time" content="2017-12-22T13:27:25.359Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="javascript动画">
+<meta name="twitter:description" content="学习笔记">
+  
+  
+    <link rel="icon" href="/css/images/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+  
+  <!-- baidu webmaster push -->
+  <script src='//push.zhanzhang.baidu.com/push.js'></script>
+</head>
+<body class="home blog custom-background custom-font-enabled single-author">
+  <div id="page" class="hfeed site">
+      <header id="masthead" class="site-header" role="banner">
+    <hgroup>
+      <h1 class="site-title">
+        <a href="/" title="Haijm&#39;s Blog" rel="home">Haijm&#39;s Blog</a>
+      </h1>
+      
+        <h2 class="site-description">
+          <a href="/" id="subtitle">海金梅的博客</a>
+        </h2>
+      
+    </hgroup>
+
+    <nav id="site-navigation" class="main-navigation" role="navigation">
+            <button class="menu-toggle">菜单</button>
+            <a class="assistive-text" href="/#content" title="跳至内容">跳至内容</a><!--TODO-->
+            <div class="menu-main-container">
+                <ul id="menu-main" class="nav-menu">
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/">Home</a></li>
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/archives">Archives</a></li>
+                
+                </ul>
+            </div>
+    </nav>
+</header>
+      <div id="main" class="wrapper">
+        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-javascript动画" class="post-javascript动画 post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title article-title">
+      javascript动画
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="javascript:void(0);" data-url="http://haijm.github.io/2016/03/18/javascript动画/" data-id="cjbi0zwar000cksd4u4hfx6w5" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <h2 id="四、1-1-JQ自定义动画"><a href="#四、1-1-JQ自定义动画" class="headerlink" title="四、1.1 JQ自定义动画"></a>四、1.1 JQ自定义动画</h2><p>$(obj).animate({},时间，形式，回调)；<br>注：</p>
+<ol>
+<li>{}和css多属性操作语法完全一样，用来设置一个或多个需要做动画的css属性。</li>
+<li>时间。单位是ms，表示当前动画运动时长。</li>
+<li>形式默认是swing，还可以设置linear，一般会使用插件进行扩展。</li>
+<li>回调就是一个function（）{}它里面的代码会在前面执行完成之后自动执行。</li>
+<li>animate（）不能实现背景颜色和透明度动画。<h3 id="1-2-动画停止和延时"><a href="#1-2-动画停止和延时" class="headerlink" title="1.2 动画停止和延时"></a>1.2 动画停止和延时</h3></li>
+<li>stop（）默认参数值是false，表示只执行当前元素身上最后一次运动，true就表示将所有动画都停止。</li>
+<li>delay（）小括号设置时长，单位是ms表示动画过多久之后才执行。<h3 id="1-3-页面滚动距离"><a href="#1-3-页面滚动距离" class="headerlink" title="1.3 页面滚动距离"></a>1.3 页面滚动距离</h3>指的就是页面滚动可视区的那段距离值，在页面滚动时才会有值。<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$(dopcument).scroll(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="keyword">var</span> iH=$(<span class="built_in">document</span>).crollTop();</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>注：</p>
+<ol>
+<li>document 、window都可以用来表示整个网页。</li>
+<li>scroll（）是JQ当中定义好一个页面滚动事件。</li>
+<li>scrollTOP（）是JQ当中专门用来获取滚动距离的函数。<br>后台页面尺寸：宽1200。高：800/768<h3 id="1-4-设置页面滚动距离"><a href="#1-4-设置页面滚动距离" class="headerlink" title="1.4 设置页面滚动距离"></a>1.4 设置页面滚动距离</h3><code>$(&#39;html;body&#39;).animate({&#39;scrollTOP&#39;具体值，时间})；</code><br>注：</li>
+<li>在设置页面滚动距离时候必须用HTML，body来表示整个也买你。</li>
+<li>scrollTOP写在animate里的时候就是专门用来表示页面滚动距离的。<h3 id="1-5-offset（）"><a href="#1-5-offset（）" class="headerlink" title="1.5 offset（）"></a>1.5 offset（）</h3>$(obj).offset()获取某个元素距离页面左侧和上边的距离值分别为lefttop属性。<h3 id="1-6-JS文件书写位置"><a href="#1-6-JS文件书写位置" class="headerlink" title="1.6 JS文件书写位置"></a>1.6 JS文件书写位置</h3></li>
+<li>内嵌JS直接在html页面中书写script标签。</li>
+<li>外链JS新建一个外部的JS文件，然后通过script标签身上的src属性引入，此文件不需要写script标签，且具有src属性的script不能在作为JS执行环境。</li>
+<li>行内JS其实就是事件操作的简写方式。<h2 id="五、1-1-视口基本介绍"><a href="#五、1-1-视口基本介绍" class="headerlink" title="五、1.1 视口基本介绍"></a>五、1.1 视口基本介绍</h2>（一）什么是视口<br>我们可以将当前设备用来展示网页内容的区域理解为视口。<br>(二)为什么需要视口<br>当我们为传统的PC页面设计页面时，常用的版心值为1200px，那么如果不作任何处理，直接将这个值放在手机上去查看，肯定会出现水平方向放不下的现象，所以最早由苹果公司提出了视口的概念，规定每个手机在出厂的时候都具有一个默认的浏览器宽度，这个值绝大多数为980px[保证页面在手机上页放的下]。<h3 id="1-2-视口设置"><a href="#1-2-视口设置" class="headerlink" title="1.2 视口设置"></a>1.2 视口设置</h3>书写移动页面首先要考虑一个问题就是如何去设置视口，可以通过meta来设置。<br><code>&lt;meta name=&quot;View port&quot; content=&quot;width=device-width,initial-scale=1&quot;/&gt;</code><br>注：</li>
+<li>view port 就是视口的意思</li>
+<li></li>
+</ol>
+
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/2016/03/18/javascript动画/">
+    <time datetime="2016-03-18T13:20:35.000Z" class="entry-date">
+        2016-03-18
+    </time>
+</a>
+    
+  <span class="article-delim">&#8226;</span>
+  <div class="article-category">
+  <a class="article-category-link" href="/categories/JS/">JS</a>
+  </div>
+
+    
+  <span class="article-delim">&#8226;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JS/">JS</a></li></ul>
+
+    </footer>
+</article>
+
+
+    
+<nav class="nav-single">
+    <h3 class="assistive-text">文章导航</h3>
+    
+        <span class="nav-previous"><a href="/2016/03/21/电商/电商基础字体排版及配色/" rel="prev"><span class="meta-nav">←</span> 电商基础字体排版及配色</a></span>
+    
+    
+        <span class="nav-next"><a href="/2016/03/14/Javascript基础/" rel="next">Javascript基础 <span class="meta-nav">→</span></a></span>
+    
+</nav><!-- .nav-single -->
+
+
+
+
+
+
+
+</div></div>
+        <div id="secondary" class="widget-area" role="complementary">
+  
+    <aside id="search" class="widget widget_search"><form role="search" method="get" accept-charset="utf-8" id="searchform" class="searchform" action="//google.com/search">
+    <div>
+        <input type="text" value="" name="s" id="s" />
+        <input type="submit" id="searchsubmit" value="搜索" />
+    </div>
+</form></aside>
+  
+    
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget-content">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/AI基础学习/">AI基础学习</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/HTML-CSS-学习/">HTML-CSS 学习</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/HTML5-CSS3样式/">HTML5-CSS3样式</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JS/">JS</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Js/">Js</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/UI设计基础/">UI设计基础</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/html-css学习/">html-css学习</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/平面设计基础/">平面设计基础</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/文集/">文集</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/电商设计/">电商设计</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/编程/">编程</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/网页设计基础/">网页设计基础</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </aside>
+
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget-content">
+      <ul>
+        
+          <li>
+            <a href="/2017/07/22/Don-t-stop-when-you-are-tired/">Don&#39;t stop when you are tired</a>
+          </li>
+        
+          <li>
+            <a href="/2017/07/12/对你朝思暮想/">对你朝思暮想</a>
+          </li>
+        
+          <li>
+            <a href="/2016/11/16/HTML-CSS基础课程自学/HTML-CSS基础课程2/">HTML-CSS基础课程2</a>
+          </li>
+        
+          <li>
+            <a href="/2016/04/03/电商/电商-产品精修及商业合成/">电商-产品精修及商业合成</a>
+          </li>
+        
+          <li>
+            <a href="/2016/03/30/电商/电商-专题页设计/">电商-专题页设计</a>
+          </li>
+        
+      </ul>
+    </div>
+  </aside>
+
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget-content">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/AI/">AI</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HTML-CSS/">HTML-CSS</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HTML-CSS基础课程/">HTML-CSS基础课程</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HTML5-CSS3/">HTML5-CSS3</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JS/">JS</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PS/">PS</a><span class="tag-list-count">10</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/web网页设计/">web网页设计</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/平面设计/">平面设计</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/电商/">电商</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/翻译/">翻译</a><span class="tag-list-count">2</span></li></ul>
+    </div>
+  </aside>
+
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget-content tagcloud">
+      <a href="/tags/AI/" style="font-size: 16px;">AI</a> <a href="/tags/HTML-CSS/" style="font-size: 12px;">HTML-CSS</a> <a href="/tags/HTML-CSS基础课程/" style="font-size: 18px;">HTML-CSS基础课程</a> <a href="/tags/HTML5-CSS3/" style="font-size: 10px;">HTML5-CSS3</a> <a href="/tags/JS/" style="font-size: 12px;">JS</a> <a href="/tags/PS/" style="font-size: 20px;">PS</a> <a href="/tags/web网页设计/" style="font-size: 10px;">web网页设计</a> <a href="/tags/平面设计/" style="font-size: 14px;">平面设计</a> <a href="/tags/电商/" style="font-size: 18px;">电商</a> <a href="/tags/翻译/" style="font-size: 12px;">翻译</a>
+    </div>
+  </aside>
+
+  
+</div>
+      </div>
+      <footer id="colophon" role="contentinfo">
+    <p>&copy; 2017 Haijm
+    All rights reserved.</p>
+    <p>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></p>
+</footer>
+    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+<script src="/js/navigation.js"></script>
+
+<div id="bg"></div>
+
+  </div>
+</body>
+</html>

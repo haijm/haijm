@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <meta name="description" content="学习笔记" />
+  
+
+  
+  
+  
+  
+  
+  
+  <title>PS图像合成基础 | Haijm&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="学习笔记">
+<meta name="keywords" content="PS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PS图像合成基础">
+<meta property="og:url" content="http://haijm.github.io/2015/12/07/PS/PS图像合成基础/index.html">
+<meta property="og:site_name" content="Haijm&#39;s Blog">
+<meta property="og:description" content="学习笔记">
+<meta property="og:image" content="http://haijm.github.io/image/笔记图片/第二天笔记图片/1.png">
+<meta property="og:image" content="http://haijm.github.io/image/笔记图片/第二天笔记图片/2.png">
+<meta property="og:image" content="http://haijm.github.io/image/笔记图片/第二天笔记图片/3.png">
+<meta property="og:image" content="http://haijm.github.io/image/笔记图片/第二天笔记图片/4.png">
+<meta property="og:image" content="http://haijm.github.io/image/笔记图片/第二天笔记图片/5.png">
+<meta property="og:image" content="http://haijm.github.io/image/笔记图片/第二天笔记图片/6.png">
+<meta property="og:image" content="http://haijm.github.io/image/笔记图片/第二天笔记图片/7.png">
+<meta property="og:image" content="http://haijm.github.io/image/笔记图片/第二天笔记图片/8.png">
+<meta property="og:image" content="http://haijm.github.io/image/笔记图片/第二天笔记图片/9.png">
+<meta property="og:image" content="http://haijm.github.io/image/笔记图片/第二天笔记图片/10.png">
+<meta property="og:image" content="http://haijm.github.io/image/笔记图片/第二天笔记图片/11.png">
+<meta property="og:image" content="http://haijm.github.io/image/笔记图片/第二天笔记图片/12.png">
+<meta property="og:image" content="http://haijm.github.io/image/笔记图片/第二天笔记图片/13.png">
+<meta property="og:updated_time" content="2017-12-20T06:12:54.217Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="PS图像合成基础">
+<meta name="twitter:description" content="学习笔记">
+<meta name="twitter:image" content="http://haijm.github.io/image/笔记图片/第二天笔记图片/1.png">
+  
+  
+    <link rel="icon" href="/css/images/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+  
+  <!-- baidu webmaster push -->
+  <script src='//push.zhanzhang.baidu.com/push.js'></script>
+</head>
+<body class="home blog custom-background custom-font-enabled single-author">
+  <div id="page" class="hfeed site">
+      <header id="masthead" class="site-header" role="banner">
+    <hgroup>
+      <h1 class="site-title">
+        <a href="/" title="Haijm&#39;s Blog" rel="home">Haijm&#39;s Blog</a>
+      </h1>
+      
+        <h2 class="site-description">
+          <a href="/" id="subtitle">海金梅的博客</a>
+        </h2>
+      
+    </hgroup>
+
+    <nav id="site-navigation" class="main-navigation" role="navigation">
+            <button class="menu-toggle">菜单</button>
+            <a class="assistive-text" href="/#content" title="跳至内容">跳至内容</a><!--TODO-->
+            <div class="menu-main-container">
+                <ul id="menu-main" class="nav-menu">
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/">Home</a></li>
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/archives">Archives</a></li>
+                
+                </ul>
+            </div>
+    </nav>
+</header>
+      <div id="main" class="wrapper">
+        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-PS/PS图像合成基础" class="post-PS/PS图像合成基础 post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title article-title">
+      PS图像合成基础
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="javascript:void(0);" data-url="http://haijm.github.io/2015/12/07/PS/PS图像合成基础/" data-id="cjbi0zx5y001wksd4yaabwu27" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <h1 id="合成的概念"><a href="#合成的概念" class="headerlink" title="合成的概念"></a>合成的概念</h1><h2 id="（一）什么叫合成"><a href="#（一）什么叫合成" class="headerlink" title="（一）什么叫合成"></a>（一）什么叫合成</h2><p>将不同的人物，景物或事物通过抠图将它们出现在同一画面。<br> <a id="more"></a></p>
+<ul>
+<li>支持透底图的常见格式<br>.JPG不支持<br>.PSD支持<br>.PNG支持</li>
+<li><p>磁性套索工具<img src="/image/笔记图片/第二天笔记图片/1.png" alt="">（L）<br>作用：可以识别两个颜色反差较大的边缘，进行创建选区。<br>注意：一旦遇到颜色反差较弱的地方，可以进行点击定点，点击或者识别错时，可以换DEL删除点。</p>
+</li>
+<li><p>扣取图片的步骤<br>1.用抠图工具沿对象轮廓创建选取，<br>2.（CTRL+C,CTRL+V)或CTRL+J（原位粘贴对象）<br>3.如果发现抠取的图像有白边或杂边，可以撤销选取状态，收缩选区，在进行抠图。</p>
+</li>
+</ul>
+<h2 id="（二）自由变换–扭曲"><a href="#（二）自由变换–扭曲" class="headerlink" title="（二）自由变换–扭曲"></a>（二）自由变换–扭曲</h2><ol>
+<li>先CTRL+T，2右击鼠标弹出下拉菜单选择扭曲，（可以制作透视效果）。<br><img src="/image/笔记图片/第二天笔记图片/2.png" alt=""><br>注意：扭曲做透视贴图时，要一次性做好，反复调不好控制。<br>注意：在自由变换状态下，按住CTRL键可以临时切换扭曲。</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">shift+alt+del</td>
+<td style="text-align:left">高级填充前景色（无需选区，填充后无杂边）</td>
+</tr>
+<tr>
+<td style="text-align:left">shift+ctrl+del</td>
+<td style="text-align:left">高级填充背景色（无需选区，填充后无杂边）</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="（三）其他选区工具"><a href="#（三）其他选区工具" class="headerlink" title="（三）其他选区工具"></a>（三）其他选区工具</h2><ul>
+<li>魔棒工具<img src="/image/笔记图片/第二天笔记图片/3.png" alt="">（W）<br>作用：选区颜色相近范围，创建选区<br><img src="/image/笔记图片/第二天笔记图片/4.png" alt=""></li>
+<li>容差：控制颜色的相似范围，容差值越高选取相似范围越大</li>
+<li>选区的布尔运算<br><img src="/image/笔记图片/第二天笔记图片/5.png" alt=""></li>
+</ul>
+<ol>
+<li>新选区  创建新的选区，新绘制的选区会替换原有的选区</li>
+<li>相加：在原有的选区基础上绘制新选区，新选区和旧选区相加，绘制时配合SHIFT键，临时切换为相加</li>
+<li>相减：在原有的选区上，绘制新选区，新选区会减去旧选区，绘制时配合ALT键，可以临时切换为相减</li>
+<li>相交：新绘制的图形与原有图像相交的区域保留，其他区域排除，配合SHIFT和ALT，临时切换为相交</li>
+</ol>
+<ul>
+<li>加减交<br>|||<br>|:—|:—|<br>|shift+ctrl+i|反选|<br>|||</li>
+</ul>
+<h2 id="四-快速选择工具（W）"><a href="#四-快速选择工具（W）" class="headerlink" title="(四)快速选择工具（W）"></a>(四)快速选择工具<img src="/image/笔记图片/第二天笔记图片/6.png" alt="">（W）</h2><ul>
+<li><p>凡是光标为圆形，并且可以调整大小，都归类为画笔工具</p>
+</li>
+<li><p>{} : 调整画大小</p>
+</li>
+</ul>
+<h2 id="五-位图与矢量图"><a href="#五-位图与矢量图" class="headerlink" title="(五)位图与矢量图"></a>(五)位图与矢量图</h2><ol>
+<li>位图：（像素图）<br>[x] 特点：由像素点组成的图像，颜色过渡细腻自然，颜色丰富，表现层次感比较强。<br>缺点：缩小之后拉大容易变虚<br>相机：手机拍摄的照片，用电脑绘画得到的图片基本属于像素图</li>
+<li>矢量图：<br>特点：缩小，拉大图像都不会变虚<br>缺点：颜色过渡比较生硬，没有位图自然<br><em>*</em> 位图在进行变化时最好备份</li>
+</ol>
+<h2 id="六-渐变工具（G）"><a href="#六-渐变工具（G）" class="headerlink" title="(六)渐变工具（G）"></a>(六)渐变工具（G）<img src="/image/笔记图片/第二天笔记图片/7.png" alt=""></h2><ul>
+<li>使用方法：点击并拖拽，拉出渐变，拖拽的长短决定渐变的过度范围。<br><img src="/image/笔记图片/第二天笔记图片/8.png" alt=""></li>
+<li>三个常用渐变：前景到背景，前景到透明，黑白<br><img src="/image/笔记图片/第二天笔记图片/9.png" alt=""></li>
+<li>常用的渐变形式（前三）<br><img src="/image/笔记图片/第二天笔记图片/10.png" alt=""></li>
+<li>调节色相滑块可以改变颜色<br><img src="/image/笔记图片/第二天笔记图片/11.png" alt=""><br><img src="/image/笔记图片/第二天笔记图片/12.png" alt=""><br><img src="/image/笔记图片/第二天笔记图片/13.png" alt=""></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">快捷键</td>
+<td style="text-align:left">功能</td>
+<td>使用备注</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+shift</td>
+<td style="text-align:left">反选/反向</td>
+<td>常用</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+A</td>
+<td style="text-align:left">全选</td>
+<td>常用</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+J</td>
+<td style="text-align:left">原位复制</td>
+<td>常用</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+U</td>
+<td style="text-align:left">色相饱和度</td>
+<td>常用</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Shift+i</td>
+<td style="text-align:left">反选</td>
+</tr>
+<tr>
+<td style="text-align:left">[    ]</td>
+<td style="text-align:left">调整画笔大小</td>
+<td>常用</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/2015/12/07/PS/PS图像合成基础/">
+    <time datetime="2015-12-07T11:58:09.000Z" class="entry-date">
+        2015-12-07
+    </time>
+</a>
+    
+  <span class="article-delim">&#8226;</span>
+  <div class="article-category">
+  <a class="article-category-link" href="/categories/UI设计基础/">UI设计基础</a>
+  </div>
+
+    
+  <span class="article-delim">&#8226;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PS/">PS</a></li></ul>
+
+    </footer>
+</article>
+
+
+    
+<nav class="nav-single">
+    <h3 class="assistive-text">文章导航</h3>
+    
+        <span class="nav-previous"><a href="/2015/12/14/PS/钢笔与路径/" rel="prev"><span class="meta-nav">←</span> 钢笔与路径</a></span>
+    
+    
+        <span class="nav-next"><a href="/2015/12/01/PS/UI设计基础/" rel="next">PS基础学习 <span class="meta-nav">→</span></a></span>
+    
+</nav><!-- .nav-single -->
+
+
+
+
+
+
+
+</div></div>
+        <div id="secondary" class="widget-area" role="complementary">
+  
+    <aside id="search" class="widget widget_search"><form role="search" method="get" accept-charset="utf-8" id="searchform" class="searchform" action="//google.com/search">
+    <div>
+        <input type="text" value="" name="s" id="s" />
+        <input type="submit" id="searchsubmit" value="搜索" />
+    </div>
+</form></aside>
+  
+    
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget-content">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/AI基础学习/">AI基础学习</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/HTML-CSS-学习/">HTML-CSS 学习</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/HTML5-CSS3样式/">HTML5-CSS3样式</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JS/">JS</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Js/">Js</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/UI设计基础/">UI设计基础</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/html-css学习/">html-css学习</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/平面设计基础/">平面设计基础</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/文集/">文集</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/电商设计/">电商设计</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/编程/">编程</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/网页设计基础/">网页设计基础</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </aside>
+
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget-content">
+      <ul>
+        
+          <li>
+            <a href="/2017/07/22/Don-t-stop-when-you-are-tired/">Don&#39;t stop when you are tired</a>
+          </li>
+        
+          <li>
+            <a href="/2017/07/12/对你朝思暮想/">对你朝思暮想</a>
+          </li>
+        
+          <li>
+            <a href="/2016/11/16/HTML-CSS基础课程自学/HTML-CSS基础课程2/">HTML-CSS基础课程2</a>
+          </li>
+        
+          <li>
+            <a href="/2016/04/03/电商/电商-产品精修及商业合成/">电商-产品精修及商业合成</a>
+          </li>
+        
+          <li>
+            <a href="/2016/03/30/电商/电商-专题页设计/">电商-专题页设计</a>
+          </li>
+        
+      </ul>
+    </div>
+  </aside>
+
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget-content">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/AI/">AI</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HTML-CSS/">HTML-CSS</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HTML-CSS基础课程/">HTML-CSS基础课程</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HTML5-CSS3/">HTML5-CSS3</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JS/">JS</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PS/">PS</a><span class="tag-list-count">10</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/web网页设计/">web网页设计</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/平面设计/">平面设计</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/电商/">电商</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/翻译/">翻译</a><span class="tag-list-count">2</span></li></ul>
+    </div>
+  </aside>
+
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget-content tagcloud">
+      <a href="/tags/AI/" style="font-size: 16px;">AI</a> <a href="/tags/HTML-CSS/" style="font-size: 12px;">HTML-CSS</a> <a href="/tags/HTML-CSS基础课程/" style="font-size: 18px;">HTML-CSS基础课程</a> <a href="/tags/HTML5-CSS3/" style="font-size: 10px;">HTML5-CSS3</a> <a href="/tags/JS/" style="font-size: 12px;">JS</a> <a href="/tags/PS/" style="font-size: 20px;">PS</a> <a href="/tags/web网页设计/" style="font-size: 10px;">web网页设计</a> <a href="/tags/平面设计/" style="font-size: 14px;">平面设计</a> <a href="/tags/电商/" style="font-size: 18px;">电商</a> <a href="/tags/翻译/" style="font-size: 12px;">翻译</a>
+    </div>
+  </aside>
+
+  
+</div>
+      </div>
+      <footer id="colophon" role="contentinfo">
+    <p>&copy; 2017 Haijm
+    All rights reserved.</p>
+    <p>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></p>
+</footer>
+    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+<script src="/js/navigation.js"></script>
+
+<div id="bg"></div>
+
+  </div>
+</body>
+</html>
