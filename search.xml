@@ -101,257 +101,8 @@
     </entry>
     
     <entry>
-      <title><![CDATA[HTML-CSS基础课程2]]></title>
-      <url>/2016/11/16/HTML-CSS%E5%9F%BA%E7%A1%80%E8%AF%BE%E7%A8%8B%E8%87%AA%E5%AD%A6/HTML-CSS%E5%9F%BA%E7%A1%80%E8%AF%BE%E7%A8%8B2/</url>
-      <content type="html"><![CDATA[<h1 id="第二部分"><a href="#第二部分" class="headerlink" title="第二部分"></a>第二部分</h1><h2 id="十五、table标签，认识网页上的表格"><a href="#十五、table标签，认识网页上的表格" class="headerlink" title="十五、table标签，认识网页上的表格"></a>十五、table标签，认识网页上的表格</h2><p>创建表格的四个元素：<br>table、tbody、tr、th、td<br>1、<code>&lt;table&gt;…&lt;/table&gt;</code>：整个表格以<code>&lt;table&gt;</code>标记开始、<code>&lt;/table&gt;</code>标记结束。<br><a id="more"></a><br>2、<code>&lt;tbody&gt;…&lt;/tbody&gt;</code>：如果不加<code>&lt;thead&gt;</code>,<code>&lt;tbody&gt;</code>,<code>&lt;tfooter&gt;</code> , table表格加载完后才显示。加上这些表格结构， tbody包含行的内容下载完优先显示，不必等待表格结束后在显示，同时如果表格很长，用tbody分段，可以一部分一部分地显示。（通俗理解table 可以按结构一块块的显示，不在等整个表格加载完后显示。）<br>3、<code>&lt;tr&gt;…&lt;/tr&gt;</code>：表格的一行，所以有几对tr 表格就有几行。<br>4、<code>&lt;td&gt;…&lt;/td&gt;</code>：表格的一个单元格，一行中包含几对<code>&lt;td&gt;...&lt;/td&gt;</code>，说明一行中就有几列。<br>5、<code>&lt;th&gt;…&lt;/th&gt;</code>：表格的头部的一个单元格，表格表头。<br>6、表格中列的个数，取决于一行中数据单元格的个数。<br><img src="http://img.mukewang.com/52d38f83000160be02920445.jpg" alt=""><br>上述代码在浏览器中显示的默认的样式为：<br><img src="http://img.mukewang.com/52d3902b0001142703730239.jpg" alt=""><br>注意：<br>1、table表格在没有添加css样式之前，在浏览器中显示是没有表格线的<br>2、表头，也就是th标签中的文本默认为粗体并且居中显示</p>
-<h3 id="用css样式，为表格加入边框"><a href="#用css样式，为表格加入边框" class="headerlink" title="用css样式，为表格加入边框"></a>用css样式，为表格加入边框</h3><p>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;style type=&quot;text/css&quot;&gt;</div><div class="line">table tr td,th&#123;border:1px solid #000;&#125;</div><div class="line">&lt;/style&gt;</div></pre></td></tr></table></figure></p>
-<h3 id="caption标签，为表格添加标题和摘要"><a href="#caption标签，为表格添加标题和摘要" class="headerlink" title="caption标签，为表格添加标题和摘要"></a>caption标签，为表格添加标题和摘要</h3><p>表格还是需要添加一些标签进行优化，可以添加标题和摘要。代码如下：<br><img src="http://img.mukewang.com/52d3a1610001a42606940398.jpg" alt=""></p>
-<ul>
-<li>摘要<br>摘要的内容是不会在浏览器中显示出来的。它的作用是增加表格的可读性(语义化)，使搜索引擎更好的读懂表格内容，还可以使屏幕阅读器更好的帮助特殊用户读取表格内容。</li>
-<li>语法：<br>  <code>&lt;table summary=&quot;表格简介文本&quot;&gt;</code><br>标题用以描述表格内容，标题的显示位置：表格上方。</li>
-<li>语法<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;table&gt;</div><div class="line">    &lt;caption&gt;标题文本&lt;/caption&gt;</div><div class="line">    &lt;tr&gt;</div><div class="line">        &lt;td&gt;…&lt;/td&gt;</div><div class="line">        &lt;td&gt;…&lt;/td&gt;</div><div class="line">        …</div><div class="line">    &lt;/tr&gt;</div><div class="line">…</div><div class="line">&lt;/table&gt;</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="十六、使用-lt-a-gt-标签，链接到另一个页面"><a href="#十六、使用-lt-a-gt-标签，链接到另一个页面" class="headerlink" title="十六、使用&lt;a&gt;标签，链接到另一个页面"></a>十六、使用<code>&lt;a&gt;</code>标签，链接到另一个页面</h2><p>使用<code>&lt;a&gt;</code>标签可实现超链接，它在网页制作中可以说是无处不在，只要有链接的地方，就会有这个标签。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;a  href=&quot;目标网址&quot;  title=&quot;鼠标滑过</div><div class="line">显示的文本&quot;&gt;链接显示的文本&lt;/a&gt;</div></pre></td></tr></table></figure></p>
-<h3 id="在新建浏览器窗口中打开链接"><a href="#在新建浏览器窗口中打开链接" class="headerlink" title="在新建浏览器窗口中打开链接"></a>在新建浏览器窗口中打开链接</h3><p><code>&lt;a&gt;</code>标签在默认情况下，链接的网页是在当前浏览器窗口中打开，有时我们需要在新的浏览器窗口中打开。<br>如下代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;a href=&quot;目标网址&quot; </div><div class="line">target=&quot;_blank&quot;&gt;click here!&lt;/a&gt;</div></pre></td></tr></table></figure></p>
-<h3 id="使用mailto在网页中链接Email地址"><a href="#使用mailto在网页中链接Email地址" class="headerlink" title="使用mailto在网页中链接Email地址"></a>使用mailto在网页中链接Email地址</h3><p><code>&lt;a&gt;</code>标签还有一个作用是可以链接Email地址，使用mailto能让访问者便捷向网站管理者发送电子邮件。我们还可以利用mailto做许多其它事情。下面一一进行讲解，请看详细图示：<br>注意：如果mailto后面同时有多个参数的话，第一个参数必须以“?”开头，后面的参数每一个都以“&amp;”分隔。<br>下面是一个完整的实例:<br><img src="http://img.mukewang.com/52da4f2a000150b714280550.jpg" alt=""><br>在浏览器中显示的结果：<br>发送<br>点击链接会打开电子邮件应用，并自动填写收件人等设置好的信息，如下图：<br><img src="http://img.mukewang.com/52da5026000148a706850470.jpg" alt=""></p>
-<h2 id="十七、认识-lt-img-gt-标签，为网页插入图片"><a href="#十七、认识-lt-img-gt-标签，为网页插入图片" class="headerlink" title="十七、认识&lt;img&gt;标签，为网页插入图片"></a>十七、认识<code>&lt;img&gt;</code>标签，为网页插入图片</h2><p>在网页的制作中为使网页炫丽美观，肯定是缺少不了图片，可以使用<code>&lt;img&gt;</code>标签来插入图片。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;img src=&quot;图片地址&quot; alt=&quot;下载失败时的</div><div class="line">替换文本&quot; title = &quot;提示文本&quot;&gt;</div></pre></td></tr></table></figure></p>
-<p>举例：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;img src = &quot;myimage.gif&quot; alt = &quot;My Image&quot; title = &quot;My Image&quot; /&gt;</div></pre></td></tr></table></figure></p>
-<p>讲解：<br>1、src：标识图像的位置；<br>2、alt：指定图像的描述性文本，当图像不可见时（下载不成功时），可看到该属性指定的文本；<br>3、title：提供在图像可见时对图像的描述(鼠标滑过图片时显示的文本)；<br>4、图像可以是GIF，PNG，JPEG格式的图像文件。</p>
-<h2 id="十八、使用表单标签，与用户交互"><a href="#十八、使用表单标签，与用户交互" class="headerlink" title="十八、使用表单标签，与用户交互"></a>十八、使用表单标签，与用户交互</h2><p>网站怎样与用户进行交互？答案是使用HTML表单(form)。表单是可以把浏览者输入的数据传送到服务器端，这样服务器端程序就可以处理表单传过来的数据。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;form   method=&quot;传送方式&quot;   action=&quot;服务器文件&quot;&gt;</div></pre></td></tr></table></figure></p>
-<p>讲解：<br>1.<code>&lt;form&gt;</code> ：<code>&lt;form&gt;</code>标签是成对出现的，以<code>&lt;form&gt;</code>开始，以<code>&lt;/form&gt;</code>结束。<br>2.action ：浏览者输入的数据被传送到的地方,比如一个PHP页面(save.php)。<br>3.method ： 数据传送的方式（get/post）。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&lt;form    method=&quot;post&quot;   action=&quot;save.php&quot;&gt;</div><div class="line">        &lt;label for=&quot;username&quot;&gt;用户名:&lt;/label&gt;</div><div class="line">        &lt;input type=&quot;text&quot; name=&quot;username&quot; /&gt;</div><div class="line">        &lt;label for=&quot;pass&quot;&gt;密码:&lt;/label&gt;</div><div class="line">        &lt;input type=&quot;password&quot; name=&quot;pass&quot; /&gt;</div><div class="line">&lt;/form&gt;</div></pre></td></tr></table></figure></p>
-<p>注意:<br>1、所有表单控件（文本框、文本域、按钮、单选框、复选框等）都必须放在 <code>&lt;form&gt;&lt;/form&gt;</code>标签之间（否则用户输入的信息可提交不到服务器上哦！）。<br>2、method : post/get 的区别这一部分内容属于后端程序员考虑的问题。感兴趣的小伙伴可以查看本小节的 wiki，里面有详细介绍。</p>
-<h3 id="文本输入框、密码输入框"><a href="#文本输入框、密码输入框" class="headerlink" title="文本输入框、密码输入框"></a>文本输入框、密码输入框</h3><p>当用户要在表单中键入字母、数字等内容时，就会用到文本输入框。文本框也可以转化为密码输入框。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;form&gt;</div><div class="line">   &lt;input type=&quot;text/password&quot; name=&quot;名称&quot; value=&quot;文本&quot; /&gt;</div><div class="line">&lt;/form&gt;</div></pre></td></tr></table></figure></p>
-<p>1、type：<br>   当type=”text”时，输入框为文本输入框;<br>   当type=”password”时, 输入框为密码输入框。<br>2、name：为文本框命名，以备后台程序ASP 、PHP使用。<br>3、value：为文本输入框设置默认值。(一般起到提示作用)<br>举例：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;form&gt;</div><div class="line">  姓名：</div><div class="line">  &lt;input type=&quot;text&quot; name=&quot;myName&quot;&gt;</div><div class="line">  &lt;br/&gt;</div><div class="line">  密码：</div><div class="line">  &lt;input type=&quot;password&quot; name=&quot;pass&quot;&gt;</div><div class="line">&lt;/form&gt;</div></pre></td></tr></table></figure></p>
-<p>在浏览器中显示的结果：<br><img src="http://img.mukewang.com/52e4e9be000152ca05250275.jpg" alt=""></p>
-<h3 id="文本域，支持多行文本输入"><a href="#文本域，支持多行文本输入" class="headerlink" title="文本域，支持多行文本输入"></a>文本域，支持多行文本输入</h3><p>当用户需要在表单中输入大段文字时，需要用到文本输入域。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;textarea  rows=&quot;行数&quot; cols=&quot;列数&quot;&gt;文本&lt;/textarea&gt;</div></pre></td></tr></table></figure></p>
-<p>1、<code>&lt;textarea&gt;</code>标签是成对出现的，以<code>&lt;textarea&gt;</code>开始，以<code>&lt;/textarea&gt;</code>结束。<br>2、cols ：多行输入域的列数。<br>3、rows ：多行输入域的行数。<br>4、在<code>&lt;textarea&gt;&lt;/textarea&gt;</code>标签之间可以输入默认值。<br>举例：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&lt;form  method=&quot;post&quot; action=&quot;save.php&quot;&gt;</div><div class="line">        &lt;label&gt;联系我们&lt;/label&gt;</div><div class="line">        &lt;textarea cols=&quot;50&quot; rows=&quot;10&quot; &gt;在这里输入内容...&lt;/textarea&gt;</div><div class="line">&lt;/form&gt;</div></pre></td></tr></table></figure></p>
-<p>在浏览器中显示结果：<br><img src="http://img.mukewang.com/52e5b4040001f4af05760367.jpg" alt=""></p>
-<h3 id="使用单选框、复选框，让用户选择"><a href="#使用单选框、复选框，让用户选择" class="headerlink" title="使用单选框、复选框，让用户选择"></a>使用单选框、复选框，让用户选择</h3><p>在使用表单设计调查表时，为了减少用户的操作，使用选择框是一个好主意，html中有两种选择框，即单选框和复选框，两者的区别是单选框中的选项用户只能选择一项，而复选框中用户可以任意选择多项，甚至全选。请看下面的例子:<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;input   type=&quot;radio/checkbox&quot;   value=&quot;值&quot;    name=&quot;名称&quot;   checked=&quot;checked&quot;/&gt;</div></pre></td></tr></table></figure></p>
-<p>1、type:<br>当 type=”radio” 时，控件为单选框<br>当 type=”checkbox” 时，控件为复选框<br>2、value：提交数据到服务器的值（后台程序PHP使用）<br>3、name：为控件命名，以备后台程序 ASP、PHP 使用<br>4、checked：当设置 checked=”checked” 时，该选项被默认选中<br>如下面代码：<br><img src="http://img.mukewang.com/52e5f7c60001a23f07360267.jpg" alt=""><br>在浏览器中显示的结果：<br><img src="http://img.mukewang.com/52e5f8010001159804900257.jpg" alt=""><br>注意:同一组的单选按钮，name 取值一定要一致，比如上面例子为同一个名称“radioLove”，这样同一组的单选按钮才可以起到单选的作用。</p>
-<h3 id="使用下拉列表框，节省空间"><a href="#使用下拉列表框，节省空间" class="headerlink" title="使用下拉列表框，节省空间"></a>使用下拉列表框，节省空间</h3><p>下拉列表在网页中也常会用到，它可以有效的节省网页空间。既可以单选、又可以多选。如下代码：<br><img src="http://img.mukewang.com/52e604590001ae4005270185.jpg" alt=""><br>讲解：<br>1、value：<br><img src="http://img.mukewang.com/52e6037300015a9905030165.jpg" alt=""><br>2、selected=”selected”：<br>设置selected=”selected”属性，则该选项就被默认选中。</p>
-<h3 id="使用下拉列表框进行多选"><a href="#使用下拉列表框进行多选" class="headerlink" title="使用下拉列表框进行多选"></a>使用下拉列表框进行多选</h3><p>下拉列表也可以进行多选操作，在<code>&lt;select&gt;</code>标签中设置multiple=”multiple”属性，就可以实现多选功能，在 windows 操作系统下，进行多选时按下Ctrl键同时进行单击（在 Mac下使用 Command +单击），可以选择多个选项。如下代码：<br><img src="http://img.mukewang.com/52e60c020001b7f805000178.jpg" alt=""></p>
-<h3 id="使用提交按钮，提交数据"><a href="#使用提交按钮，提交数据" class="headerlink" title="使用提交按钮，提交数据"></a>使用提交按钮，提交数据</h3><p>在表单中有两种按钮可以使用，分别为：提交按钮、重置。这一小节讲解提交按钮：当用户需要提交表单信息到服务器时，需要用到提交按钮。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;input   type=&quot;submit&quot;   value=&quot;提交&quot;&gt;</div></pre></td></tr></table></figure></p>
-<p>type：只有当type值设置为submit时，按钮才有提交作用<br>value：按钮上显示的文<br>举例：<br><img src="http://img.mukewang.com/52e613350001461604820109.jpg" alt=""></p>
-<h3 id="使用重置按钮，重置表单信息"><a href="#使用重置按钮，重置表单信息" class="headerlink" title="使用重置按钮，重置表单信息"></a>使用重置按钮，重置表单信息</h3><p>当用户需要重置表单信息到初始时的状态时，比如用户输入“用户名”后，发现书写有误，可以使用重置按钮使输入框恢复到初始状态。只需要把type设置为”reset”就可以。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;input type=&quot;reset&quot; value=&quot;重置&quot;&gt;</div></pre></td></tr></table></figure></p>
-<p>type：只有当type值设置为reset时，按钮才有重置作用<br>value：按钮上显示的文字<br>举例：<br><img src="http://img.mukewang.com/52e618680001a6b204570101.jpg" alt=""></p>
-<h3 id="form表单中的label标签"><a href="#form表单中的label标签" class="headerlink" title="form表单中的label标签"></a>form表单中的label标签</h3><p>label标签不会向用户呈现任何特殊效果，它的作用是为鼠标用户改进了可用性。如果你在 label 标签内点击文本，就会触发此控件。就是说，当用户单击选中该label标签时，浏览器就会自动将焦点转到和标签相关的表单控件上（就自动选中和该label标签相关连的表单控件上）。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;label for=&quot;控件id名称&quot;&gt;</div></pre></td></tr></table></figure></p>
-<p>注意：标签的 for 属性中的值应当与相关控件的 id 属性值一定要相同。<br>例子：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;form&gt;</div><div class="line">  &lt;label for=&quot;male&quot;&gt;男&lt;/label&gt;</div><div class="line">  &lt;input type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;male&quot; /&gt;</div><div class="line">  &lt;br /&gt;</div><div class="line">  &lt;label for=&quot;female&quot;&gt;女&lt;/label&gt;</div><div class="line">  &lt;input type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;female&quot; /&gt;</div><div class="line">  &lt;label for=&quot;email&quot;&gt;输入你的邮箱地址&lt;/label&gt;</div><div class="line">  &lt;input type=&quot;email&quot; id=&quot;email&quot; placeholder=&quot;Enter email&quot;&gt;</div><div class="line">&lt;/form&gt;</div></pre></td></tr></table></figure></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 编程 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> HTML-CSS基础课程 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[电商-产品精修及商业合成]]></title>
-      <url>/2016/04/03/%E7%94%B5%E5%95%86/%E7%94%B5%E5%95%86-%E4%BA%A7%E5%93%81%E7%B2%BE%E4%BF%AE%E5%8F%8A%E5%95%86%E4%B8%9A%E5%90%88%E6%88%90/</url>
-      <content type="html"><![CDATA[<h1 id="产品精修"><a href="#产品精修" class="headerlink" title="产品精修"></a>产品精修</h1><p>（一）服装修图</p>
-<ul>
-<li>修图需要准备的工作<br>需要一张质量比较好的底片（单反拍摄的图片，产品和背景的反差要大）<br>运营和设计和摄影进行沟通交流（运营的产品特点摄影师的拍摄构图，设计师的后期制作）尽量能生成纸质文档。<br>如何找摄影师？（聘请兼职摄影  租影楼或摄影工作室自己拍摄  服务市场 ）<a id="more"></a></li>
-<li>服装修图<ol>
-<li>要了解基本的布光，然后如果是纯色底则进行抠图（抠图要保证边缘的平滑）</li>
-<li>建立横向和竖向的参考线，调整版型</li>
-<li>操控变形（1将需要变形区域进行扣取2.执行操控变形3对服装的关节区域 添加锚点4.根据定义的参考线进行修整版型）</li>
-<li>修整服装的边缘（液化  或者直接使用钢笔进行删减）</li>
-<li>去除褶皱（修补工具和仿制图章 30%）</li>
-<li>增加清晰度 调整颜色（高反差增加清晰度 然后用色阶增加对比度 色相饱和 增加鲜艳程度）</li>
-</ol>
-</li>
-<li>化妆品修图：<ol>
-<li>布光方式：<br>一盏灯的明暗表现形式（暗   灰   亮   灰  暗）<ol>
-<li>对称光（左右都为主光） 单侧光（单侧主光  另一侧辅助光源）</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>材质的表现<ol>
-<li>磨砂材质：光影的边缘模糊，过度舒缓对比不强烈（塑料 磨砂玻璃 ）</li>
-<li>金属材质：光影对比强烈，受光区域边界明显（玻璃 金属 ）<h1 id="商业创意合成"><a href="#商业创意合成" class="headerlink" title="商业创意合成"></a>商业创意合成</h1><h2 id="（一）商业创意合成"><a href="#（一）商业创意合成" class="headerlink" title="（一）商业创意合成:"></a>（一）商业创意合成:</h2></li>
-</ol>
-</li>
-</ul>
-<ol>
-<li>合成：用多张图片融合成一个新的画面，纯属练习和娱乐，并无商业目的。</li>
-<li>商业合成：画面要符合广告的宣传主题，要有准确的商业传达目的</li>
-</ol>
-<ul>
-<li>商业合成的方法和步骤<ol>
-<li>素材（摄图网 500px  精简关键词，没有百分之百完美的素材）头脑风暴确定元素关键词 （一分二  二分四  四分所有）</li>
-<li>合成（要元素符合自然规律 近大远小  近实远虚    主体打破自然比例）</li>
-<li>注意  近  中  远景的层次打造 </li>
-<li>调色（要调整为同一个环境的统一色调，元素要符合光影的关系）</li>
-<li>细节  细节  细节  <h1 id="商业创意合成专题"><a href="#商业创意合成专题" class="headerlink" title="商业创意合成专题"></a>商业创意合成专题</h1><h2 id="（一）合成步骤："><a href="#（一）合成步骤：" class="headerlink" title="（一）合成步骤："></a>（一）合成步骤：</h2></li>
-</ol>
-</li>
-</ul>
-<ol>
-<li>素材（素材怎么来？根据主题头脑风暴）</li>
-<li>合成（怎么合成？）符合自然规律（近大远小），并且打破自然比例；</li>
-<li>近景  中景   远景的层次</li>
-<li>调色（如何协调？就是在一个环境下，符合光影关系）</li>
-<li>细节细节细节处理；</li>
-</ol>
-<ul>
-<li>京东专题页设计<ol>
-<li>京东的优势：售后服务特别好<ul>
-<li>发货速度快</li>
-<li>信任度较高</li>
-</ul>
-</li>
-</ol>
-</li>
-<li>京东分为：自营     第三方商家入驻京东仓库  第三方商家<ol>
-<li>京东后台装修是开放CSS代码（可以后期添加动效）</li>
-<li>京东的店招为110+40的导航</li>
-<li>京东常用免责字体：方正正黑系列  汉仪 </li>
-</ol>
-</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 电商设计 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 电商 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[电商-专题页设计]]></title>
-      <url>/2016/03/30/%E7%94%B5%E5%95%86/%E7%94%B5%E5%95%86-%E4%B8%93%E9%A2%98%E9%A1%B5%E8%AE%BE%E8%AE%A1/</url>
-      <content type="html"><![CDATA[<h1 id="专题页设计"><a href="#专题页设计" class="headerlink" title="专题页设计"></a>专题页设计</h1><h2 id="（一）专题页设计："><a href="#（一）专题页设计：" class="headerlink" title="（一）专题页设计："></a>（一）专题页设计：</h2><ul>
-<li>专题页也可以叫“活动页 并连页 承接页 ”</li>
-<li>平台专题：一般都会有平台活动主会场 ，参报活动成功的店铺 需要做承接页面（活动专题页），并且专题banner的左上角有专题活动标识<a id="more"></a></li>
-<li>自办活动专题：一般是在店铺内商家自己搞的店内活动（店庆 周年 回馈月 上新）</li>
-<li>常见的专题活动:情人节  焕新季（春天）  开学季  端午节  劳动节 儿童节  愚人节 三八妇女节  男人节  七夕 818  618  中秋节  国庆节  双十一  双十二  双旦  年终大促  年货节  </li>
-<li>专题页的组成：店招   导航   banner  活动区域  爆款  产品列表 <ol>
-<li>店招：1920X120px   包括LOGO  活动内容/爆款产品  展示机率大</li>
-<li>导航：1920X 30px   包含主要产品分类和活动分类，导航类别不建议超过14个  ，如果类目太多可以选择复合类目</li>
-<li>Banner  全屏制作，高度不要超过800</li>
-</ol>
-</li>
-<li>促销海报有三多，色相多  元素多  形状多<br>专题页中常用的分割图形：一般选择有聚焦感的形状例如（圆形  菱形  倒三角）</li>
-<li>专题页制作：首先要分析产品定位群体，确认页面风格，主题色彩，页面布局（需要和运营沟通确认）<br>店招版心990范围内可以添加链接，重点内容尽量放在990之内，<br>页面版心1000左右<h2 id="（二）字体变形"><a href="#（二）字体变形" class="headerlink" title="（二）字体变形"></a>（二）字体变形</h2></li>
-</ul>
-<ol>
-<li>连笔：使用基础的非衬线字体来进行变形，运用笔画的走势进行延长，或者添加笔画。</li>
-<li>断笔：断笔会产生一定的层叠关系，一般实在两个相交的笔画处做断笔处理，最大程度保证文字的识别性。</li>
-</ol>
-<ul>
-<li>微立体的制作<ol>
-<li>获取文字的选区（ctrl+点击图层缩略图）</li>
-<li>新建空白图层并填充颜色，不取消选区</li>
-<li>按住ALT+上方向键 再ALT+左方向键  重复执行3次，产生文字的厚度</li>
-<li>将文字面进行重叠即可<h1 id="专题页设计-1"><a href="#专题页设计-1" class="headerlink" title="专题页设计"></a>专题页设计</h1><h2 id="（一）爆款板块："><a href="#（一）爆款板块：" class="headerlink" title="（一）爆款板块："></a>（一）爆款板块：</h2></li>
-</ol>
-</li>
-<li>爆款一般为店铺的主推引流产品，用来吸引消费者进入店铺，从而带动其他产品的流量，爆款产品一般都为性价比较高的产品。<br> 爆款产品一般会有2到5个</li>
-<li>专题页中的装饰元素<ol>
-<li>可以丰富版面，对版面中的空白区域做视觉补充</li>
-<li>营造促销的热闹气氛<br>一般都是将整体排版完成后，单独在背景层之上制作，颜色可以多样化 大小适中。</li>
-</ol>
-</li>
-<li>产品列表<br>产品列表一般横向要保持2-4个，2个的居多。<h2 id="（二）首页"><a href="#（二）首页" class="headerlink" title="（二）首页"></a>（二）首页</h2></li>
-<li>首页进入的方法：<ol>
-<li>搜索产品关键词—通过主图建立第一印象—点击主图查看详情和价位 建立店铺的信任度—有了信任度之后才有可能进入首页进行选购</li>
-<li>品牌有较高的知名度，在搜索栏直接输入品牌即可进入</li>
-<li>首页的实际转化率会明显低于详情页和专题页，但是店铺的企业形象和品牌信任是由首页来建立的。<h1 id="首页设计"><a href="#首页设计" class="headerlink" title="首页设计"></a>首页设计</h1><h2 id="（一）通道调色"><a href="#（一）通道调色" class="headerlink" title="（一）通道调色"></a>（一）通道调色</h2></li>
-</ol>
-</li>
-</ul>
-<ol>
-<li>通道的亮度和颜色的含有量正比（哪个通道亮哪个颜色含有多  反之依然）</li>
-<li>轮播图要调用div  或者CSS代码实现效果，设计中必须制作相应的海报缩略图以及轮播指示箭头，并独立建立图层和组，方便调用。<h2 id="（二）优惠券"><a href="#（二）优惠券" class="headerlink" title="（二）优惠券"></a>（二）优惠券</h2></li>
-</ol>
-<ul>
-<li>优惠券是刺激消费，提高客单价（标价）的手段。<ol>
-<li>优惠券形式：分为两种  自动满减 (给与顾客的在一定程度上消弱了优惠感）   先领后用（顾客主动领取的，已经说明了会用这个优惠券的可能性较大，客户群体明确，即使未达到也会产生凑单的想法）</li>
-<li>优惠券制作特点：着重显示优惠价格，按照门槛进行排列，位置摆放显著。</li>
-</ol>
-</li>
-<li>时尚类女装排版风格，要活泼富有对比（丛位置 线条 文字粗细 颜色深浅 文字间距 ），丛规范的排版中发生一点或者几个点来发生变化。</li>
-<li>赠品区域排版<br>纯文字促销容易让人产生阅读疲劳，文字和图片要结合使用。</li>
-<li>版块分割<br>同类版块之间要进行同一种颜色的分割，或者使用图案填充、图像填充。</li>
-<li>服装的分类<br>可以分为款式季节型分类，和服装品类。一般会着重展示上新类目，服装品类可以用图标简洁表达，尽量制作图文表达，增加新品或者爆款的曝光率。</li>
-<li>排版过程中的版块变化<ol>
-<li>先将版块按照规则排版（3个）   将能合并的版块进行合并（右侧合二为一）  将重点内容放在版心范围内，图片的次要部分可以适当的超出范围，用来打破呆板的版面。</li>
-<li>规范的排版中 要保证模特的高度 和比例尽量保持一致。</li>
-</ol>
-</li>
-<li>服装详情<ol>
-<li>服装详情注重于模特的展示</li>
-<li>一般都包括了服装的尺码 面料 洗涤说明 颜色  模特展示  产品细节<h1 id="无线端店铺装修"><a href="#无线端店铺装修" class="headerlink" title="无线端店铺装修"></a>无线端店铺装修</h1><h2 id="（一）为什么要发展无线端"><a href="#（一）为什么要发展无线端" class="headerlink" title="（一）为什么要发展无线端"></a>（一）为什么要发展无线端</h2></li>
-</ol>
-</li>
-</ul>
-<ol>
-<li>作用：可以随时随地的浏览店铺，不受时间和位置的限制。</li>
-<li>可以短时间内浏览快速阅读，快速消费，快捷方便。</li>
-<li>增加买家和卖家的黏性，线上线下的沟通互动十分方便。</li>
-</ol>
-<ul>
-<li>手机端店铺的设计原则 → 快速打开（图片不能过大）→ 信息简洁→ 风格统一（PC和手机端统一） 以图服人  分类清晰→ 色彩鲜亮<br>手机端平台的装修多以模块化形式存在，（找模块 记尺寸 按需求制作）<h2 id="（二）无线端常用模块"><a href="#（二）无线端常用模块" class="headerlink" title="（二）无线端常用模块"></a>（二）无线端常用模块</h2></li>
-</ul>
-<ol>
-<li>店招：可编辑区域不多，只有背景，上传后会自动添加半透明黑，不建议在店招背景上展示文字信息（天猫店招尺寸：642X200）</li>
-<li>常用模块为自定义模块</li>
-<li>单列图模块：608X200-960之间（不支持GIF） </li>
-<li>双列图模块：可以添加两个图片 每一个296X160 </li>
-<li>多图模块：一个手机端首页只能添加两个 每一个模块里面最多可以添加6张图片每一张248X146 </li>
-<li>轮播图模块：一个手机端首页只能添加两个 每一个尺寸为640X320  一个轮播模块里面可以放四张图片</li>
-<li>自定义模块：一个手机端里面最多可以添加10个自定义模块  </li>
-<li>每个自定义模块里面包含10个可以添加链接的小块块</li>
-<li>小块块最宽608  最小横向152竖向152<ul>
-<li>（小方法，将网格设置成和自定义模块同等大小网格的尺寸，例：天猫的将网格设置为152 子网格设置为2 ）</li>
-<li>Iphone5/iphone6    尺寸：640X1136</li>
-<li>手机端常用正文字号不低于18PX并且用偶数字号 </li>
-</ul>
-</li>
-<li>手机端的间距<br>手机端常用模块之间自带间距，自定义模块里面。小块块与小块块之间没有间距，需要自己添加。</li>
-</ol>
-<ul>
-<li>小分享<br><a href="http://weavesilk.com/" target="_blank" rel="external">http://weavesilk.com/</a> 绘制分形图案<br><a href="http://www.shejidaren.com/examples/tools/low-poly/" target="_blank" rel="external">http://www.shejidaren.com/examples/tools/low-poly/</a> 多边形制作软件<br><a href="https://www.toptal.com/designers/subtlepatterns/" target="_blank" rel="external">https://www.toptal.com/designers/subtlepatterns/</a>  图案底纹</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 电商设计 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 电商 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[H5页面]]></title>
-      <url>/2016/03/28/UI/H5%E9%A1%B5%E9%9D%A2/</url>
+      <url>/2016/04/14/UI/H5%E9%A1%B5%E9%9D%A2/</url>
       <content type="html"><![CDATA[<h1 id="HTML5"><a href="#HTML5" class="headerlink" title="HTML5"></a>HTML5</h1><h2 id="一、H5是什么"><a href="#一、H5是什么" class="headerlink" title="一、H5是什么"></a>一、H5是什么</h2><p>H5是指第5代HTML，也指用H5语言制作的一切数字产品。所谓HTML是“超文本标记语言”的英文缩写。我们上网所看到网页，多数都是由HTML写成的。“超文本”是指页面内可以包含图片、链接，甚至音乐、程序等非文字元素。而“标记”指的是这些超文本必须由包含属性的开头与结尾标志来标记。浏览器通过解码HTML，就可以把网页内容显示出来，它也构成了互联网兴起的基础。<br><a id="more"></a></p>
 <h2 id="二、设计师为什么学习H5？"><a href="#二、设计师为什么学习H5？" class="headerlink" title="二、设计师为什么学习H5？"></a>二、设计师为什么学习H5？</h2><p>兼容性强：兼容PC端与移动端、Windows与安卓与IOS<br>制作周期时间成本短，人力财力成本低<br>故事性，场景化，强互动，可分享。</p>
 <h2 id="三、优势劣势"><a href="#三、优势劣势" class="headerlink" title="三、优势劣势"></a>三、优势劣势</h2><ol>
@@ -395,45 +146,8 @@
     </entry>
     
     <entry>
-      <title><![CDATA[电商-店铺详情]]></title>
-      <url>/2016/03/27/%E7%94%B5%E5%95%86/%E7%94%B5%E5%95%86-%E5%BA%97%E9%93%BA%E8%AF%A6%E6%83%85/</url>
-      <content type="html"><![CDATA[<h1 id="店铺详情（二）"><a href="#店铺详情（二）" class="headerlink" title="店铺详情（二）"></a>店铺详情（二）</h1><h2 id="（一）关于设计中图像表达形式"><a href="#（一）关于设计中图像表达形式" class="headerlink" title="（一）关于设计中图像表达形式"></a>（一）关于设计中图像表达形式</h2><p>透底图（抠图）：边缘不规则能够引起人们的注意，并且真实感强烈，一般用于广告的焦点，需要在单色背景下拍照。最常用的方法<br>框架图：一般用于说明产品的功能或者细节，需要配合透底图使用<br>羽化版（图像的边缘虚化） 一般用于融合背景，制作装饰使用。<br><a id="more"></a></p>
-<ul>
-<li>智能对象<br>智能直接进行复制（ALT拖拽 chrl+J）是附有继承关系（一个变其他跟着变），在工作中可以将重复对象，或者重复元素使用智能对象来进行管理，方便快捷。<br>如果需要脱离继承关系，可以在智能对象上右击 选择“通过拷贝新建智能对象”</li>
-</ul>
-<p>详情的组成：  关联销售（搭配关联 活动关联 需要单独制作并单独上传 一般和首页同步更新）+产品描述详情+尾部关联/尾部公用部分（售后服务  安装预约 常见问题）</p>
-<h2 id="（二）切图"><a href="#（二）切图" class="headerlink" title="（二）切图"></a>（二）切图</h2><p>目的：为了让图片更快速的展示，要将图片进行分段上传并优化质量（由大变小）。<br>方法1：切图工具（C）<img src="/image/电商/2/1.1.png" alt=""> 用切片工具点拽，尽量避开文字和图像。   蓝色边框为：用户切片（我们自己建立的切片）    灰色边框为：电脑自己建立的切片, 然后三键加S   框选所有切片 选择图片格式为jpg 图片质量可以适当降低。  点击存储 选择所有用户切片。<br>方法2  用参考线将详情进行划分，然后点击切片工具上方的“基于参考线的切片”  存储方法同上。<br>方法3  用切片工具建立一个大切片，然后右击选择“划分切片”（注意：容易上传后出线白边，慎用）</p>
-<h2 id="（三）产品主图："><a href="#（三）产品主图：" class="headerlink" title="（三）产品主图："></a>（三）产品主图：</h2><p>主图要求尺寸为800px 乘以800px  常规一个产品含有5张主图（推广图直通车图+产品全貌+产品细节或者特点+规范要求）<br>直通车主图（推广图）：产品+场景+简单粗暴的文案+特点   要求含有LOGO  产品全貌 无牛皮癣 </p>
-<h1 id="GIF动图及专题页设计"><a href="#GIF动图及专题页设计" class="headerlink" title="GIF动图及专题页设计"></a>GIF动图及专题页设计</h1><h2 id="（一）GIF图"><a href="#（一）GIF图" class="headerlink" title="（一）GIF图"></a>（一）GIF图</h2><p>常用于电商页面的导航（用来突出主要分类），店招（突出爆款/活动内容） 详情（展示产品功能/用途）<br>优点：可以着重突出（视觉流程由动到静  由快到慢）<br>缺点：GIF为多张静态图片的序列，所以文件过大，大面积使用容易造成颜色丢失。<br>帧：指的是一张静态的图片（GIF图是由多个帧序列组成）<br>帧动画制作步骤：需要先分析动画的序列过程，  然后在图层上将每一帧显示的内容进行独立分层；  打开动画面板建立帧动画，用帧面板控制图层的显示或隐藏。</p>
-<ul>
-<li>轴动画<br>Fps:帧速率  一秒内含有多少帧    F：帧数<br>时间动画的制作步骤：分析 然后独立动画对象到每一个图层；将动画对象转换为智能对象，创建视频时间轴，设置时长；记录关键帧（拨动播放轴 移动图层或对图层发生变化）</li>
-</ul>
-<h2 id="（二）天猫后台"><a href="#（二）天猫后台" class="headerlink" title="（二）天猫后台"></a>（二）天猫后台</h2><p>登录方法：通过网页的左上角登录，右上角的“商家支持”进入后台      或者通过千牛工作台登录即可<br><img src="/image/电商/3/1.png" alt=""><br>店铺装修：用来装修店铺的首页/分类页/承接页（活动页 专题页 并联页）/详情模版（模块化形式进行装修 常用模块为 自定义模块 自定义模块支持代码  div html  CSS需要付费使用  ）<br>图片空间：店铺内所有使用的图片都需要先上传到图片空间（平台不允许适用外链图片）<br>宝贝分类管理：用来管理产品的类别，方便消费者快速找到产品（运营的工作）<br>手机淘宝店铺：用来装修手机端页面</p>
-<h2 id="（三）将视频转换为帧动画"><a href="#（三）将视频转换为帧动画" class="headerlink" title="（三）将视频转换为帧动画"></a>（三）将视频转换为帧动画</h2><p>点击文件—导入—视频帧到图层<br> <img src="/image/电商/3/2.png" alt=""><br>1.控制视频的输出范围 2用来限制抽取的帧数（数值越大 抽取帧数越多 视频越快）</p>
-<h2 id="（四）详情的上传"><a href="#（四）详情的上传" class="headerlink" title="（四）详情的上传"></a>（四）详情的上传</h2><p>详情页上传需要有产品的详情切片，和产品主图（5张）<br>1.点击常用网址内的：宝贝管理分类—发布宝贝<br>2.选择你所需要的产品类目（开店时直接决定的）<br>注：所有前面标注红色星号的都为必填项<br>3.上传产品主图 （不能超过500kb）<br>4.在产品描述内上传详情<br>5.点击提交即可</p>
-<ul>
-<li>详情内更新图片<br>用PS更新图片切片并单独存储，然后在“宝贝管理”里面找到产品  点击后方的“编辑描述”；在详情里找到图片切片的位置 双击 并更新图片地址。</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 电商设计 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 电商 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[UI设计-手机主题]]></title>
-      <url>/2016/03/26/UI/UI%E8%AE%BE%E8%AE%A1-%E6%89%8B%E6%9C%BA%E4%B8%BB%E9%A2%98/</url>
+      <url>/2016/04/10/UI/UI%E8%AE%BE%E8%AE%A1-%E6%89%8B%E6%9C%BA%E4%B8%BB%E9%A2%98/</url>
       <content type="html"><![CDATA[<h1 id="安卓手机主题"><a href="#安卓手机主题" class="headerlink" title="安卓手机主题"></a>安卓手机主题</h1><h2 id="一、制作手机主题的意义"><a href="#一、制作手机主题的意义" class="headerlink" title="一、制作手机主题的意义"></a>一、制作手机主题的意义</h2><p>强化图标绘制基本功和手机界面入门</p>
 <h2 id="二、手机主题制作内容"><a href="#二、手机主题制作内容" class="headerlink" title="二、手机主题制作内容"></a>二、手机主题制作内容</h2><ol>
 <li>系统图标<br>电话、短信、浏览器等等<a id="more"></a></li>
@@ -574,49 +288,8 @@
     </entry>
     
     <entry>
-      <title><![CDATA[电商中版式划分]]></title>
-      <url>/2016/03/25/%E7%94%B5%E5%95%86/%E7%94%B5%E5%95%86%E4%B8%AD%E7%89%88%E5%BC%8F%E5%88%92%E5%88%86/</url>
-      <content type="html"><![CDATA[<h1 id="版式划分及立体表现"><a href="#版式划分及立体表现" class="headerlink" title="版式划分及立体表现"></a>版式划分及立体表现</h1><h2 id="（一）版式分割的优点"><a href="#（一）版式分割的优点" class="headerlink" title="（一）版式分割的优点"></a>（一）版式分割的优点</h2><p>版式分割有助于将文字和产品或者背景进行划分<br>可以使阅读者浏览文字，更有秩序感。<br>可以活泼版面，更容易表达海报的设计主题（氛围）<br><a id="more"></a></p>
-<ul>
-<li>各种图形的性格<br>矩形：稳定 不浮躁 诚实 正直…….（外形整洁 严丝合缝）<br>圆形：团圆  可爱   富有亲和力 容易接近 萌萌哒…..（由弧线构成  外形光滑圆润饱满）<br>三角形：外形尖锐 不失稳重    运动  时尚  刺激 </li>
-<li>分割形状的填充方法<br>可以使用临近渐变色（弱对比），或者纯色填充。<br>用图形框住图像（反白 用剪切蒙板显示分割形状）</li>
-</ul>
-<h2 id="（二）判断作品的优缺点"><a href="#（二）判断作品的优缺点" class="headerlink" title="（二）判断作品的优缺点"></a>（二）判断作品的优缺点</h2><p>1.从视觉和运营数据（浏览量  跳失率）两个方面来进行分析。<br>2.配色：主色搭配合理，元素使用恰当<br>  建议版式可以保持左右布局，或者更改为左中右布局; 配色上背景和文字进行处理(突出文字)<br>建议 场景搭建可以更加突出层次感（近大远小）或者将文字进行圆形的版面分割</p>
-<ul>
-<li>场景合成类海报的特点<br>注重于近 中 远景的搭配，近实远虚近大远小，元素要使用得当，不能喧宾夺主 。</li>
-<li>扁平化海报的特点<br>版面简洁，注重于点线面的打造，画面清新自然，颜色不能过于饱和。</li>
-<li><p>立体空间感海报<br>常用于促销型海报，用一点透视的方法来引导视觉突出重心，注重于光影和凹凸效果的打造。</p>
-</li>
-<li><p>自由变换的详细使用<br>Ctrl+T    自由变换<br>Ctrl+alt+T  自由变换并复制<br>Ctrl+alt+shift+T  重复上一次自由变换并复制</p>
-</li>
-</ul>
-<h1 id="店铺详情"><a href="#店铺详情" class="headerlink" title="店铺详情"></a>店铺详情</h1><h2 id="（一）运营专业名词"><a href="#（一）运营专业名词" class="headerlink" title="（一）运营专业名词"></a>（一）运营专业名词</h2><p>运营的数据来源： 生意参谋  生E经  数据罗盘  千牛工作台（阿里专用的后台软件）<br>跳失率：访客单品为1次的人数/总访客数  跳失率越高，店铺的问题越大 （店招  主图  详情  关联）<br>转化率：付款的人数/总访客数（详情 客服）<br>平均停留时长： N个访客人数的停留时间的总和/N   停留时长越长页面最有可能促进转化率。<br>访客数UV：一个IP算访客一次，重复进入不计<br>浏览量PV：页面的展示次数，重复进入重复计数。</p>
-<h2 id="（二）如何展开设计"><a href="#（二）如何展开设计" class="headerlink" title="（二）如何展开设计"></a>（二）如何展开设计</h2><p>1.改变设计思路，站在消费者的角度和痛点来进行排版。<br>2.了解竞品：直接竞争对手，同等价位的商家  。分析间接竞争</p>
-<ul>
-<li>详情的排版逻辑<br>第一版块：大图或者场景合成 slogan标题和口号 （吸引消费者）<br>第二版块：卖点 特点 USP  简化文案使用图标形式表达（迎合消费者心理需求）<br>第三版块：对产品卖点的详解 （细致了解 放心购买）<br>第四:产品参数<br>第五：细节展示  证书  专利技术  好评  常见问题 安装方法  售后服务</li>
-<li>详情尺寸<br>天猫：790 高不限      淘宝：750高不限<br>图标的绘制<br>图标的底座（选择饱和的形状）视觉统一  图标要保持风格一致（线条  填充 立体）<br>图标的想法：根据文字内容联想现实中使用的实物，或者周边。</li>
-</ul>
-<p>小技巧： 钢笔工具下 按住ctrl可以切换为转换点工具（小白）<br>     钢笔工具下  按住ALT可以切换为转换点工具（转换锚点）<br>自由变换后,按CTRL键控制点 是扭曲<br>             Ctrl+shift控制点 是斜切<br>             三键控制点  是透视</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 电商设计 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 电商 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[UI设计概念]]></title>
-      <url>/2016/03/23/UI/UI%E8%AE%BE%E8%AE%A1%E6%A6%82%E5%BF%B5/</url>
+      <url>/2016/04/07/UI/UI%E8%AE%BE%E8%AE%A1%E6%A6%82%E5%BF%B5/</url>
       <content type="html"><![CDATA[<h1 id="UI设计"><a href="#UI设计" class="headerlink" title="UI设计"></a>UI设计</h1><h2 id="一、UI概念"><a href="#一、UI概念" class="headerlink" title="一、UI概念"></a>一、UI概念</h2><p>UI（即user interface）即用户界面的意思。传统意义上的UI设计是指用户界面的美化设计，还需要研究如何让用户与界面之间变得更友好、简洁、舒适、易用。</p>
 <h2 id="二、UI的分类"><a href="#二、UI的分类" class="headerlink" title="二、UI的分类"></a>二、UI的分类</h2><ol>
 <li>PC端</li>
@@ -900,6 +573,279 @@
         <tags>
             
             <tag> UI </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[电商-产品精修及商业合成]]></title>
+      <url>/2016/04/03/%E7%94%B5%E5%95%86/%E7%94%B5%E5%95%86-%E4%BA%A7%E5%93%81%E7%B2%BE%E4%BF%AE%E5%8F%8A%E5%95%86%E4%B8%9A%E5%90%88%E6%88%90/</url>
+      <content type="html"><![CDATA[<h1 id="产品精修"><a href="#产品精修" class="headerlink" title="产品精修"></a>产品精修</h1><p>（一）服装修图</p>
+<ul>
+<li>修图需要准备的工作<br>需要一张质量比较好的底片（单反拍摄的图片，产品和背景的反差要大）<br>运营和设计和摄影进行沟通交流（运营的产品特点摄影师的拍摄构图，设计师的后期制作）尽量能生成纸质文档。<br>如何找摄影师？（聘请兼职摄影  租影楼或摄影工作室自己拍摄  服务市场 ）<a id="more"></a></li>
+<li>服装修图<ol>
+<li>要了解基本的布光，然后如果是纯色底则进行抠图（抠图要保证边缘的平滑）</li>
+<li>建立横向和竖向的参考线，调整版型</li>
+<li>操控变形（1将需要变形区域进行扣取2.执行操控变形3对服装的关节区域 添加锚点4.根据定义的参考线进行修整版型）</li>
+<li>修整服装的边缘（液化  或者直接使用钢笔进行删减）</li>
+<li>去除褶皱（修补工具和仿制图章 30%）</li>
+<li>增加清晰度 调整颜色（高反差增加清晰度 然后用色阶增加对比度 色相饱和 增加鲜艳程度）</li>
+</ol>
+</li>
+<li>化妆品修图：<ol>
+<li>布光方式：<br>一盏灯的明暗表现形式（暗   灰   亮   灰  暗）<ol>
+<li>对称光（左右都为主光） 单侧光（单侧主光  另一侧辅助光源）</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>材质的表现<ol>
+<li>磨砂材质：光影的边缘模糊，过度舒缓对比不强烈（塑料 磨砂玻璃 ）</li>
+<li>金属材质：光影对比强烈，受光区域边界明显（玻璃 金属 ）<h1 id="商业创意合成"><a href="#商业创意合成" class="headerlink" title="商业创意合成"></a>商业创意合成</h1><h2 id="（一）商业创意合成"><a href="#（一）商业创意合成" class="headerlink" title="（一）商业创意合成:"></a>（一）商业创意合成:</h2></li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>合成：用多张图片融合成一个新的画面，纯属练习和娱乐，并无商业目的。</li>
+<li>商业合成：画面要符合广告的宣传主题，要有准确的商业传达目的</li>
+</ol>
+<ul>
+<li>商业合成的方法和步骤<ol>
+<li>素材（摄图网 500px  精简关键词，没有百分之百完美的素材）头脑风暴确定元素关键词 （一分二  二分四  四分所有）</li>
+<li>合成（要元素符合自然规律 近大远小  近实远虚    主体打破自然比例）</li>
+<li>注意  近  中  远景的层次打造 </li>
+<li>调色（要调整为同一个环境的统一色调，元素要符合光影的关系）</li>
+<li>细节  细节  细节  <h1 id="商业创意合成专题"><a href="#商业创意合成专题" class="headerlink" title="商业创意合成专题"></a>商业创意合成专题</h1><h2 id="（一）合成步骤："><a href="#（一）合成步骤：" class="headerlink" title="（一）合成步骤："></a>（一）合成步骤：</h2></li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>素材（素材怎么来？根据主题头脑风暴）</li>
+<li>合成（怎么合成？）符合自然规律（近大远小），并且打破自然比例；</li>
+<li>近景  中景   远景的层次</li>
+<li>调色（如何协调？就是在一个环境下，符合光影关系）</li>
+<li>细节细节细节处理；</li>
+</ol>
+<ul>
+<li>京东专题页设计<ol>
+<li>京东的优势：售后服务特别好<ul>
+<li>发货速度快</li>
+<li>信任度较高</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>京东分为：自营     第三方商家入驻京东仓库  第三方商家<ol>
+<li>京东后台装修是开放CSS代码（可以后期添加动效）</li>
+<li>京东的店招为110+40的导航</li>
+<li>京东常用免责字体：方正正黑系列  汉仪 </li>
+</ol>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 电商设计 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 电商 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[电商-专题页设计]]></title>
+      <url>/2016/03/30/%E7%94%B5%E5%95%86/%E7%94%B5%E5%95%86-%E4%B8%93%E9%A2%98%E9%A1%B5%E8%AE%BE%E8%AE%A1/</url>
+      <content type="html"><![CDATA[<h1 id="专题页设计"><a href="#专题页设计" class="headerlink" title="专题页设计"></a>专题页设计</h1><h2 id="（一）专题页设计："><a href="#（一）专题页设计：" class="headerlink" title="（一）专题页设计："></a>（一）专题页设计：</h2><ul>
+<li>专题页也可以叫“活动页 并连页 承接页 ”</li>
+<li>平台专题：一般都会有平台活动主会场 ，参报活动成功的店铺 需要做承接页面（活动专题页），并且专题banner的左上角有专题活动标识<a id="more"></a></li>
+<li>自办活动专题：一般是在店铺内商家自己搞的店内活动（店庆 周年 回馈月 上新）</li>
+<li>常见的专题活动:情人节  焕新季（春天）  开学季  端午节  劳动节 儿童节  愚人节 三八妇女节  男人节  七夕 818  618  中秋节  国庆节  双十一  双十二  双旦  年终大促  年货节  </li>
+<li>专题页的组成：店招   导航   banner  活动区域  爆款  产品列表 <ol>
+<li>店招：1920X120px   包括LOGO  活动内容/爆款产品  展示机率大</li>
+<li>导航：1920X 30px   包含主要产品分类和活动分类，导航类别不建议超过14个  ，如果类目太多可以选择复合类目</li>
+<li>Banner  全屏制作，高度不要超过800</li>
+</ol>
+</li>
+<li>促销海报有三多，色相多  元素多  形状多<br>专题页中常用的分割图形：一般选择有聚焦感的形状例如（圆形  菱形  倒三角）</li>
+<li>专题页制作：首先要分析产品定位群体，确认页面风格，主题色彩，页面布局（需要和运营沟通确认）<br>店招版心990范围内可以添加链接，重点内容尽量放在990之内，<br>页面版心1000左右<h2 id="（二）字体变形"><a href="#（二）字体变形" class="headerlink" title="（二）字体变形"></a>（二）字体变形</h2></li>
+</ul>
+<ol>
+<li>连笔：使用基础的非衬线字体来进行变形，运用笔画的走势进行延长，或者添加笔画。</li>
+<li>断笔：断笔会产生一定的层叠关系，一般实在两个相交的笔画处做断笔处理，最大程度保证文字的识别性。</li>
+</ol>
+<ul>
+<li>微立体的制作<ol>
+<li>获取文字的选区（ctrl+点击图层缩略图）</li>
+<li>新建空白图层并填充颜色，不取消选区</li>
+<li>按住ALT+上方向键 再ALT+左方向键  重复执行3次，产生文字的厚度</li>
+<li>将文字面进行重叠即可<h1 id="专题页设计-1"><a href="#专题页设计-1" class="headerlink" title="专题页设计"></a>专题页设计</h1><h2 id="（一）爆款板块："><a href="#（一）爆款板块：" class="headerlink" title="（一）爆款板块："></a>（一）爆款板块：</h2></li>
+</ol>
+</li>
+<li>爆款一般为店铺的主推引流产品，用来吸引消费者进入店铺，从而带动其他产品的流量，爆款产品一般都为性价比较高的产品。<br> 爆款产品一般会有2到5个</li>
+<li>专题页中的装饰元素<ol>
+<li>可以丰富版面，对版面中的空白区域做视觉补充</li>
+<li>营造促销的热闹气氛<br>一般都是将整体排版完成后，单独在背景层之上制作，颜色可以多样化 大小适中。</li>
+</ol>
+</li>
+<li>产品列表<br>产品列表一般横向要保持2-4个，2个的居多。<h2 id="（二）首页"><a href="#（二）首页" class="headerlink" title="（二）首页"></a>（二）首页</h2></li>
+<li>首页进入的方法：<ol>
+<li>搜索产品关键词—通过主图建立第一印象—点击主图查看详情和价位 建立店铺的信任度—有了信任度之后才有可能进入首页进行选购</li>
+<li>品牌有较高的知名度，在搜索栏直接输入品牌即可进入</li>
+<li>首页的实际转化率会明显低于详情页和专题页，但是店铺的企业形象和品牌信任是由首页来建立的。<h1 id="首页设计"><a href="#首页设计" class="headerlink" title="首页设计"></a>首页设计</h1><h2 id="（一）通道调色"><a href="#（一）通道调色" class="headerlink" title="（一）通道调色"></a>（一）通道调色</h2></li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>通道的亮度和颜色的含有量正比（哪个通道亮哪个颜色含有多  反之依然）</li>
+<li>轮播图要调用div  或者CSS代码实现效果，设计中必须制作相应的海报缩略图以及轮播指示箭头，并独立建立图层和组，方便调用。<h2 id="（二）优惠券"><a href="#（二）优惠券" class="headerlink" title="（二）优惠券"></a>（二）优惠券</h2></li>
+</ol>
+<ul>
+<li>优惠券是刺激消费，提高客单价（标价）的手段。<ol>
+<li>优惠券形式：分为两种  自动满减 (给与顾客的在一定程度上消弱了优惠感）   先领后用（顾客主动领取的，已经说明了会用这个优惠券的可能性较大，客户群体明确，即使未达到也会产生凑单的想法）</li>
+<li>优惠券制作特点：着重显示优惠价格，按照门槛进行排列，位置摆放显著。</li>
+</ol>
+</li>
+<li>时尚类女装排版风格，要活泼富有对比（丛位置 线条 文字粗细 颜色深浅 文字间距 ），丛规范的排版中发生一点或者几个点来发生变化。</li>
+<li>赠品区域排版<br>纯文字促销容易让人产生阅读疲劳，文字和图片要结合使用。</li>
+<li>版块分割<br>同类版块之间要进行同一种颜色的分割，或者使用图案填充、图像填充。</li>
+<li>服装的分类<br>可以分为款式季节型分类，和服装品类。一般会着重展示上新类目，服装品类可以用图标简洁表达，尽量制作图文表达，增加新品或者爆款的曝光率。</li>
+<li>排版过程中的版块变化<ol>
+<li>先将版块按照规则排版（3个）   将能合并的版块进行合并（右侧合二为一）  将重点内容放在版心范围内，图片的次要部分可以适当的超出范围，用来打破呆板的版面。</li>
+<li>规范的排版中 要保证模特的高度 和比例尽量保持一致。</li>
+</ol>
+</li>
+<li>服装详情<ol>
+<li>服装详情注重于模特的展示</li>
+<li>一般都包括了服装的尺码 面料 洗涤说明 颜色  模特展示  产品细节<h1 id="无线端店铺装修"><a href="#无线端店铺装修" class="headerlink" title="无线端店铺装修"></a>无线端店铺装修</h1><h2 id="（一）为什么要发展无线端"><a href="#（一）为什么要发展无线端" class="headerlink" title="（一）为什么要发展无线端"></a>（一）为什么要发展无线端</h2></li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>作用：可以随时随地的浏览店铺，不受时间和位置的限制。</li>
+<li>可以短时间内浏览快速阅读，快速消费，快捷方便。</li>
+<li>增加买家和卖家的黏性，线上线下的沟通互动十分方便。</li>
+</ol>
+<ul>
+<li>手机端店铺的设计原则 → 快速打开（图片不能过大）→ 信息简洁→ 风格统一（PC和手机端统一） 以图服人  分类清晰→ 色彩鲜亮<br>手机端平台的装修多以模块化形式存在，（找模块 记尺寸 按需求制作）<h2 id="（二）无线端常用模块"><a href="#（二）无线端常用模块" class="headerlink" title="（二）无线端常用模块"></a>（二）无线端常用模块</h2></li>
+</ul>
+<ol>
+<li>店招：可编辑区域不多，只有背景，上传后会自动添加半透明黑，不建议在店招背景上展示文字信息（天猫店招尺寸：642X200）</li>
+<li>常用模块为自定义模块</li>
+<li>单列图模块：608X200-960之间（不支持GIF） </li>
+<li>双列图模块：可以添加两个图片 每一个296X160 </li>
+<li>多图模块：一个手机端首页只能添加两个 每一个模块里面最多可以添加6张图片每一张248X146 </li>
+<li>轮播图模块：一个手机端首页只能添加两个 每一个尺寸为640X320  一个轮播模块里面可以放四张图片</li>
+<li>自定义模块：一个手机端里面最多可以添加10个自定义模块  </li>
+<li>每个自定义模块里面包含10个可以添加链接的小块块</li>
+<li>小块块最宽608  最小横向152竖向152<ul>
+<li>（小方法，将网格设置成和自定义模块同等大小网格的尺寸，例：天猫的将网格设置为152 子网格设置为2 ）</li>
+<li>Iphone5/iphone6    尺寸：640X1136</li>
+<li>手机端常用正文字号不低于18PX并且用偶数字号 </li>
+</ul>
+</li>
+<li>手机端的间距<br>手机端常用模块之间自带间距，自定义模块里面。小块块与小块块之间没有间距，需要自己添加。</li>
+</ol>
+<ul>
+<li>小分享<br><a href="http://weavesilk.com/" target="_blank" rel="external">http://weavesilk.com/</a> 绘制分形图案<br><a href="http://www.shejidaren.com/examples/tools/low-poly/" target="_blank" rel="external">http://www.shejidaren.com/examples/tools/low-poly/</a> 多边形制作软件<br><a href="https://www.toptal.com/designers/subtlepatterns/" target="_blank" rel="external">https://www.toptal.com/designers/subtlepatterns/</a>  图案底纹</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 电商设计 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 电商 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[电商-店铺详情]]></title>
+      <url>/2016/03/27/%E7%94%B5%E5%95%86/%E7%94%B5%E5%95%86-%E5%BA%97%E9%93%BA%E8%AF%A6%E6%83%85/</url>
+      <content type="html"><![CDATA[<h1 id="店铺详情（二）"><a href="#店铺详情（二）" class="headerlink" title="店铺详情（二）"></a>店铺详情（二）</h1><h2 id="（一）关于设计中图像表达形式"><a href="#（一）关于设计中图像表达形式" class="headerlink" title="（一）关于设计中图像表达形式"></a>（一）关于设计中图像表达形式</h2><p>透底图（抠图）：边缘不规则能够引起人们的注意，并且真实感强烈，一般用于广告的焦点，需要在单色背景下拍照。最常用的方法<br>框架图：一般用于说明产品的功能或者细节，需要配合透底图使用<br>羽化版（图像的边缘虚化） 一般用于融合背景，制作装饰使用。<br><a id="more"></a></p>
+<ul>
+<li>智能对象<br>智能直接进行复制（ALT拖拽 chrl+J）是附有继承关系（一个变其他跟着变），在工作中可以将重复对象，或者重复元素使用智能对象来进行管理，方便快捷。<br>如果需要脱离继承关系，可以在智能对象上右击 选择“通过拷贝新建智能对象”</li>
+</ul>
+<p>详情的组成：  关联销售（搭配关联 活动关联 需要单独制作并单独上传 一般和首页同步更新）+产品描述详情+尾部关联/尾部公用部分（售后服务  安装预约 常见问题）</p>
+<h2 id="（二）切图"><a href="#（二）切图" class="headerlink" title="（二）切图"></a>（二）切图</h2><p>目的：为了让图片更快速的展示，要将图片进行分段上传并优化质量（由大变小）。<br>方法1：切图工具（C）<img src="/image/电商/2/1.1.png" alt=""> 用切片工具点拽，尽量避开文字和图像。   蓝色边框为：用户切片（我们自己建立的切片）    灰色边框为：电脑自己建立的切片, 然后三键加S   框选所有切片 选择图片格式为jpg 图片质量可以适当降低。  点击存储 选择所有用户切片。<br>方法2  用参考线将详情进行划分，然后点击切片工具上方的“基于参考线的切片”  存储方法同上。<br>方法3  用切片工具建立一个大切片，然后右击选择“划分切片”（注意：容易上传后出线白边，慎用）</p>
+<h2 id="（三）产品主图："><a href="#（三）产品主图：" class="headerlink" title="（三）产品主图："></a>（三）产品主图：</h2><p>主图要求尺寸为800px 乘以800px  常规一个产品含有5张主图（推广图直通车图+产品全貌+产品细节或者特点+规范要求）<br>直通车主图（推广图）：产品+场景+简单粗暴的文案+特点   要求含有LOGO  产品全貌 无牛皮癣 </p>
+<h1 id="GIF动图及专题页设计"><a href="#GIF动图及专题页设计" class="headerlink" title="GIF动图及专题页设计"></a>GIF动图及专题页设计</h1><h2 id="（一）GIF图"><a href="#（一）GIF图" class="headerlink" title="（一）GIF图"></a>（一）GIF图</h2><p>常用于电商页面的导航（用来突出主要分类），店招（突出爆款/活动内容） 详情（展示产品功能/用途）<br>优点：可以着重突出（视觉流程由动到静  由快到慢）<br>缺点：GIF为多张静态图片的序列，所以文件过大，大面积使用容易造成颜色丢失。<br>帧：指的是一张静态的图片（GIF图是由多个帧序列组成）<br>帧动画制作步骤：需要先分析动画的序列过程，  然后在图层上将每一帧显示的内容进行独立分层；  打开动画面板建立帧动画，用帧面板控制图层的显示或隐藏。</p>
+<ul>
+<li>轴动画<br>Fps:帧速率  一秒内含有多少帧    F：帧数<br>时间动画的制作步骤：分析 然后独立动画对象到每一个图层；将动画对象转换为智能对象，创建视频时间轴，设置时长；记录关键帧（拨动播放轴 移动图层或对图层发生变化）</li>
+</ul>
+<h2 id="（二）天猫后台"><a href="#（二）天猫后台" class="headerlink" title="（二）天猫后台"></a>（二）天猫后台</h2><p>登录方法：通过网页的左上角登录，右上角的“商家支持”进入后台      或者通过千牛工作台登录即可<br><img src="/image/电商/3/1.png" alt=""><br>店铺装修：用来装修店铺的首页/分类页/承接页（活动页 专题页 并联页）/详情模版（模块化形式进行装修 常用模块为 自定义模块 自定义模块支持代码  div html  CSS需要付费使用  ）<br>图片空间：店铺内所有使用的图片都需要先上传到图片空间（平台不允许适用外链图片）<br>宝贝分类管理：用来管理产品的类别，方便消费者快速找到产品（运营的工作）<br>手机淘宝店铺：用来装修手机端页面</p>
+<h2 id="（三）将视频转换为帧动画"><a href="#（三）将视频转换为帧动画" class="headerlink" title="（三）将视频转换为帧动画"></a>（三）将视频转换为帧动画</h2><p>点击文件—导入—视频帧到图层<br> <img src="/image/电商/3/2.png" alt=""><br>1.控制视频的输出范围 2用来限制抽取的帧数（数值越大 抽取帧数越多 视频越快）</p>
+<h2 id="（四）详情的上传"><a href="#（四）详情的上传" class="headerlink" title="（四）详情的上传"></a>（四）详情的上传</h2><p>详情页上传需要有产品的详情切片，和产品主图（5张）<br>1.点击常用网址内的：宝贝管理分类—发布宝贝<br>2.选择你所需要的产品类目（开店时直接决定的）<br>注：所有前面标注红色星号的都为必填项<br>3.上传产品主图 （不能超过500kb）<br>4.在产品描述内上传详情<br>5.点击提交即可</p>
+<ul>
+<li>详情内更新图片<br>用PS更新图片切片并单独存储，然后在“宝贝管理”里面找到产品  点击后方的“编辑描述”；在详情里找到图片切片的位置 双击 并更新图片地址。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 电商设计 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 电商 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[电商中版式划分]]></title>
+      <url>/2016/03/25/%E7%94%B5%E5%95%86/%E7%94%B5%E5%95%86%E4%B8%AD%E7%89%88%E5%BC%8F%E5%88%92%E5%88%86/</url>
+      <content type="html"><![CDATA[<h1 id="版式划分及立体表现"><a href="#版式划分及立体表现" class="headerlink" title="版式划分及立体表现"></a>版式划分及立体表现</h1><h2 id="（一）版式分割的优点"><a href="#（一）版式分割的优点" class="headerlink" title="（一）版式分割的优点"></a>（一）版式分割的优点</h2><p>版式分割有助于将文字和产品或者背景进行划分<br>可以使阅读者浏览文字，更有秩序感。<br>可以活泼版面，更容易表达海报的设计主题（氛围）<br><a id="more"></a></p>
+<ul>
+<li>各种图形的性格<br>矩形：稳定 不浮躁 诚实 正直…….（外形整洁 严丝合缝）<br>圆形：团圆  可爱   富有亲和力 容易接近 萌萌哒…..（由弧线构成  外形光滑圆润饱满）<br>三角形：外形尖锐 不失稳重    运动  时尚  刺激 </li>
+<li>分割形状的填充方法<br>可以使用临近渐变色（弱对比），或者纯色填充。<br>用图形框住图像（反白 用剪切蒙板显示分割形状）</li>
+</ul>
+<h2 id="（二）判断作品的优缺点"><a href="#（二）判断作品的优缺点" class="headerlink" title="（二）判断作品的优缺点"></a>（二）判断作品的优缺点</h2><p>1.从视觉和运营数据（浏览量  跳失率）两个方面来进行分析。<br>2.配色：主色搭配合理，元素使用恰当<br>  建议版式可以保持左右布局，或者更改为左中右布局; 配色上背景和文字进行处理(突出文字)<br>建议 场景搭建可以更加突出层次感（近大远小）或者将文字进行圆形的版面分割</p>
+<ul>
+<li>场景合成类海报的特点<br>注重于近 中 远景的搭配，近实远虚近大远小，元素要使用得当，不能喧宾夺主 。</li>
+<li>扁平化海报的特点<br>版面简洁，注重于点线面的打造，画面清新自然，颜色不能过于饱和。</li>
+<li><p>立体空间感海报<br>常用于促销型海报，用一点透视的方法来引导视觉突出重心，注重于光影和凹凸效果的打造。</p>
+</li>
+<li><p>自由变换的详细使用<br>Ctrl+T    自由变换<br>Ctrl+alt+T  自由变换并复制<br>Ctrl+alt+shift+T  重复上一次自由变换并复制</p>
+</li>
+</ul>
+<h1 id="店铺详情"><a href="#店铺详情" class="headerlink" title="店铺详情"></a>店铺详情</h1><h2 id="（一）运营专业名词"><a href="#（一）运营专业名词" class="headerlink" title="（一）运营专业名词"></a>（一）运营专业名词</h2><p>运营的数据来源： 生意参谋  生E经  数据罗盘  千牛工作台（阿里专用的后台软件）<br>跳失率：访客单品为1次的人数/总访客数  跳失率越高，店铺的问题越大 （店招  主图  详情  关联）<br>转化率：付款的人数/总访客数（详情 客服）<br>平均停留时长： N个访客人数的停留时间的总和/N   停留时长越长页面最有可能促进转化率。<br>访客数UV：一个IP算访客一次，重复进入不计<br>浏览量PV：页面的展示次数，重复进入重复计数。</p>
+<h2 id="（二）如何展开设计"><a href="#（二）如何展开设计" class="headerlink" title="（二）如何展开设计"></a>（二）如何展开设计</h2><p>1.改变设计思路，站在消费者的角度和痛点来进行排版。<br>2.了解竞品：直接竞争对手，同等价位的商家  。分析间接竞争</p>
+<ul>
+<li>详情的排版逻辑<br>第一版块：大图或者场景合成 slogan标题和口号 （吸引消费者）<br>第二版块：卖点 特点 USP  简化文案使用图标形式表达（迎合消费者心理需求）<br>第三版块：对产品卖点的详解 （细致了解 放心购买）<br>第四:产品参数<br>第五：细节展示  证书  专利技术  好评  常见问题 安装方法  售后服务</li>
+<li>详情尺寸<br>天猫：790 高不限      淘宝：750高不限<br>图标的绘制<br>图标的底座（选择饱和的形状）视觉统一  图标要保持风格一致（线条  填充 立体）<br>图标的想法：根据文字内容联想现实中使用的实物，或者周边。</li>
+</ul>
+<p>小技巧： 钢笔工具下 按住ctrl可以切换为转换点工具（小白）<br>     钢笔工具下  按住ALT可以切换为转换点工具（转换锚点）<br>自由变换后,按CTRL键控制点 是扭曲<br>             Ctrl+shift控制点 是斜切<br>             三键控制点  是透视</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 电商设计 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 电商 </tag>
             
         </tags>
         
@@ -1778,7 +1724,7 @@ B2B:企业对企业的交易   eg:阿里巴巴、慧聪网<br>B2C：企业对个
 </ol>
 <ul>
 <li>印刷的流程<br><img src="/image/AI笔记图片/第五天/5.png" alt=""> </li>
-<li>名片的类型和尺寸<br>横式名片(最常用)   竖式名片   圆角名片 ,折叠名片  ,异型名片.<br><img src="/image/AI笔记图片/第五天/6.png" alt=""><img src="/image/AI笔记图片/第五天/7.png" alt=""> <img src="/image/AI笔记图片/第五天/8.png" alt=""> <img src="/image/AI笔记图片/第五天/9.png" alt=""><br><img src="/image/AI笔记图片/第五天/10.png" alt=""><br>横式:9<em>4.5(cm)最常用<br>竖式:5.4</em>9(cm)<br>折叠名片尺寸和样式需要客户实际要求来制定   </li>
+<li>名片的类型和尺寸<br>横式名片(最常用)   竖式名片   圆角名片 ,折叠名片  ,异型名片.<br><img src="/image/AI笔记图片/第五天/6.png" alt=""><img src="/image/AI笔记图片/第五天/7.png" alt=""> <img src="/image/AI笔记图片/第五天/8.png" alt=""> <img src="/image/AI笔记图片/第五天/9.png" alt=""><br>横式:9<em>4.5(cm)最常用<br>竖式:5.4</em>9(cm)<br>折叠名片尺寸和样式需要客户实际要求来制定   </li>
 <li>名片包含哪些内容<br>必备内容:姓名,职称,公司名称,公司LOGO,联系信息地址,电话,传真,邮箱,邮编,QQ,微信.<br>可选内容:二维码,广告语,业务范围,照片,装饰图案等.<br>注:名片内容不宜过多.<br>特别注意:<strong>**</strong><br>设计名片时,二维码一定要扫描,确认以免连接错误.   </li>
 <li>名片常见工艺(印后工艺)<br>工艺一般是指印刷后期工艺(印后工艺)<br>烫印工艺,UV工艺,起鼓工艺,(击凸工艺),模切工艺(扪切工艺)(最常用),浮雕工艺,镂空工艺,刷彩边工艺等.<br>烫印工艺:烫金,烫黑,红,蓝,绿,紫,镭射金等,<br><img src="/image/AI笔记图片/第五天/11.png" alt=""><br><img src="/image/AI笔记图片/第五天/12.png" alt=""><br><img src="/image/AI笔记图片/第五天/13.png" alt=""><br>UV工艺(水晶)<br><img src="/image/AI笔记图片/第五天/14.png" alt=""><br>起鼓（击凸）<br><img src="/image/AI笔记图片/第五天/15.png" alt=""><br>压凹工艺<br><img src="/image/AI笔记图片/第五天/16.png" alt=""><br>浮雕工艺<br><img src="/image/AI笔记图片/第五天/17.png" alt=""><br>模切工艺（扪切工艺）适宜做异形名片<br><img src="/image/AI笔记图片/第五天/18.png" alt=""><br>镂空工艺<br><img src="/image/AI笔记图片/第五天/19.png" alt=""><br>刷彩边工艺<br><img src="/image/AI笔记图片/第五天/20.png" alt=""><br><img src="/image/AI笔记图片/第五天/21.png" alt=""> </li>
 </ul>
@@ -2489,22 +2435,22 @@ B2B:企业对企业的交易   eg:阿里巴巴、慧聪网<br>B2C：企业对个
     <entry>
       <title><![CDATA[钢笔与路径]]></title>
       <url>/2015/12/14/PS/%E9%92%A2%E7%AC%94%E4%B8%8E%E8%B7%AF%E5%BE%84/</url>
-      <content type="html"><![CDATA[<h1 id="钢笔与路径"><a href="#钢笔与路径" class="headerlink" title="钢笔与路径"></a>钢笔与路径</h1><h2 id="（一）认识路径"><a href="#（一）认识路径" class="headerlink" title="（一）认识路径"></a>（一）认识路径</h2><p>1.路径的组成<br>锚点 路径线  控制手柄组成（空新锚点代表未选中，是新锚点代表选中）。<br><img src="/image/笔记图片/第三天笔记图片/1.png" alt=""><br><a id="more"></a><br>2.锚点的类型<br>对称锚点<br><img src="/image/笔记图片/第三天笔记图片/2.png" alt=""><br>平滑锚点<br><img src="/image/笔记图片/第三天笔记图片/3.png" alt=""><br>转折锚点<br><img src="/image/笔记图片/第三天笔记图片/4.png" alt=""></p>
-<h2 id="（二）钢笔工具（P）"><a href="#（二）钢笔工具（P）" class="headerlink" title="（二）钢笔工具（P）"></a>（二）钢笔工具（P）</h2><p>1.直线的绘制方法<br>在起始点位置单击定点，在第二点位置点击。连续点击，在闭合时，在起始点位置，钢笔工具会出现小圆圈，点击闭合。（方法：点点点，类似多边形套索）。<br>2.曲线的绘制方法<br>在起始点位置，点击定点，在第二点位置点击并拖拽鼠标，拉出控制手柄，连续。。。在起始点位置出小圆圈，点击闭合。<br>3.如何将闭合的路径转换为选区<br>  （1）选择路径面板下方<img src="/image/笔记图片/第三天笔记图片/5.png" alt="">，将路径转为选区<br>（2）Ctrl+回车(enter)，可以将路径转换为选区<br>（3）<br>4.如何添加锚点和删除锚点<br>首先，直接用钢笔工具在路径线上（出现加号）点击即可添加锚点，钢笔工具在锚点位置出现减号点击即可删除锚点。<br>5.如何将转折锚点转换为平滑锚点和堆成锚点，在选中路径和使用钢笔工具前提下，按下ALT键临时切换为转折点工具。</p>
+      <content type="html"><![CDATA[<h1 id="钢笔与路径"><a href="#钢笔与路径" class="headerlink" title="钢笔与路径"></a>钢笔与路径</h1><h2 id="（一）认识路径"><a href="#（一）认识路径" class="headerlink" title="（一）认识路径"></a>（一）认识路径</h2><p>1.路径的组成<br>锚点 路径线  控制手柄组成（空新锚点代表未选中，是新锚点代表选中）。<br><img src="/image/笔记图片/第三天笔记图片/1.png" alt=""><br><a id="more"></a><br>2.锚点的类型<br>对称锚点<br><img src="/image/笔记图片/第三天笔记图片/2.png" alt=""><br>平滑锚点<br><img src="/image/笔记图片/第三天笔记图片/3.png" alt=""><br>转折锚点<br><img src="/image/笔记图片/第三天笔记图片/4.pn" alt=""></p>
+<h2 id="（二）钢笔工具（P）"><a href="#（二）钢笔工具（P）" class="headerlink" title="（二）钢笔工具（P）"></a>（二）钢笔工具（P）<img src="/image/笔记图片/第三天笔记图片/5.png" alt=""></h2><p>1.直线的绘制方法<br>在起始点位置单击定点，在第二点位置点击。连续点击，在闭合时，在起始点位置，钢笔工具会出现小圆圈，点击闭合。（方法：点点点，类似多边形套索）。<br>2.曲线的绘制方法<br>在起始点位置，点击定点，在第二点位置点击并拖拽鼠标，拉出控制手柄，连续。。。在起始点位置出小圆圈，点击闭合。<br>3.如何将闭合的路径转换为选区<br>  （1）选择路径面板下方<img src="/image/笔记图片/第三天笔记图片/6.png" alt="">，将路径转为选区<br>（2）Ctrl+回车(enter)，可以将路径转换为选区<br>（3）<br>4.如何添加锚点和删除锚点<br>首先，直接用钢笔工具在路径线上（出现加号）点击即可添加锚点，钢笔工具在锚点位置出现减号点击即可删除锚点。<br>5.如何将转折锚点转换为平滑锚点和堆成锚点，在选中路径和使用钢笔工具前提下，按下ALT键临时切换为转折点工具。</p>
 <h2 id="三-小白工具（直接选择工具）（A"><a href="#三-小白工具（直接选择工具）（A" class="headerlink" title="(三)小白工具（直接选择工具）（A)"></a>(三)小白工具（直接选择工具）（A)</h2><p>作用：选择路径，选择路径锚点，移动锚点，调节控制手柄的作用。<br>技巧：在钢笔工具下，按住Ctrl键，临时切换为小白工具。<br><em>*</em>钢笔工具抠图的方法<br>1.钢笔工具扣取曲线的地方移动要遵循“C”<br>形弧来扣取。<br>2.钢笔工具扣取时一定要放大来扣取<br>3。配合空格键切换为抓手工具平移画布<br>4.扣取完毕，按Ctrl+回车将路径转换为选区<br>5.将选取，Ctrl+j复制出来即可</p>
 <p><em>*</em>钢笔工具扣取时要注意的事项<br>1.扣去图像时，注意如果屏幕乱窜，一般是因为图像放大控制手柄调节范围不够造成的，解决方法，撤销一点，缩小画布再进行扣取。<br>2.扣去图像时，路径线断开，如何接上，用钢笔工具在锚点位置出现符号点击即可接上或者撤消一点，在锚点位置点击接上即可<br>3.如果抠取时多抠或者少抠现象，多抠可以在原图抠取一部分补上，少抠可以在抠取的图上抠取出来删除<br>4.钢笔工具虽然强大，但是并不是所有的图像都适合用钢笔来抠取，钢笔只适合产品类，轮廓平滑，像树叶，头发，水，玻璃等不舍和用钢笔</p>
 <ul>
-<li>路径面板的使用<br>如何将临时工作路径转换为永久路径（方便以后抠图使用）<br>1.临时工作路径为斜体<br><img src="/image/笔记图片/第三天笔记图片/6.png" alt=""><br>2.双击临时工作路径，弹出对话框重命名<br><img src="/image/笔记图片/第三天笔记图片/7.png" alt=""><br>3.临时工作路径，斜体变为正体字为永久工作路径<br><img src="/image/笔记图片/第三天笔记图片/8.png" alt=""></li>
+<li>路径面板的使用<br>如何将临时工作路径转换为永久路径（方便以后抠图使用）<br>1.临时工作路径为斜体<br><img src="/image/笔记图片/第三天笔记图片/7.png" alt=""><br>2.双击临时工作路径，弹出对话框重命名<br><img src="/image/笔记图片/第三天笔记图片/8.png" alt=""><br>3.临时工作路径，斜体变为正体字为永久工作路径<br><img src="/image/笔记图片/第三天笔记图片/9.png" alt=""></li>
 <li>支持永久工作路径的格式<br>JPG,PSD, PNG不支持</li>
-<li>显示和隐藏路径（临时和永久路径）<br>在路径面板空白区域点击，即可隐藏路径，在路径缩览图上点击即可显示，灰蓝色为选中显示路径状态<br><img src="/image/笔记图片/第三天笔记图片/10.png" alt=""><img src="/image/笔记图片/第三天笔记图片/9.png" alt=""><h2 id="（四）画笔工具（B"><a href="#（四）画笔工具（B" class="headerlink" title="（四）画笔工具（B)"></a>（四）画笔工具（B)</h2>画笔工具是对前景色的涂抹，</li>
-<li>调整画笔工具大小的方法<br>1.在英文输入状态下，换[]键可以调整画笔大小，shift+[]可以改变画笔软硬度<br>2.按住鼠标右键，配合alt键左右移动可以调整大小，上下移动可以调整软硬度（羽化度）<br><img src="/image/笔记图片/第三天笔记图片/11.png" alt=""><br>F5调出画笔面板<br><img src="/image/笔记图片/第三天笔记图片/12.png" alt=""><h3 id="画笔的高级使用–定义画笔"><a href="#画笔的高级使用–定义画笔" class="headerlink" title="画笔的高级使用–定义画笔"></a>画笔的高级使用–定义画笔</h3></li>
-<li>定义画笔的使用方法<br>1.先绘制画笔（可以是图形，图像，纹理）或位图图像<br>2.给将要定义画笔的区域用选框选出来，选区的大小决定了画笔的大小<br>3.选择编辑菜单–定义画笔预设，将定义的画笔命名<br><img src="/image/笔记图片/第三天笔记图片/13.png" alt=""><br>4.打开画笔库，预设好的画笔在最后一个，点击即可使用<pre><code>***注意：定义画笔值默认黑白灰，彩色的位图图像定义画笔也会自动转化为黑白灰
-</code></pre>根据路径做图案，先画好路径，在画笔里选好图形，直接回车就可以<h2 id="（五）定义图案（shift-F5填充图案）"><a href="#（五）定义图案（shift-F5填充图案）" class="headerlink" title="（五）定义图案（shift+F5填充图案）"></a>（五）定义图案（shift+F5填充图案）</h2>1.先绘制图案，或者用现成的图像来定义（可以是彩色的可以黑白）<br>2.编辑–定义图案<br><img src="/image/笔记图片/第三天笔记图片/14.png" alt=""><br>3.按住shift+F5填充图案<br>  <em>*</em>定义的图案一定要比填充的画布小，决定图案的大小取决于画布<h2 id="（六）文字工具（T）"><a href="#（六）文字工具（T）" class="headerlink" title="（六）文字工具（T）"></a>（六）文字工具（T）</h2><img src="/image/笔记图片/第三天笔记图片/15.png" alt=""><br><img src="/image/笔记图片/第三天笔记图片/16.png" alt=""><br>美工文字（美术字）    区域文字     路径文字</li>
+<li>显示和隐藏路径（临时和永久路径）<br>在路径面板空白区域点击，即可隐藏路径，在路径缩览图上点击即可显示，灰蓝色为选中显示路径状态<br><img src="/image/笔记图片/第三天笔记图片/10.png" alt=""><img src="/image/笔记图片/第三天笔记图片/11.png" alt=""><h2 id="（四）画笔工具（B"><a href="#（四）画笔工具（B" class="headerlink" title="（四）画笔工具（B)"></a>（四）画笔工具（B)</h2>画笔工具是对前景色的涂抹，</li>
+<li>调整画笔工具大小的方法<br>1.在英文输入状态下，换[]键可以调整画笔大小，shift+[]可以改变画笔软硬度<br>2.按住鼠标右键，配合alt键左右移动可以调整大小，上下移动可以调整软硬度（羽化度）<br><img src="/image/笔记图片/第三天笔记图片/12.png" alt=""><br>F5调出画笔面板<br><img src="/image/笔记图片/第三天笔记图片/13.png" alt=""><h3 id="画笔的高级使用–定义画笔"><a href="#画笔的高级使用–定义画笔" class="headerlink" title="画笔的高级使用–定义画笔"></a>画笔的高级使用–定义画笔</h3></li>
+<li>定义画笔的使用方法<br>1.先绘制画笔（可以是图形，图像，纹理）或位图图像<br>2.给将要定义画笔的区域用选框选出来，选区的大小决定了画笔的大小<br>3.选择编辑菜单–定义画笔预设，将定义的画笔命名<br><img src="/image/笔记图片/第三天笔记图片/14.png" alt=""><br>4.打开画笔库，预设好的画笔在最后一个，点击即可使用<pre><code>***注意：定义画笔值默认黑白灰，彩色的位图图像定义画笔也会自动转化为黑白灰
+</code></pre>根据路径做图案，先画好路径，在画笔里选好图形，直接回车就可以<h2 id="（五）定义图案（shift-F5填充图案）"><a href="#（五）定义图案（shift-F5填充图案）" class="headerlink" title="（五）定义图案（shift+F5填充图案）"></a>（五）定义图案（shift+F5填充图案）</h2>1.先绘制图案，或者用现成的图像来定义（可以是彩色的可以黑白）<br>2.编辑–定义图案<br><img src="/image/笔记图片/第三天笔记图片/15.png" alt=""><br>3.按住shift+F5填充图案<br>  <em>*</em>定义的图案一定要比填充的画布小，决定图案的大小取决于画布<h2 id="（六）文字工具（T）"><a href="#（六）文字工具（T）" class="headerlink" title="（六）文字工具（T）"></a>（六）文字工具（T）</h2><img src="/image/笔记图片/第三天笔记图片/16.png" alt=""><br><img src="/image/笔记图片/第三天笔记图片/17.png" alt=""><br>美工文字（美术字）    区域文字     路径文字</li>
 <li>美工文字<br>需要选择文字工具，在画布中单击，出现闪动的光标，即可输入或粘贴文字，美工文字不会自动换行，换行需要手动将光标点到需要换行处，回车换行<br>美工文字适合文字的标题，广告语，以及注解等，文字较少的地方用</li>
-<li>区域文字<br>首先选择文字工具，字画不中点击并拖拽，拉出文字框，输入或粘贴文字，区域文字会根据文字框的大小自动换行<br>区域文字适合文字较多的正文部分<br><img src="/image/笔记图片/第三天笔记图片/17.png" alt=""></li>
+<li>区域文字<br>首先选择文字工具，字画不中点击并拖拽，拉出文字框，输入或粘贴文字，区域文字会根据文字框的大小自动换行<br>区域文字适合文字较多的正文部分<br><img src="/image/笔记图片/第三天笔记图片/18.png" alt=""></li>
 <li>路径文字<br>首先用钢笔工具绘制一条路径，然后选择文字工具在路径的起始锚点处点击，在路径上出现闪动的光标，输入或粘贴文字，文字即可沿路径排列</li>
-<li>字符面板<br><img src="/image/笔记图片/第三天笔记图片/18.png" alt=""><br><img src="/image/笔记图片/第三天笔记图片/19.png" alt=""><br>Alt键加上上下方向键可以改变字行距，左右方向键改变字间距</li>
-<li>编辑文字后，如何结束编辑<br>1.编辑后，选择上方属性栏有对勾<img src="/image/笔记图片/第三天笔记图片/20.png" alt=""><br>2编辑后，选择工具箱里其他工具，也可结束<br>3.编辑后，ctrl回车即可结束编辑<br>给文字换颜色，（前景色和背景色）的快捷方法，按照常规填充颜色的方法即可给文字填充颜色（文字末可编辑状态的文字）<img src="/image/笔记图片/第三天笔记图片/21.png" alt="">缩览图前带T</li>
+<li>字符面板<br><img src="/image/笔记图片/第三天笔记图片/20.png" alt=""><br><img src="/image/笔记图片/第三天笔记图片/21.png" alt=""><br>Alt键加上上下方向键可以改变字行距，左右方向键改变字间距</li>
+<li>编辑文字后，如何结束编辑<br>1.编辑后，选择上方属性栏有对勾<img src="/image/笔记图片/第三天笔记图片/23.png" alt=""><br>2编辑后，选择工具箱里其他工具，也可结束<br>3.编辑后，ctrl回车即可结束编辑<br>给文字换颜色，（前景色和背景色）的快捷方法，按照常规填充颜色的方法即可给文字填充颜色（文字末可编辑状态的文字）<img src="/image/笔记图片/第三天笔记图片/24.png" alt="">缩览图前带T</li>
 </ul>
 <table>
 <thead>
@@ -3160,6 +3106,60 @@ B2B:企业对企业的交易   eg:阿里巴巴、慧聪网<br>B2C：企业对个
 <p>如下代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">p&#123;color:red!important;&#125;</div><div class="line">p&#123;color:green;&#125;</div><div class="line">&lt;p class=&quot;first&quot;&gt;三年级时，我还是一个</div><div class="line">&lt;span&gt;胆小如鼠&lt;/span&gt;的小女孩。&lt;/p&gt;</div></pre></td></tr></table></figure></p>
 <p>注意：!important要写在分号的前面</p>
 <p>这里注意当网页制作者不设置css样式时，浏览器会按照自己的一套样式来显示网页。并且用户也可以在浏览器中设置自己习惯的样式，比如有的用户习惯把字号设置为大一些，使其查看网页的文本更加清楚。这时注意样式优先级为：浏览器默认的样式 &lt; 网页制作者样式 &lt; 用户自己设置的样式，但记住!important优先级样式是个例外，权值高于用户自己设置的样式。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 编程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> HTML-CSS基础课程 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[HTML-CSS基础课程2]]></title>
+      <url>/2015/11/16/HTML-CSS%E5%9F%BA%E7%A1%80%E8%AF%BE%E7%A8%8B%E8%87%AA%E5%AD%A6/HTML-CSS%E5%9F%BA%E7%A1%80%E8%AF%BE%E7%A8%8B2/</url>
+      <content type="html"><![CDATA[<h1 id="第二部分"><a href="#第二部分" class="headerlink" title="第二部分"></a>第二部分</h1><h2 id="十五、table标签，认识网页上的表格"><a href="#十五、table标签，认识网页上的表格" class="headerlink" title="十五、table标签，认识网页上的表格"></a>十五、table标签，认识网页上的表格</h2><p>创建表格的四个元素：<br>table、tbody、tr、th、td<br>1、<code>&lt;table&gt;…&lt;/table&gt;</code>：整个表格以<code>&lt;table&gt;</code>标记开始、<code>&lt;/table&gt;</code>标记结束。<br><a id="more"></a><br>2、<code>&lt;tbody&gt;…&lt;/tbody&gt;</code>：如果不加<code>&lt;thead&gt;</code>,<code>&lt;tbody&gt;</code>,<code>&lt;tfooter&gt;</code> , table表格加载完后才显示。加上这些表格结构， tbody包含行的内容下载完优先显示，不必等待表格结束后在显示，同时如果表格很长，用tbody分段，可以一部分一部分地显示。（通俗理解table 可以按结构一块块的显示，不在等整个表格加载完后显示。）<br>3、<code>&lt;tr&gt;…&lt;/tr&gt;</code>：表格的一行，所以有几对tr 表格就有几行。<br>4、<code>&lt;td&gt;…&lt;/td&gt;</code>：表格的一个单元格，一行中包含几对<code>&lt;td&gt;...&lt;/td&gt;</code>，说明一行中就有几列。<br>5、<code>&lt;th&gt;…&lt;/th&gt;</code>：表格的头部的一个单元格，表格表头。<br>6、表格中列的个数，取决于一行中数据单元格的个数。<br><img src="http://img.mukewang.com/52d38f83000160be02920445.jpg" alt=""><br>上述代码在浏览器中显示的默认的样式为：<br><img src="http://img.mukewang.com/52d3902b0001142703730239.jpg" alt=""><br>注意：<br>1、table表格在没有添加css样式之前，在浏览器中显示是没有表格线的<br>2、表头，也就是th标签中的文本默认为粗体并且居中显示</p>
+<h3 id="用css样式，为表格加入边框"><a href="#用css样式，为表格加入边框" class="headerlink" title="用css样式，为表格加入边框"></a>用css样式，为表格加入边框</h3><p>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;style type=&quot;text/css&quot;&gt;</div><div class="line">table tr td,th&#123;border:1px solid #000;&#125;</div><div class="line">&lt;/style&gt;</div></pre></td></tr></table></figure></p>
+<h3 id="caption标签，为表格添加标题和摘要"><a href="#caption标签，为表格添加标题和摘要" class="headerlink" title="caption标签，为表格添加标题和摘要"></a>caption标签，为表格添加标题和摘要</h3><p>表格还是需要添加一些标签进行优化，可以添加标题和摘要。代码如下：<br><img src="http://img.mukewang.com/52d3a1610001a42606940398.jpg" alt=""></p>
+<ul>
+<li>摘要<br>摘要的内容是不会在浏览器中显示出来的。它的作用是增加表格的可读性(语义化)，使搜索引擎更好的读懂表格内容，还可以使屏幕阅读器更好的帮助特殊用户读取表格内容。</li>
+<li>语法：<br>  <code>&lt;table summary=&quot;表格简介文本&quot;&gt;</code><br>标题用以描述表格内容，标题的显示位置：表格上方。</li>
+<li>语法<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;table&gt;</div><div class="line">    &lt;caption&gt;标题文本&lt;/caption&gt;</div><div class="line">    &lt;tr&gt;</div><div class="line">        &lt;td&gt;…&lt;/td&gt;</div><div class="line">        &lt;td&gt;…&lt;/td&gt;</div><div class="line">        …</div><div class="line">    &lt;/tr&gt;</div><div class="line">…</div><div class="line">&lt;/table&gt;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="十六、使用-lt-a-gt-标签，链接到另一个页面"><a href="#十六、使用-lt-a-gt-标签，链接到另一个页面" class="headerlink" title="十六、使用&lt;a&gt;标签，链接到另一个页面"></a>十六、使用<code>&lt;a&gt;</code>标签，链接到另一个页面</h2><p>使用<code>&lt;a&gt;</code>标签可实现超链接，它在网页制作中可以说是无处不在，只要有链接的地方，就会有这个标签。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;a  href=&quot;目标网址&quot;  title=&quot;鼠标滑过</div><div class="line">显示的文本&quot;&gt;链接显示的文本&lt;/a&gt;</div></pre></td></tr></table></figure></p>
+<h3 id="在新建浏览器窗口中打开链接"><a href="#在新建浏览器窗口中打开链接" class="headerlink" title="在新建浏览器窗口中打开链接"></a>在新建浏览器窗口中打开链接</h3><p><code>&lt;a&gt;</code>标签在默认情况下，链接的网页是在当前浏览器窗口中打开，有时我们需要在新的浏览器窗口中打开。<br>如下代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;a href=&quot;目标网址&quot; </div><div class="line">target=&quot;_blank&quot;&gt;click here!&lt;/a&gt;</div></pre></td></tr></table></figure></p>
+<h3 id="使用mailto在网页中链接Email地址"><a href="#使用mailto在网页中链接Email地址" class="headerlink" title="使用mailto在网页中链接Email地址"></a>使用mailto在网页中链接Email地址</h3><p><code>&lt;a&gt;</code>标签还有一个作用是可以链接Email地址，使用mailto能让访问者便捷向网站管理者发送电子邮件。我们还可以利用mailto做许多其它事情。下面一一进行讲解，请看详细图示：<br>注意：如果mailto后面同时有多个参数的话，第一个参数必须以“?”开头，后面的参数每一个都以“&amp;”分隔。<br>下面是一个完整的实例:<br><img src="http://img.mukewang.com/52da4f2a000150b714280550.jpg" alt=""><br>在浏览器中显示的结果：<br>发送<br>点击链接会打开电子邮件应用，并自动填写收件人等设置好的信息，如下图：<br><img src="http://img.mukewang.com/52da5026000148a706850470.jpg" alt=""></p>
+<h2 id="十七、认识-lt-img-gt-标签，为网页插入图片"><a href="#十七、认识-lt-img-gt-标签，为网页插入图片" class="headerlink" title="十七、认识&lt;img&gt;标签，为网页插入图片"></a>十七、认识<code>&lt;img&gt;</code>标签，为网页插入图片</h2><p>在网页的制作中为使网页炫丽美观，肯定是缺少不了图片，可以使用<code>&lt;img&gt;</code>标签来插入图片。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;img src=&quot;图片地址&quot; alt=&quot;下载失败时的</div><div class="line">替换文本&quot; title = &quot;提示文本&quot;&gt;</div></pre></td></tr></table></figure></p>
+<p>举例：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;img src = &quot;myimage.gif&quot; alt = &quot;My Image&quot; title = &quot;My Image&quot; /&gt;</div></pre></td></tr></table></figure></p>
+<p>讲解：<br>1、src：标识图像的位置；<br>2、alt：指定图像的描述性文本，当图像不可见时（下载不成功时），可看到该属性指定的文本；<br>3、title：提供在图像可见时对图像的描述(鼠标滑过图片时显示的文本)；<br>4、图像可以是GIF，PNG，JPEG格式的图像文件。</p>
+<h2 id="十八、使用表单标签，与用户交互"><a href="#十八、使用表单标签，与用户交互" class="headerlink" title="十八、使用表单标签，与用户交互"></a>十八、使用表单标签，与用户交互</h2><p>网站怎样与用户进行交互？答案是使用HTML表单(form)。表单是可以把浏览者输入的数据传送到服务器端，这样服务器端程序就可以处理表单传过来的数据。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;form   method=&quot;传送方式&quot;   action=&quot;服务器文件&quot;&gt;</div></pre></td></tr></table></figure></p>
+<p>讲解：<br>1.<code>&lt;form&gt;</code> ：<code>&lt;form&gt;</code>标签是成对出现的，以<code>&lt;form&gt;</code>开始，以<code>&lt;/form&gt;</code>结束。<br>2.action ：浏览者输入的数据被传送到的地方,比如一个PHP页面(save.php)。<br>3.method ： 数据传送的方式（get/post）。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&lt;form    method=&quot;post&quot;   action=&quot;save.php&quot;&gt;</div><div class="line">        &lt;label for=&quot;username&quot;&gt;用户名:&lt;/label&gt;</div><div class="line">        &lt;input type=&quot;text&quot; name=&quot;username&quot; /&gt;</div><div class="line">        &lt;label for=&quot;pass&quot;&gt;密码:&lt;/label&gt;</div><div class="line">        &lt;input type=&quot;password&quot; name=&quot;pass&quot; /&gt;</div><div class="line">&lt;/form&gt;</div></pre></td></tr></table></figure></p>
+<p>注意:<br>1、所有表单控件（文本框、文本域、按钮、单选框、复选框等）都必须放在 <code>&lt;form&gt;&lt;/form&gt;</code>标签之间（否则用户输入的信息可提交不到服务器上哦！）。<br>2、method : post/get 的区别这一部分内容属于后端程序员考虑的问题。感兴趣的小伙伴可以查看本小节的 wiki，里面有详细介绍。</p>
+<h3 id="文本输入框、密码输入框"><a href="#文本输入框、密码输入框" class="headerlink" title="文本输入框、密码输入框"></a>文本输入框、密码输入框</h3><p>当用户要在表单中键入字母、数字等内容时，就会用到文本输入框。文本框也可以转化为密码输入框。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;form&gt;</div><div class="line">   &lt;input type=&quot;text/password&quot; name=&quot;名称&quot; value=&quot;文本&quot; /&gt;</div><div class="line">&lt;/form&gt;</div></pre></td></tr></table></figure></p>
+<p>1、type：<br>   当type=”text”时，输入框为文本输入框;<br>   当type=”password”时, 输入框为密码输入框。<br>2、name：为文本框命名，以备后台程序ASP 、PHP使用。<br>3、value：为文本输入框设置默认值。(一般起到提示作用)<br>举例：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;form&gt;</div><div class="line">  姓名：</div><div class="line">  &lt;input type=&quot;text&quot; name=&quot;myName&quot;&gt;</div><div class="line">  &lt;br/&gt;</div><div class="line">  密码：</div><div class="line">  &lt;input type=&quot;password&quot; name=&quot;pass&quot;&gt;</div><div class="line">&lt;/form&gt;</div></pre></td></tr></table></figure></p>
+<p>在浏览器中显示的结果：<br><img src="http://img.mukewang.com/52e4e9be000152ca05250275.jpg" alt=""></p>
+<h3 id="文本域，支持多行文本输入"><a href="#文本域，支持多行文本输入" class="headerlink" title="文本域，支持多行文本输入"></a>文本域，支持多行文本输入</h3><p>当用户需要在表单中输入大段文字时，需要用到文本输入域。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;textarea  rows=&quot;行数&quot; cols=&quot;列数&quot;&gt;文本&lt;/textarea&gt;</div></pre></td></tr></table></figure></p>
+<p>1、<code>&lt;textarea&gt;</code>标签是成对出现的，以<code>&lt;textarea&gt;</code>开始，以<code>&lt;/textarea&gt;</code>结束。<br>2、cols ：多行输入域的列数。<br>3、rows ：多行输入域的行数。<br>4、在<code>&lt;textarea&gt;&lt;/textarea&gt;</code>标签之间可以输入默认值。<br>举例：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&lt;form  method=&quot;post&quot; action=&quot;save.php&quot;&gt;</div><div class="line">        &lt;label&gt;联系我们&lt;/label&gt;</div><div class="line">        &lt;textarea cols=&quot;50&quot; rows=&quot;10&quot; &gt;在这里输入内容...&lt;/textarea&gt;</div><div class="line">&lt;/form&gt;</div></pre></td></tr></table></figure></p>
+<p>在浏览器中显示结果：<br><img src="http://img.mukewang.com/52e5b4040001f4af05760367.jpg" alt=""></p>
+<h3 id="使用单选框、复选框，让用户选择"><a href="#使用单选框、复选框，让用户选择" class="headerlink" title="使用单选框、复选框，让用户选择"></a>使用单选框、复选框，让用户选择</h3><p>在使用表单设计调查表时，为了减少用户的操作，使用选择框是一个好主意，html中有两种选择框，即单选框和复选框，两者的区别是单选框中的选项用户只能选择一项，而复选框中用户可以任意选择多项，甚至全选。请看下面的例子:<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;input   type=&quot;radio/checkbox&quot;   value=&quot;值&quot;    name=&quot;名称&quot;   checked=&quot;checked&quot;/&gt;</div></pre></td></tr></table></figure></p>
+<p>1、type:<br>当 type=”radio” 时，控件为单选框<br>当 type=”checkbox” 时，控件为复选框<br>2、value：提交数据到服务器的值（后台程序PHP使用）<br>3、name：为控件命名，以备后台程序 ASP、PHP 使用<br>4、checked：当设置 checked=”checked” 时，该选项被默认选中<br>如下面代码：<br><img src="http://img.mukewang.com/52e5f7c60001a23f07360267.jpg" alt=""><br>在浏览器中显示的结果：<br><img src="http://img.mukewang.com/52e5f8010001159804900257.jpg" alt=""><br>注意:同一组的单选按钮，name 取值一定要一致，比如上面例子为同一个名称“radioLove”，这样同一组的单选按钮才可以起到单选的作用。</p>
+<h3 id="使用下拉列表框，节省空间"><a href="#使用下拉列表框，节省空间" class="headerlink" title="使用下拉列表框，节省空间"></a>使用下拉列表框，节省空间</h3><p>下拉列表在网页中也常会用到，它可以有效的节省网页空间。既可以单选、又可以多选。如下代码：<br><img src="http://img.mukewang.com/52e604590001ae4005270185.jpg" alt=""><br>讲解：<br>1、value：<br><img src="http://img.mukewang.com/52e6037300015a9905030165.jpg" alt=""><br>2、selected=”selected”：<br>设置selected=”selected”属性，则该选项就被默认选中。</p>
+<h3 id="使用下拉列表框进行多选"><a href="#使用下拉列表框进行多选" class="headerlink" title="使用下拉列表框进行多选"></a>使用下拉列表框进行多选</h3><p>下拉列表也可以进行多选操作，在<code>&lt;select&gt;</code>标签中设置multiple=”multiple”属性，就可以实现多选功能，在 windows 操作系统下，进行多选时按下Ctrl键同时进行单击（在 Mac下使用 Command +单击），可以选择多个选项。如下代码：<br><img src="http://img.mukewang.com/52e60c020001b7f805000178.jpg" alt=""></p>
+<h3 id="使用提交按钮，提交数据"><a href="#使用提交按钮，提交数据" class="headerlink" title="使用提交按钮，提交数据"></a>使用提交按钮，提交数据</h3><p>在表单中有两种按钮可以使用，分别为：提交按钮、重置。这一小节讲解提交按钮：当用户需要提交表单信息到服务器时，需要用到提交按钮。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;input   type=&quot;submit&quot;   value=&quot;提交&quot;&gt;</div></pre></td></tr></table></figure></p>
+<p>type：只有当type值设置为submit时，按钮才有提交作用<br>value：按钮上显示的文<br>举例：<br><img src="http://img.mukewang.com/52e613350001461604820109.jpg" alt=""></p>
+<h3 id="使用重置按钮，重置表单信息"><a href="#使用重置按钮，重置表单信息" class="headerlink" title="使用重置按钮，重置表单信息"></a>使用重置按钮，重置表单信息</h3><p>当用户需要重置表单信息到初始时的状态时，比如用户输入“用户名”后，发现书写有误，可以使用重置按钮使输入框恢复到初始状态。只需要把type设置为”reset”就可以。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;input type=&quot;reset&quot; value=&quot;重置&quot;&gt;</div></pre></td></tr></table></figure></p>
+<p>type：只有当type值设置为reset时，按钮才有重置作用<br>value：按钮上显示的文字<br>举例：<br><img src="http://img.mukewang.com/52e618680001a6b204570101.jpg" alt=""></p>
+<h3 id="form表单中的label标签"><a href="#form表单中的label标签" class="headerlink" title="form表单中的label标签"></a>form表单中的label标签</h3><p>label标签不会向用户呈现任何特殊效果，它的作用是为鼠标用户改进了可用性。如果你在 label 标签内点击文本，就会触发此控件。就是说，当用户单击选中该label标签时，浏览器就会自动将焦点转到和标签相关的表单控件上（就自动选中和该label标签相关连的表单控件上）。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;label for=&quot;控件id名称&quot;&gt;</div></pre></td></tr></table></figure></p>
+<p>注意：标签的 for 属性中的值应当与相关控件的 id 属性值一定要相同。<br>例子：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;form&gt;</div><div class="line">  &lt;label for=&quot;male&quot;&gt;男&lt;/label&gt;</div><div class="line">  &lt;input type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;male&quot; /&gt;</div><div class="line">  &lt;br /&gt;</div><div class="line">  &lt;label for=&quot;female&quot;&gt;女&lt;/label&gt;</div><div class="line">  &lt;input type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;female&quot; /&gt;</div><div class="line">  &lt;label for=&quot;email&quot;&gt;输入你的邮箱地址&lt;/label&gt;</div><div class="line">  &lt;input type=&quot;email&quot; id=&quot;email&quot; placeholder=&quot;Enter email&quot;&gt;</div><div class="line">&lt;/form&gt;</div></pre></td></tr></table></figure></p>
 ]]></content>
       
         <categories>
