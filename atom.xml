@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://haijm.github.io/"/>
-  <updated>2017-12-24T10:16:42.561Z</updated>
+  <updated>2017-12-22T06:09:34.831Z</updated>
   <id>http://haijm.github.io/</id>
   
   <author>
@@ -14,20 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>C4D</title>
-    <link href="http://haijm.github.io/2017/12/24/C4D/"/>
-    <id>http://haijm.github.io/2017/12/24/C4D/</id>
-    <published>2017-12-24T10:16:42.000Z</published>
-    <updated>2017-12-24T10:16:42.561Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Don&#39;t stop when you are tired</title>
@@ -120,6 +106,318 @@
     
     
       <category term="翻译" scheme="http://haijm.github.io/tags/%E7%BF%BB%E8%AF%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C4D-材质灯光渲染</title>
+    <link href="http://haijm.github.io/2017/06/13/C4D-%E6%9D%90%E8%B4%A8%E7%81%AF%E5%85%89%E6%B8%B2%E6%9F%93/"/>
+    <id>http://haijm.github.io/2017/06/13/C4D-材质灯光渲染/</id>
+    <published>2017-06-13T14:22:10.000Z</published>
+    <updated>2017-12-26T14:47:27.422Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="C4D-材质灯光渲染"><a href="#C4D-材质灯光渲染" class="headerlink" title="C4D-材质灯光渲染"></a>C4D-材质灯光渲染</h1><h2 id="一、材质"><a href="#一、材质" class="headerlink" title="一、材质"></a>一、材质</h2><ol>
+<li>材质类型：在材质窗口菜单中执行创建→新材质，可创建默认白色材质球。这是C4D的标准材质，<br> 是最常用的材质。快捷键Ctrl+N<br> <img src="/image/C4D/3/1.png" alt=""><a id="more"></a></li>
+<li>着色器：除标准材质外，C4D还提供了多种着色器，可以直接选你需要的材质。使用频率比较多少材质是，玻璃、木材、金属、素描材质。<br> <img src="/image/C4D/3/2.png" alt=""></li>
+<li>材质编辑器：编辑器主要分为两部分，左侧为材质预览区和材质通道，右侧是通道属性。<br> <img src="/image/C4D/3/3.png" alt=""> <ul>
+<li>颜色：物体固有颜色，可以选择任意颜色作为物体固有色。默认颜色为： R  G  B模式选色。<br><img src="/image/C4D/3/4.png" alt=""><br><img src="/image/C4D/3/5.png" alt="">:色轮     <img src="/image/C4D/3/6.png" alt="">：光谱       <img src="/image/C4D/3/7.png" alt="">：从图像中取色       <img src="/image/C4D/3/8.png" alt="">：RGB取色       <img src="/image/C4D/3/9.png" alt="">：色相饱和明度取色</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li><p>纹理：纹理是每个材质通道都有的属性，单击纹理参数中的按钮，会列出多种纹理选择。</p>
+<ol>
+<li>清除：清除所加载的纹理效果</li>
+<li>加载图像：可以加载位图，来实现材质效果。<br><img src="/image/C4D/3/10.jpg" alt="">    <img src="/image/C4D/3/11.png" alt="">    <img src="/image/C4D/3/12.png" alt=""></li>
+</ol>
+</li>
+<li><p>反射（光滑）：物体表面是否光滑，可以观察出来。光滑的物体高光越明显，如玻璃、金属、车漆等，这些都是物体的反射结果。物体本身材质不一样，对应的高光、反射也不一样。<br>   <img src="/image/C4D/3/13.png" alt=""></p>
+</li>
+<li>自发光：可以设置物体自发光，有三种用途。<ol>
+<li>自发光反光板     <img src="/image/C4D/3/14.jpg" alt=""></li>
+<li>HDR环境帖图材质载体</li>
+<li>环境光（如红色、蓝色、紫色环境光）<br><img src="/image/C4D/3/15.png" alt=""><h2 id="二、灯光"><a href="#二、灯光" class="headerlink" title="二、灯光"></a>二、灯光</h2></li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>灯光类型<br> （1）默认灯光：创建C4D文件时，系统默认照明场景的。在选项—-&gt;默认灯光中移动高光点可以<br>改变灯光照射位置。<br> <img src="/image/C4D/3/16.png" alt=""><br> （2）泛光灯 <img src="/image/C4D/3/17.png" alt="">：最常见的灯光类型，光线从单一的点向四周发射，类似现实中的灯泡。移动泛光灯的位置，泛光灯离物体越远，照射的范围就越大。<br> （3）聚光灯 <img src="/image/C4D/3/18.png" alt="">：光线向一个方向呈锥形传播。选择聚光灯后，圆锥上有5个黄点，中心点调节聚光灯光束长度，四周黄点用来调节光照范围。<br> <img src="/image/C4D/3/19.png" alt=""><br> （4）区域灯 <img src="/image/C4D/3/20.png" alt=""> ：光线沿着一个区域向四周各个方向发射光线，形成一个有规则的照射平面。属于高级光源类型。常模拟室内来自窗户的天空光，面光源十分柔和均匀。类似于产品摄影中的反光板。</li>
+<li>灯光选项卡<img src="/image/C4D/3/21.png" alt=""><br> （1）颜色：用于改变灯光颜色<br> （2）强度：设置灯光强弱值，默认是100%，可以托动增加强度没有上限。强度越高就相当于摄影中的曝光过度。0%代表没有光线。<br> （3）类型：用于改变灯光类型<br> （4）投影：无-灯光照射在物体上不产生投影，阴影贴图（软阴影）-产生柔和阴影，光线跟踪（强烈）-产生阴影强烈，阴影边缘不会模糊，区域-根据光线远近产生不同变化的阴影，距离越近，阴影越强，距离越远，阴影越模糊，能产生比较真实的阴影效果。<br>  <img src="/image/C4D/3/22.png" alt="">    <img src="/image/C4D/3/23.png" alt="">     <img src="/image/C4D/3/24.png" alt="">                <img src="/image/C4D/3/25.png" alt=""></li>
+<li>布光方法<br>（1）3点布光法：即有2盏光源，分别是主光源、辅助光和背光。商业摄影中也多用此方法。<br>（2）布光循序:先确定好主光源的位置（距离、高度）与强度，在决定好辅助光的强度与角度。分配背景光。布光效果主次分明，互相补充。目的是为了通过光源照射来呈现出一个很有质感的物体。<br><img src="/image/C4D/3/26.png" alt=""><br><img src="/image/C4D/3/27.png" alt=""><br>（3）常用布光方式：<br><img src="/image/C4D/3/28.jpg" alt=""></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      学习笔记
+    
+    </summary>
+    
+      <category term="C4D" scheme="http://haijm.github.io/categories/C4D/"/>
+    
+    
+      <category term="C4D" scheme="http://haijm.github.io/tags/C4D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C4D曲面建模</title>
+    <link href="http://haijm.github.io/2017/06/05/C4D%E6%9B%B2%E9%9D%A2%E5%BB%BA%E6%A8%A1/"/>
+    <id>http://haijm.github.io/2017/06/05/C4D曲面建模/</id>
+    <published>2017-06-05T13:58:12.000Z</published>
+    <updated>2017-12-26T14:23:50.370Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="C4D曲面建模"><a href="#C4D曲面建模" class="headerlink" title="C4D曲面建模"></a>C4D曲面建模</h1><h2 id="NURBS建模"><a href="#NURBS建模" class="headerlink" title="NURBS建模"></a>NURBS建模</h2><p>NURBS建模即曲面建模，是由曲线组成曲面，再有曲面组成立体模型，曲线有控制点可以控制曲线曲率、方向、长短。<br><img src="/image/C4D/2/1.png" alt=""><br><a id="more"></a></p>
+<ul>
+<li>扫描<br><img src="/image/C4D/2/2.png" alt=""><br>在画笔工具中选择花瓣，再用画笔画一条曲线，<br><img src="/image/C4D/2/3.png" alt=""><br>在细分曲面工具栏中点击选择扫描，花瓣一定在线条前面，选中花瓣和线条一起拖向扫描，出现向下的箭头松开鼠标，即可实现扫描状态<br><img src="/image/C4D/2/4.png" alt=""></li>
+<li>挤压<br><img src="/image/C4D/2/5.png" alt=""><br>先用文字工具写出想要的文字<br><img src="/image/C4D/2/6.png" alt=""><br>然后在细分曲面工具栏中点击选择挤压，点击文字拖至挤压出现向下箭头松开即可实现<br><img src="/image/C4D/2/7.png" alt=""></li>
+<li>旋转<br><img src="/image/C4D/2/8.png" alt=""><br>用画笔画出样条<br><img src="/image/C4D/2/9.png" alt=""><br>然后在细分曲面工具栏中点击选择旋转，此后步骤同上<br><img src="/image/C4D/2/10.png" alt=""></li>
+<li>放样<br><img src="/image/C4D/2/11.png" alt=""><br>用画笔画两条样条，分开放置<br><img src="/image/C4D/2/12.png" alt=""><br>然后在细分曲面工具栏中点击选择放样，步骤同上<br><img src="/image/C4D/2/13.png" alt=""><br>案例：<br><img src="/image/C4D/2/14.jpg" alt="">  </li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      学习笔记
+    
+    </summary>
+    
+      <category term="C4D" scheme="http://haijm.github.io/categories/C4D/"/>
+    
+    
+      <category term="C4D" scheme="http://haijm.github.io/tags/C4D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C4D-基本操作</title>
+    <link href="http://haijm.github.io/2017/05/28/C4D-%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
+    <id>http://haijm.github.io/2017/05/28/C4D-基本操作/</id>
+    <published>2017-05-28T10:16:42.000Z</published>
+    <updated>2017-12-26T14:24:02.655Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="C4D-基本操作"><a href="#C4D-基本操作" class="headerlink" title="C4D-基本操作"></a>C4D-基本操作</h1><h2 id="一、C4D的应用范围"><a href="#一、C4D的应用范围" class="headerlink" title="一、C4D的应用范围"></a>一、C4D的应用范围</h2><ol>
+<li>全称CINEMA 4D，由德国Maxon 公司研发的3D绘图软件。以其高的运算速度和强大的渲染插件著称，主要定位在工业设计行业和影视包装行业。C4D更加注重流畅性、舒适性、合理性、易用性和高效性。</li>
+<li>C4D在UI设计方面应用：电商立体字渲染、电商立体banner/场景、UI立体图标<a id="more"></a>
+<h2 id="二、界面认识"><a href="#二、界面认识" class="headerlink" title="二、界面认识"></a>二、界面认识</h2></li>
+<li>标题栏：软件最顶端，显示软件版本号和当前编辑文件名称信息。<br><img src="/image/C4D/1/1.png" alt=""></li>
+<li>主菜单栏：主菜单栏位于标题栏下方，可以调出绝大部分工具、命令和显示快捷键。<br><img src="/image/C4D/1/2.png" alt=""></li>
+<li>恢复默认界面：菜单栏—-&gt;界面—-&gt;启动<br><img src="/image/C4D/1/3.png" alt=""> </li>
+<li>工具栏：工具栏位于主菜单栏下方，包含常用工具和工具组（将功能相似的工具集合在一个图标下）<br> 显著特征是在图标右下角带有<img src="/image/C4D/1/4.png" alt=""> 小三角。</li>
+<li>视图窗口：在C4D中有四个视图，分别是透视图、顶视图、右视图、正视图。默认编辑视图一般在透视图中。<br> <img src="/image/C4D/1/5.png" alt=""><br> <img src="/image/C4D/1/6.png" alt="">每个视图右上角四个图标依次功能是：平移视图、中心缩放视图、旋转视图、切换视图。<br> <img src="/image/C4D/1/7.png" alt="">平移视图：鼠标左键按住不松动图标出现<img src="/image/C4D/1/8.png" alt=""> 蓝底色时，可以平移当前视图。快捷键：Alt+中键<br> <img src="/image/C4D/1/9.png" alt="">缩放视图：鼠标左键按住不松动图标出现 <img src="/image/C4D/1/10.png" alt="">蓝底色时，可以缩放当前视图。快捷键：Alt+右键<br> 或者鼠标中标滑动缩放。<br> <img src="/image/C4D/1/11.png" alt=""> 旋转视图：鼠标左键按住不松动图标出现<img src="/image/C4D/1/12.png" alt=""> 蓝底色时，可以旋转当前视图。快捷键：Alt+左键<br> <img src="/image/C4D/1/13.png" alt=""> 切换视图：鼠标左键单击可以切换最大化/最小化视图。快捷键：点击鼠标中键切换</li>
+<li>编辑工具栏：于界面的最左端，可以切换不同的编辑工具。如：模型、纹理、点、线、面模式。<br> <img src="/image/C4D/1/14.png" alt=""> ：将对象转换为多边形（CD4对象模型都是参数对象，当需要对模型进行点、线、面编辑时，必须把对象转换多    边形对象）<br> <img src="/image/C4D/1/15.png" alt="">：模型模式，只能对模型进行等比例缩放<br> <img src="/image/C4D/1/16.png" alt="">：纹理模式，对贴图纹理进行编辑，需要使用纹理贴图<br> <img src="/image/C4D/1/17.png" alt=""> ：点模式，对多边形上的点进行编辑（移动、缩放、旋转、删除）选中点</li>
+<li>对象窗口：是用于管理场景中的对象，这些对象以树形层级结构显示（父子级关系）。对象窗口 有三个区域分别是：菜单区、对象列表区、显示/隐藏区和标签区。<br> <img src="/image/C4D/1/18.png" alt=""></li>
+<li>属性面板：位于界面右下方，属性面板是非常重要的窗口之一，用于设置所选对象所有属性参数。使用频率很高。</li>
+<li>保存文件：可以保存当前编辑文件，保存工程文件：可以将整个文件的资源打包，避免日后资源丢 失。方便交接给其它人员继续使用。<br> <img src="/image/C4D/1/19.png" alt=""></li>
+<li>导出文件：在C4D中可将文件导出为：.3ds、.xml、.dxf、.obj格式等。后期导入KeyShot 中渲染直接导出文件为.3ds格式。<br> <img src="/image/C4D/1/20.png" alt=""></li>
+<li>显示图标/快捷键：菜单—-&gt;设置—-&gt;用户界面，可以将菜单栏中图标与快捷键进行隐藏与显示。<br><img src="/image/C4D/1/21.png" alt=""><img src="/image/C4D/1/21.png" alt=""></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      学习笔记
+    
+    </summary>
+    
+      <category term="C4D" scheme="http://haijm.github.io/categories/C4D/"/>
+    
+    
+      <category term="C4D" scheme="http://haijm.github.io/tags/C4D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AE-图形及形状高级动画</title>
+    <link href="http://haijm.github.io/2017/05/05/AE-%E5%9B%BE%E5%BD%A2%E5%8F%8A%E5%BD%A2%E7%8A%B6%E9%AB%98%E7%BA%A7%E5%8A%A8%E7%94%BB/"/>
+    <id>http://haijm.github.io/2017/05/05/AE-图形及形状高级动画/</id>
+    <published>2017-05-05T12:32:52.000Z</published>
+    <updated>2017-12-26T13:07:45.581Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="图形及形状高级动画"><a href="#图形及形状高级动画" class="headerlink" title="图形及形状高级动画"></a>图形及形状高级动画</h1><h2 id="（一）从其他软件中制作路径："><a href="#（一）从其他软件中制作路径：" class="headerlink" title="（一）从其他软件中制作路径："></a>（一）从其他软件中制作路径：</h2><ul>
+<li>AI：<ol>
+<li>打开素材文件，选择要粘贴的部分，ctrl+C </li>
+<li>打开AE，建立合成，新建固态层（ctrl+Y）  </li>
+<li>粘贴ctrl+V </li>
+</ol>
+</li>
+<li>将遮罩选中，效果——生成——描边<a id="more"></a>
+将遮罩的透明度调整为0%；<br><img src="/image/AE/2/1.png" alt=""></li>
+<li>定位点工具使用补充：<br>在移动定位点时，按住ctrl键，可以直接定位到对象中心；<br>按住Alt键移动，中心点不动，对象动；</li>
+<li>制作开始和结束动画（描边）<br><img src="/image/AE/2/2.png" alt=""><ol>
+<li>开始：表示开始点显示的范围；100%为消失，0%为完全显示路径；</li>
+<li>结束：表示结束点显示的范围；100%为显示，0%为完全隐藏<h2 id="（二）如何从AE中直接绘制路径并制作动画："><a href="#（二）如何从AE中直接绘制路径并制作动画：" class="headerlink" title="（二）如何从AE中直接绘制路径并制作动画："></a>（二）如何从AE中直接绘制路径并制作动画：</h2></li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>鼠标按工具箱中的工具一会儿（切换工具）</li>
+<li>保证在时间轴面板的空白处单击，不选择任何图层；</li>
+<li>在画布上绘制图形；</li>
+</ol>
+<ul>
+<li>编辑形状：<ol>
+<li>切换填充类型，点击填充两个文字<br><img src="/image/AE/2/3.png" alt=""><img src="/image/AE/2/4.png" alt=""></li>
+</ol>
+</li>
+<li>修整路径动画：在AE中绘制形状制作动画；<br><img src="/image/AE/2/5.png" alt=""><br>Ctrl+R:标尺   可以辅助查找对象中心，  锁定参考线：视图下查找<br>0   1   2   3   4    5   6    7   8   9<br>字符偏移：制作数字动态加载效果；<br><img src="/image/AE/2/6.png" alt=""><br><img src="/image/AE/2/7.png" alt=""><h2 id="（三）手机加速：效果——生成——书写"><a href="#（三）手机加速：效果——生成——书写" class="headerlink" title="（三）手机加速：效果——生成——书写"></a>（三）手机加速：效果——生成——书写</h2></li>
+<li>第一种方法：<ol>
+<li>选择彩色条层</li>
+<li>添加书写效果</li>
+<li>调整笔触粗细，将粗细制作关键帧</li>
+<li>将混合样式改为显示原始图像<br><img src="/image/AE/2/8.png" alt=""></li>
+</ol>
+</li>
+<li>第二种方法：<ol>
+<li>将ps中的路径复制（开放）</li>
+<li>选择AE，新建一个固态层ctrl+Y</li>
+<li>粘贴路径，添加描边（效果下——生产——描边）</li>
+<li>选择在透明通道上（开放路径去除底色）<br><img src="/image/AE/2/9.png" alt=""></li>
+<li>添加结束动画（第一帧：0    1S上添加100%）<br><img src="/image/AE/2/10.png" alt=""></li>
+<li>给彩色的图形添加轨道蒙版为<br><img src="/image/AE/2/11.png" alt=""><h2 id="（四）将动画放入样机中显示-：效果——扭曲——边角固定"><a href="#（四）将动画放入样机中显示-：效果——扭曲——边角固定" class="headerlink" title="（四）将动画放入样机中显示 ：效果——扭曲——边角固定"></a>（四）将动画放入样机中显示 ：效果——扭曲——边角固定</h2></li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>导入手机素材（分层）</li>
+<li>将制作好的动画合成，拖拽到新的手机素材</li>
+<li>将手机素材添加效果——扭曲——边角固定</li>
+<li>设置四个角的位置<h2 id="（五）图标动画——综合动画："><a href="#（五）图标动画——综合动画：" class="headerlink" title="（五）图标动画——综合动画："></a>（五）图标动画——综合动画：</h2></li>
+<li>圆形变化：效果——过渡——径向擦除</li>
+<li>光线发射：制作好一个线条动画后，预合成ctrl+shift+C</li>
+<li>慧尾效果：通过复制图层降低不透明度，调整时间差；</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      学习笔记
+    
+    </summary>
+    
+      <category term="AE" scheme="http://haijm.github.io/categories/AE/"/>
+    
+    
+      <category term="AE" scheme="http://haijm.github.io/tags/AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AE-遮罩及效果动画</title>
+    <link href="http://haijm.github.io/2016/05/14/AE-%E9%81%AE%E7%BD%A9%E5%8F%8A%E6%95%88%E6%9E%9C%E5%8A%A8%E7%94%BB/"/>
+    <id>http://haijm.github.io/2016/05/14/AE-遮罩及效果动画/</id>
+    <published>2016-05-14T13:10:11.000Z</published>
+    <updated>2017-12-26T13:27:01.646Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="遮罩及效果动画"><a href="#遮罩及效果动画" class="headerlink" title="遮罩及效果动画"></a>遮罩及效果动画</h1><h2 id="（一）树叶加载动画：路径动画-遮罩动画"><a href="#（一）树叶加载动画：路径动画-遮罩动画" class="headerlink" title="（一）树叶加载动画：路径动画+遮罩动画"></a>（一）树叶加载动画：路径动画+遮罩动画</h2><p>遮罩动画：用于控制动画或图像的范围<br><img src="/image/AE/3/1.png" alt=""><br><a id="more"></a></p>
+<ol>
+<li>选择图层；</li>
+<li>选择工具（在工具箱中按一会）</li>
+<li>直接绘制所需要的图形；<br>重点：可以对遮罩的属性添加动画：<br><img src="/image/AE/3/2.png" alt=""><h2 id="（二）路径动画：将动画的运动轨迹指定到特定的路径上（开放或闭合的路径）"><a href="#（二）路径动画：将动画的运动轨迹指定到特定的路径上（开放或闭合的路径）" class="headerlink" title="（二）路径动画：将动画的运动轨迹指定到特定的路径上（开放或闭合的路径）"></a>（二）路径动画：将动画的运动轨迹指定到特定的路径上（开放或闭合的路径）</h2></li>
+<li>要有一个制作路径的对象层（图形图像均可）；</li>
+<li>新建一个固态层（ctrl+Y）,在固态层上绘制路径；</li>
+<li>将遮罩形状复制，粘贴到对象属性中的位置属性上；</li>
+<li>自动生成帧；<br>重点：时间轴反向帧<br><img src="/image/AE/3/3.png" alt=""><br>等比调整关键帧时间：按住Alt键，拖动时间轴上的关键帧；<br>（三）效果动画与遮罩</li>
+</ol>
+<ul>
+<li>效果动画：模拟仿真：<ol>
+<li>需要新建一个固态层（ctrl+Y）黑色</li>
+<li>更改混合模式为添加（滤色）<br><img src="/image/AE/3/4.png" alt=""><br>CC降雨  CC降雪：比较真实<br>卡通版：cc下雪  cc下雨<br>Ctrl +shift+Y:调整固态层设置</li>
+</ol>
+</li>
+<li>Cc粒子仿真世界：<br><img src="/image/AE/3/5.png" alt=""></li>
+<li>从材质中替换（将文件放到时间轴上）<br>3、 <img src="/image/AE/3/6.png" alt=""><br>4、替换的文件导入时选择（文件大小）</li>
+<li>如果添加效果的图层添加遮罩后，没有控制住范围<br>1、遮罩上面选择模式为无<br><img src="/image/AE/3/7.png" alt=""><br>2、如果第一个问题解决，依然不能控制范围<br> 将图层建立预合成（编组），选择第二项；然后再添加遮罩；<br><img src="/image/AE/3/8.png" alt="">9<h2 id="（四）AE中的图形高级应用："><a href="#（四）AE中的图形高级应用：" class="headerlink" title="（四）AE中的图形高级应用："></a>（四）AE中的图形高级应用：</h2></li>
+<li>图形绘制的两种方法：<ol>
+<li>直接绘制：不能够编辑锚点，不能变形；</li>
+<li>在绘制前，按住Alt+shift键绘制：可以编辑锚点</li>
+</ol>
+</li>
+<li>如何编辑图形：<ol>
+<li>选择锚点：使用钢笔工具，在锚点处变为实心箭头时选择</li>
+<li>取消全部选择：选择钢笔，按住Ctrl键，在空白处单击</li>
+<li>调整单个手柄：按住ctrl键，放到控制手柄上，变为转换点工具，可以调整单个手柄；<h2 id="（五）表动画："><a href="#（五）表动画：" class="headerlink" title="（五）表动画："></a>（五）表动画：</h2></li>
+</ol>
+</li>
+<li>可编辑的图层样式：将ps中的图层样式转换到AE中；<br><img src="/image/AE/3/9.png" alt=""><br><img src="/image/AE/3/10.png" alt=""></li>
+<li>如果在ps 中，制作了图层编组，在AE中直接转化为合成；<br>在AE中，给对象添加图层样式（可以按照整体画布光源制作真实的投影效果）：<br><img src="/image/AE/3/11.png" alt=""></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      学习笔记
+    
+    </summary>
+    
+      <category term="AE" scheme="http://haijm.github.io/categories/AE/"/>
+    
+    
+      <category term="AE" scheme="http://haijm.github.io/tags/AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AE-动效理论与AE基础</title>
+    <link href="http://haijm.github.io/2016/04/26/AE-%E5%8A%A8%E6%95%88%E7%90%86%E8%AE%BA%E4%B8%8EAE%E5%9F%BA%E7%A1%80/"/>
+    <id>http://haijm.github.io/2016/04/26/AE-动效理论与AE基础/</id>
+    <published>2016-04-26T10:54:50.000Z</published>
+    <updated>2017-12-26T13:07:58.171Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="动效理论与＆Ae基础"><a href="#动效理论与＆Ae基础" class="headerlink" title="动效理论与＆Ae基础"></a>动效理论与＆Ae基础</h1><h2 id="（一）UI设计理论"><a href="#（一）UI设计理论" class="headerlink" title="（一）UI设计理论"></a>（一）UI设计理论</h2><p>格式：.avi  .mov   .flv  .gif……</p>
+<h2 id="（二）界面："><a href="#（二）界面：" class="headerlink" title="（二）界面："></a>（二）界面：</h2><p><img src="/image/AE/1/1.png" alt=""><br><a id="more"></a><br><img src="/image/AE/1/2.png" alt=""></p>
+<ul>
+<li>窗口——各种面板<br><img src="/image/AE/1/3.png" alt=""><br><img src="/image/AE/1/4.png" alt=""><h2 id="（三）动效制作所需内容："><a href="#（三）动效制作所需内容：" class="headerlink" title="（三）动效制作所需内容："></a>（三）动效制作所需内容：</h2></li>
+</ul>
+<ol>
+<li>素材（ps  AI   AE ）<ul>
+<li>导入素材：<ol>
+<li>Ctrl+I:导入素材 ；</li>
+<li>双击项目面板空白处；</li>
+<li>直接将素材拖拽到项目面板；</li>
+</ol>
+</li>
+<li>导入选项：<br><img src="/image/AE/1/5.png" alt=""></li>
+<li>需要建立合成（动画文件）<br>Ctrl+N：<br><img src="/image/AE/1/6.png" alt=""><br>0（小时）:00（分钟）:00（秒）:00（帧）；<h2 id="（四）关于时间轴上的基本操作："><a href="#（四）关于时间轴上的基本操作：" class="headerlink" title="（四）关于时间轴上的基本操作："></a>（四）关于时间轴上的基本操作：</h2>图层顺序调整：拖动或者ctrl+[   ]  ctrl+shift+[    ]</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>时间轴关键帧开关：<br><img src="/image/AE/1/7.png" alt=""><br>认识关键帧的基本属性：<br><img src="/image/AE/1/8.png" alt=""><br>0X：圈数<br>+0.0°：旋转角度（顺时针）;    可以手动输入-0.0°（逆时针）<br>制作旋转属性动画时，使用定位点工具Y  <img src="/image/AE/1/9.png" alt="">  ，移动旋转中心；</li>
+<li>关于预览时间轴：<br>数字小键盘的0  渲染预览：时间和最终时间相同；<br> <img src="/image/AE/1/10.png" alt=""><br>空格：快速预览，  时间与最终可能不同；<h2 id="（五）存储："><a href="#（五）存储：" class="headerlink" title="（五）存储："></a>（五）存储：</h2>格式：.aep<br><img src="/image/AE/1/11.png" alt=""><br>渲染动画：ctrl+M<br>输出格式:.avi   .flv   .mov<br><img src="/image/AE/1/12.png" alt=""> </li>
+</ul>
+<ol>
+<li>需要选中格式</li>
+<li>需要指定位置</li>
+<li>点击渲染按钮<h2 id="（六）关于基础变换动画补充："><a href="#（六）关于基础变换动画补充：" class="headerlink" title="（六）关于基础变换动画补充："></a>（六）关于基础变换动画补充：</h2><img src="/image/AE/1/13.png" alt=""><br>定位点：A  用的很少；<br>位置 P（跑）：位置移动<br>缩放S（缩）：大小变化<br>旋转R（绕圈）：旋转动画<br>透明度T（透明）：透明动画  渐隐<br>U：将所有添加关键帧的属性显示；<h2 id="（七）建立第二个项目："><a href="#（七）建立第二个项目：" class="headerlink" title="（七）建立第二个项目："></a>（七）建立第二个项目：</h2>Ctrl+alt+N :新建项目  关闭当前项目，恢复到默认打开软件的状态；</li>
+</ol>
+<ul>
+<li>帧的加速度：由快到慢  ……<br>1、将帧变为柔缓曲线F9<br>2、点击时间轴上方的图形编辑器  <img src="/image/AE/1/15.png" alt=""><br>3、调整时间曲线<br><img src="/image/AE/1/16.png" alt=""><h2 id="（八）重复性动画——复制ctrl-D"><a href="#（八）重复性动画——复制ctrl-D" class="headerlink" title="（八）重复性动画——复制ctrl+D"></a>（八）重复性动画——复制ctrl+D</h2>Ctrl+D 复制时间轴：<br>时间轴错位：可以制作出有时间差的动画</li>
+<li>裁剪多余时间轴：</li>
+</ul>
+<ol>
+<li>将工作区终点进行调整<br><img src="/image/AE/1/17.png" alt=""></li>
+<li>图像合成——修剪合成至工作区<br><img src="/image/AE/1/18.png" alt=""><ul>
+<li>缩放时间轴显示效果：<br><img src="/image/AE/1/19.png" alt=""></li>
+<li>第二种修改时间轴总时长的方法：ctrl+K<br><img src="/image/AE/1/20.png" alt=""><h2 id="（九）酷丁鱼加载动画"><a href="#（九）酷丁鱼加载动画" class="headerlink" title="（九）酷丁鱼加载动画"></a>（九）酷丁鱼加载动画</h2>父级关系：<br><img src="/image/AE/1/21.png" alt=""> <h2 id="（十）水波加载loading："><a href="#（十）水波加载loading：" class="headerlink" title="（十）水波加载loading："></a>（十）水波加载loading：</h2>如何将一个动画编组制作新的动画（一个对象上制作多个动画时间轴）<br>跟踪蒙版<br>Ctrl+shift+C  预合成：将多个动画层进行编组，编组后可以再次添加新的变换属性；<br><img src="/image/AE/1/22.png" alt=""><br>编辑预合成动画：双击预合成</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>轨道蒙版：剪贴蒙版，用于控制范围<br><img src="/image/AE/1/23.png" alt=""><br>格式工厂：上下颠倒选择 是 ；</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      学习笔记
+    
+    </summary>
+    
+      <category term="AE" scheme="http://haijm.github.io/categories/AE/"/>
+    
+    
+      <category term="AE" scheme="http://haijm.github.io/tags/AE/"/>
     
   </entry>
   
@@ -1319,506 +1617,6 @@
     
     
       <category term="HTML-CSS" scheme="http://haijm.github.io/tags/HTML-CSS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HTML的认识</title>
-    <link href="http://haijm.github.io/2016/03/02/HTML/"/>
-    <id>http://haijm.github.io/2016/03/02/HTML/</id>
-    <published>2016-03-02T03:36:23.000Z</published>
-    <updated>2017-12-22T14:11:55.360Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="一"><a href="#一" class="headerlink" title="一"></a>一</h1><h2 id="（一）什么是HTML"><a href="#（一）什么是HTML" class="headerlink" title="（一）什么是HTML"></a>（一）什么是HTML</h2><p>超文本标记语言，最基础的网络语言</p>
-<h2 id="（二）常用名词"><a href="#（二）常用名词" class="headerlink" title="（二）常用名词"></a>（二）常用名词</h2><ol>
-<li>WWW万维网  </li>
-<li>URL 统一资源定位器，路径、网址  </li>
-<li>http 超文本传输协议  </li>
-<li>W3C万维网联盟是一个官方的组织，制定一系列规范  <a id="more"></a>
-<h2 id="（三）五大浏览器"><a href="#（三）五大浏览器" class="headerlink" title="（三）五大浏览器"></a>（三）五大浏览器</h2></li>
-<li>IE</li>
-<li>火狐</li>
-<li>谷歌 </li>
-<li>苹果</li>
-<li>欧鹏<h2 id="（四）DW设置"><a href="#（四）DW设置" class="headerlink" title="（四）DW设置"></a>（四）DW设置</h2></li>
-<li>设置代码提示：编辑——首选参数——代码提示——键入开始标记&gt;</li>
-<li>字号：编辑——首选参数——字体——建议16号</li>
-<li>行数，自动换行：查看——代码视图选项——勾选行数，自动换行<h2 id="（五）显示后缀名"><a href="#（五）显示后缀名" class="headerlink" title="（五）显示后缀名"></a>（五）显示后缀名</h2>打开任意文件夹——组织——文件夹和搜索选项——查看——不勾选隐藏已知文件类型扩展名<br>win10打开任意文件夹——查看——勾选文件扩展名<br>##（六）html的语法</li>
-<li>单标记&lt;标签名/&gt;<br>eg:   <code>&lt;br/&gt;</code></li>
-<li>双标记&lt;开始标记&gt;&lt;/结束标记&gt;<br>eg:<code>&lt;h1&gt;&lt;/h1&gt;</code><h2 id="七-html的常用标记"><a href="#七-html的常用标记" class="headerlink" title="(七)html的常用标记"></a>(七)html的常用标记</h2></li>
-<li><code>&lt;h1&gt;&lt;/h1&gt;</code>:h1-h6. 标题标记;   注意：标题标记不是用来控制文字大小的，控制标题的层级关系，一个页面中h1尽量只出现一次。</li>
-<li><code>&lt;br/&gt;</code> 换行</li>
-<li><code>&lt;hr/&gt;</code>水平线</li>
-<li><code>&lt;p&gt;&lt;/p&gt;</code>段落标记</li>
-<li><code>&lt;b&gt;&lt;/b&gt;</code>加粗</li>
-<li><code>&lt;i&gt;&lt;/i&gt;</code>倾斜</li>
-<li><code>&lt;u&gt;&lt;/u&gt;</code>下划线</li>
-<li>`<del></del>删除线<h2 id="（八）Web标准的构成"><a href="#（八）Web标准的构成" class="headerlink" title="（八）Web标准的构成"></a>（八）Web标准的构成</h2>结构(html)+表现(css)+行为(javascript)<h2 id="（九）html的基本机构（骨架）"><a href="#（九）html的基本机构（骨架）" class="headerlink" title="（九）html的基本机构（骨架）"></a>（九）html的基本机构（骨架）</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&lt;html&gt;</div><div class="line">    &lt;head&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;</div><div class="line">    &lt;body&gt;&lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="十-DW默认代码"><a href="#十-DW默认代码" class="headerlink" title="(十)DW默认代码"></a>(十)DW默认代码</h2><ol>
-<li>Doctype文本声明，让不同的浏览器按照一个规范显示页面。</li>
-<li>Meta信息头标记  设置编码(字符集)<h2 id="（十一）插入图片"><a href="#（十一）插入图片" class="headerlink" title="（十一）插入图片"></a>（十一）插入图片</h2><code>&lt;img src=&quot;图片的路径&quot;/&gt;</code><br>语法：&lt;标签名 属性名=”属性值”/&gt;<br>注意：所有的标签符号必须在英文输入状态下书写！<br>IMG里的属性   </li>
-<li>src图片的来源</li>
-<li>Alt替换文本（图片不能正常显示时） </li>
-<li>Title图片标题</li>
-<li>Width 宽度</li>
-<li>height 高度</li>
-<li>border 边框<h2 id="（十二）路径"><a href="#（十二）路径" class="headerlink" title="（十二）路径"></a>（十二）路径</h2></li>
-<li>绝对：带有盘符或完整的网络地址<br>eg:F:/day01/1.jpg.<br><a href="http://www.baidu.com/jpg" target="_blank" rel="external">http://www.baidu.com/jpg</a></li>
-<li>相对：不带有盘符，不能跨盘符<br>eg:../day01/1.jpg   </li>
-</ol>
-<ul>
-<li>种类：<ol>
-<li>同级查找：直接写被查找文件   </li>
-<li>下级查找：写被找文件路径   </li>
-<li>上级查找：返回上一级——写被找文件路径  <h2 id="（十三）html中的注释"><a href="#（十三）html中的注释" class="headerlink" title="（十三）html中的注释"></a>（十三）html中的注释</h2><code>&lt;!--注释--&gt;</code><h2 id="（十四）链接"><a href="#（十四）链接" class="headerlink" title="（十四）链接"></a>（十四）链接</h2><code>&lt;a href=&quot;链接的路径&quot;&gt;&lt;/a&gt;</code>    </li>
-</ol>
-</li>
-<li>种类：<ol>
-<li>网络链接   </li>
-<li>本地链接   </li>
-<li>图片链接   </li>
-<li>空链接：href=”#”<br>注意：实际工作中绝对不会使用带有盘符这种的绝对路径</li>
-</ol>
-</li>
-<li>a里的属性<ol>
-<li>href：链接的路径或网址</li>
-<li>“target”_blank 新窗口打开<h1 id="二"><a href="#二" class="headerlink" title="二"></a>二</h1><h2 id="（一）列表"><a href="#（一）列表" class="headerlink" title="（一）列表"></a>（一）列表</h2></li>
-</ol>
-</li>
-</ul>
-<ol>
-<li><p>无序</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;ul&gt;……声明无序列表</div><div class="line">    &lt;li&gt;&lt;/li&gt;……列表项（有多个）</div><div class="line">   &lt;/ul&gt;</div></pre></td></tr></table></figure>
-</li>
-<li><p>有序列表</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;ol&gt;</div><div class="line">    &lt;li&gt;&lt;/li&gt;</div><div class="line">&lt;/ol&gt;</div></pre></td></tr></table></figure>
-</li>
-<li><p>定义列表</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&lt;dl&gt;……声明定义列表</div><div class="line">    &lt;dt&gt;&lt;/dt&gt;</div><div class="line">    &lt;dd&gt;&lt;/dd&gt;……对项目的描述（dd可以有多个）</div><div class="line">&lt;/dl&gt;</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="三-表格"><a href="#三-表格" class="headerlink" title="(三)表格"></a>(三)表格</h2><ul>
-<li><p>表格基本结构</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;table&gt;……声明表格</div><div class="line">    &lt;tr&gt;……行</div><div class="line">    &lt;td&gt;&lt;/td&gt;……列（单元格）</div><div class="line">    &lt;/tr&gt;</div><div class="line">&lt;/table&gt;</div></pre></td></tr></table></figure>
-</li>
-<li><p>table的属性</p>
-<ol>
-<li>border 边框</li>
-<li>width 宽度</li>
-<li>height 高度</li>
-<li>align 水平对齐方式 </li>
-<li>bgcolor 背景颜色</li>
-<li>background 背景图片</li>
-<li>cellspacing 单元格与单元格之间的距离</li>
-<li>cellpadding 内容与单元格之间的距离</li>
-</ol>
-</li>
-<li>tr里的属性<ol>
-<li>height 高</li>
-<li>align 水平对齐方式</li>
-<li>valign 垂直对齐方式</li>
-<li>bgcolor 背景颜色   </li>
-<li>background 背景图片  </li>
-</ol>
-</li>
-<li>td里的属性<ol>
-<li>width</li>
-<li>height</li>
-<li>aligh</li>
-<li>valigh</li>
-<li>bgcolor</li>
-<li>background</li>
-<li>colspan 跨列</li>
-<li>rowspan 跨行<h2 id="（四）表单"><a href="#（四）表单" class="headerlink" title="（四）表单"></a>（四）表单</h2>手机用户信息的   </li>
-</ol>
-</li>
-</ul>
-<ol>
-<li>声明表单<br><code>&lt;form action=&quot;表单提交的地址&quot; method=&quot;表单提交的方式&quot;&gt;&lt;/form&gt;</code>   </li>
-<li>表单元素<br>1）文本框 <code>&lt;input type=&quot;text&quot;/&gt;</code><br>2）密码框<code>&lt;input type=&quot;password&quot;/&gt;</code></li>
-<li>单选按钮<code>&lt;input type=&quot;radio&quot; name=&quot;&quot; value=&quot;&quot;/&gt;</code></li>
-<li>多选按钮<code>&lt;input type=&quot;checkbox&quot; name=&quot;&quot; value=&quot;&quot;/&gt;</code></li>
-<li>上传文件 <code>&lt;input type=&quot;file&quot;/&gt;</code><br>默认被选中属性 checked=”checked” </li>
-<li>下拉菜单<br>`<select name=""><pre><code>&lt;option value=&quot;&quot;&gt;&lt;/option&gt;     
-</code></pre> </select>`</li>
-<li>多行文本&lt;文本域&gt;<br><code>&lt;textarea&gt;&lt;/textarea&gt;</code></li>
-<li>按钮<br>1）提交按钮 <code>&lt;input type=&quot;submit&quot; value=&quot;&quot;/&gt;</code><br>2）重置按钮 <code>&lt;input type=&quot;reset&quot; value=&quot;&quot;/&gt;</code><br>3）普通按钮  <code>&lt;input type=&quot;button&quot; value=&quot;&quot;/&gt;</code><br>4）图片按钮 <code>&lt;input type=&quot;img&quot; src=&quot;&quot;/&gt;</code><br>value属性是用来修改按钮上的文字的   <h2 id="（五）特殊字符"><a href="#（五）特殊字符" class="headerlink" title="（五）特殊字符"></a>（五）特殊字符</h2></li>
-<li>空格: &nbsp;</li>
-<li>大于号: &gt;</li>
-<li>小于号: &lt; </li>
-<li>版权：&copy;  </li>
-<li>注册： &reg;<h1 id="三、CSS"><a href="#三、CSS" class="headerlink" title="三、CSS"></a>三、CSS</h1><h2 id="（一）什么是CSS"><a href="#（一）什么是CSS" class="headerlink" title="（一）什么是CSS"></a>（一）什么是CSS</h2>层叠样式表<h2 id="（二）CSS的语法"><a href="#（二）CSS的语法" class="headerlink" title="（二）CSS的语法"></a>（二）CSS的语法</h2>选择器{属性名：属性值；}<br><code>h1{color:#000000;}</code><h2 id="三-控制文字的三属性"><a href="#三-控制文字的三属性" class="headerlink" title="(三)控制文字的三属性"></a>(三)控制文字的三属性</h2></li>
-<li>color 文字颜色</li>
-<li>font-size 字号</li>
-<li>font-family 字体<h2 id="（四）-实体化盒子三属性"><a href="#（四）-实体化盒子三属性" class="headerlink" title="（四） 实体化盒子三属性"></a>（四） 实体化盒子三属性</h2></li>
-<li>width</li>
-<li>height</li>
-<li>background 背景颜色<h2 id="（五）显示模式（元素类型）"><a href="#（五）显示模式（元素类型）" class="headerlink" title="（五）显示模式（元素类型）"></a>（五）显示模式（元素类型）</h2></li>
-<li>行内元素：不能控制宽高，不独占一行</li>
-<li>块元素：能控制宽高，独占一行</li>
-<li>行内块 能控制宽高，不独占一行<h2 id="（六）显示模式转换（元素类型的转换）"><a href="#（六）显示模式转换（元素类型的转换）" class="headerlink" title="（六）显示模式转换（元素类型的转换）"></a>（六）显示模式转换（元素类型的转换）</h2></li>
-<li>行内转块：display:block;</li>
-<li>块转行内：display:inline;</li>
-<li>转行内块：display:inlie-block;<h2 id="七-div和span标记"><a href="#七-div和span标记" class="headerlink" title="(七)div和span标记"></a>(七)div和span标记</h2></li>
-<li>div：较大容器，能装任何元素</li>
-<li>span：较小容器，能装文本和行内元素<h2 id="（八）基础选择器"><a href="#（八）基础选择器" class="headerlink" title="（八）基础选择器"></a>（八）基础选择器</h2></li>
-<li>标签选择器：标签名{}，div{}, h1{}</li>
-<li>ID选择器： #id名{}， #box{}, #aaa{},</li>
-<li>类选择器：.类名{}。 .box{}, .bbb{}.<h2 id="九-命名规则"><a href="#九-命名规则" class="headerlink" title="(九) 命名规则"></a>(九) 命名规则</h2></li>
-<li>不能以数字开头</li>
-<li>尽量不占用关键字</li>
-<li>尽量不是用中文</li>
-<li>不用特殊字符包括空格，除了_ -<h2 id="十-CSS的引入方式（CSS代码写哪）"><a href="#十-CSS的引入方式（CSS代码写哪）" class="headerlink" title="(十) CSS的引入方式（CSS代码写哪）"></a>(十) CSS的引入方式（CSS代码写哪）</h2></li>
-<li>行内式：<code>&lt;div style=&quot;css代码&quot;&gt;&lt;/div&gt;</code></li>
-<li>内嵌式：<code>&lt;style type=&quot;text/css&quot;&gt;css代码&lt;/style&gt;</code></li>
-<li>链接式：<code>&lt;link href=&quot;css文件路径&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;</code><h2 id="十一-CSS选择器的基础权限"><a href="#十一-CSS选择器的基础权限" class="headerlink" title="(十一)CSS选择器的基础权限"></a>(十一)CSS选择器的基础权限</h2>行内式&gt;id选择器&gt;类选择器&gt;标签选择器<h2 id="（十二）常用属性总结"><a href="#（十二）常用属性总结" class="headerlink" title="（十二）常用属性总结"></a>（十二）常用属性总结</h2></li>
-<li>color 文字颜色</li>
-<li>font-size 字号</li>
-<li>font-fanmily 字体</li>
-<li>font-weight：bold/normal;文字加粗或正常</li>
-<li>font-style：italic/normal;文字斜体或正常</li>
-<li>width 宽</li>
-<li>height 高</li>
-<li>background 背景颜色</li>
-<li>text-align：center/left/rihgt 文本或行内元素的水平对齐方式</li>
-<li>text-indent  文本缩进</li>
-<li>line-height 行高<h2 id="（十三）CSS特性"><a href="#（十三）CSS特性" class="headerlink" title="（十三）CSS特性"></a>（十三）CSS特性</h2></li>
-<li>层叠性：后写的样式会覆盖先写的</li>
-<li>继承性：子集会继承父级的样式<br>注意：不是所有属性都有继承性<br>注意：font-size有继承性，但是h标记不起作用，单独控制。</li>
-</ol>
-]]></content>
-    
-    <summary type="html">
-    
-      学习笔记
-    
-    </summary>
-    
-      <category term="HTML-CSS 学习" scheme="http://haijm.github.io/categories/HTML-CSS-%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="HTML-CSS" scheme="http://haijm.github.io/tags/HTML-CSS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>网页设计</title>
-    <link href="http://haijm.github.io/2016/02/28/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/"/>
-    <id>http://haijm.github.io/2016/02/28/网页设计/</id>
-    <published>2016-02-28T12:29:58.000Z</published>
-    <updated>2017-12-20T06:23:08.862Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="WEB网页设计"><a href="#WEB网页设计" class="headerlink" title="WEB网页设计"></a>WEB网页设计</h1><p>##（一）界面设计的误区以及UI的定义</p>
-<ul>
-<li>产品的本质<br>了解  信任  价值  转行   <h2 id="（二）网站分类-http-news-mbailb-com-strong-88506"><a href="#（二）网站分类-http-news-mbailb-com-strong-88506" class="headerlink" title="（二）网站分类 http://news.mbailb.com/strong/88506."></a>（二）网站分类 <a href="http://news.mbailb.com/strong/88506" target="_blank" rel="external">http://news.mbailb.com/strong/88506</a>.</h2></li>
-<li>特性<br>政府类：纪检委<br>大型门户类：网易、搜狐、新浪、QQ、头条<br>娱乐类：优酷、土豆、爱奇艺、芒果。<br>企业性质网站：海尔、格力<br>功能类：百度<br>分类信息：58，赶集、智联<a id="more"></a>   
-B2B:企业对企业的交易   eg:阿里巴巴、慧聪网<br>B2C：企业对个人   eg:天猫、京东<br>C2C：个人对个人<br>P2P：互联网金融 eg:网贷之家<br>O2O：线上线下   eg：OFO共享单车   外卖<br>从实现方式：HTML,HTML5,Flash（不支持移动端，IOS）<br>##（三）互联网公司组成人员配置</li>
-<li>外包    快准狠<br>人员配置：    商务人员、设计师、程序员、录入员、客户维护<br><img src="/image/网页设计/一/1.gif" alt=""><br>设计确认书    <ul>
-<li>自有平台   以结果为导向<br>人员配置：    用研、产品、交互、视觉与界面、前端、后台、测试、运营推广</li>
-</ul>
-</li>
-<li>交互设计5要素<br>人，目的  行为 环境 媒介<br>人：年龄段、性别、文化、经济基础<br>行为：新用户   中等用户   老用户<br>目的：解决用户需求<br>环境：特定环境PC/移动端<br>媒介：</li>
-<li>交互设计定律    认知    操作    视觉（简单、易懂）   <h2 id="（四）HTML网站基本规范"><a href="#（四）HTML网站基本规范" class="headerlink" title="（四）HTML网站基本规范"></a>（四）HTML网站基本规范</h2></li>
-<li>必备元素和可选元素<br>必备元素：<br>网站标志/标题（logo）<br>网站导航（menu）<br>网站主场景动画（banner）轮播<br>内容区（新闻，企业简介，产品展示，服务项目……）<br>版权信息（版权所有，联系方式）许可，<br>许可（经营性的网站需要经营许可证）备案   </li>
-<li>可选元素：搜索<br>电话<br>在线客服<br>浏览区域放左边，功能区放右边<br>列表区放在左边，内容区域放右边   </li>
-<li>网页元素设置的规律<br>常用的方式：色彩，明暗，大小，疏密，远近，位置<br>标注：在移动端设计中有必要，网页设计只标注主要页面标注   </li>
-<li>连接或按钮的三个状态<br>link：正常状态下<br>hover：鼠标滑过状态（鼠标经过、鼠标悬停、高亮）<br>visited：点击状态    </li>
-<li>按钮的基本形态<br>按钮本质特点：可以点击<br>按钮分格：平面、体积、光感、凹面   </li>
-<li>网页中常用字体<br>宋体、微软雅黑<br>最小字体：12px，偶数递增、递减、消除锯齿（PS中100%显示时，文字大小和网页最终文字大小一致，选择LCD）<br><img src="/image/网页设计/一/2.png" alt=""><br>分辨率：72像素/英寸<br>图像大小：Ctrl+alt+i<br>100%显示快捷键：Ctrl+1   ctrl+alt+0<br>按空格键右击<br>按钮圆角半径常见：3px-10px，5px最常见   </li>
-<li>按钮高光制作方法：   </li>
-</ul>
-<ol>
-<li>选区减图像   </li>
-<li>形状布尔运算   </li>
-<li>内阴影   </li>
-<li>渐变工具绘制白色光球，矩形选区减去一半，向下移动一个像素后，反选选区Ctrl+shift+i，橡皮擦工具：E 选项栏不透明度50%，擦出后叠加。<br><img src="/image/网页设计/一/3.png" alt="">    </li>
-</ol>
-<ul>
-<li>分辨率的问题<br>版心：店商平台版心常见数值：1170、1190、1200px。<br>企业站版心：950,960,1000<br>首屏高度：1366×768   600-650   <pre><code>1920×1080   900    
-1440×900    750左右   
-</code></pre>-布局设计与效果打造<br>网站布局：横平竖直，尽量不要出现弧形布局或异行<br>画布设置：1920×3000<br>版心：1200px<br>引导栏：35-40px，1920px宽（通栏）<br>logo所占高度：100-180   </li>
-<li>常用颜色设置<br>引导栏：#f1f1f1  #f0f0f0  #fafafa<br>文字颜色：标题：#333333<br>正文：#666666<br>辅助说明：#999999<br>尽量避免纯黑色文字 #000000<br>装饰线条常用颜色：#aaa   #bbb  #ccc……</li>
-</ul>
-<h1 id="二、网页设计"><a href="#二、网页设计" class="headerlink" title="二、网页设计"></a>二、网页设计</h1><h2 id="一、导航文字常见大小：4-24px"><a href="#一、导航文字常见大小：4-24px" class="headerlink" title="一、导航文字常见大小：4-24px"></a>一、导航文字常见大小：4-24px</h2><h2 id="二、运行-calc计算器-（窗口键-R）"><a href="#二、运行-calc计算器-（窗口键-R）" class="headerlink" title="二、运行  calc计算器 （窗口键+R）"></a>二、运行  calc计算器 （窗口键+R）</h2><h2 id="三图标网站"><a href="#三图标网站" class="headerlink" title="三图标网站"></a>三图标网站</h2><p> Easyicon.net<br> iconpng.com   </p>
-<h2 id="扁平化设计"><a href="#扁平化设计" class="headerlink" title="扁平化设计"></a>扁平化设计</h2><p> 去掉设计中的光影质感，使信息传递更准确无干扰。<br> 建立剪贴蒙版：Ctrl+alt+G   </p>
-<p> ##(五)视频播放器</p>
-<ol>
-<li>一般公司不需要设计播放器   </li>
-<li>把视频上传到其他视频网站，代码写链接   </li>
-<li><p>如果公司需要设计播放器，颜色按公司VI要求处理  </p>
-<h1 id="三、WEB内页打造"><a href="#三、WEB内页打造" class="headerlink" title="三、WEB内页打造"></a>三、WEB内页打造</h1><p>##（一）图层选择（移动工具V）<br>选项栏设置为图层<br><img src="/image/网页设计/一/4.png" alt="">  </p>
-</li>
-<li>Ctrl+shift：单击目标图层加选<br>已选对象，按Ctrl+shift单击图像，图层减选   <ol>
-<li>按住Ctrl在空白处拖拽鼠标,与矩形区域有关的图层被选中。<br>切换画面：alt+tab  <h2 id="（二）看效果"><a href="#（二）看效果" class="headerlink" title="（二）看效果"></a>（二）看效果</h2>右键打开方式，选择记事本<br>安乐居.jpg      高      宽=1200      保存后，双击打开.HTML文件<br><img src="/image/网页设计/一/5.png" alt=""><br>##（三）面包屑导航<br>作用：定位用户所在页面。可以快速返回到其他页面。<br>应用位置：各级子页面   <h2 id="（四）浮层（弹窗）"><a href="#（四）浮层（弹窗）" class="headerlink" title="（四）浮层（弹窗）"></a>（四）浮层（弹窗）</h2>作用：使网站页面紧凑   <h2 id="（五）分页导航"><a href="#（五）分页导航" class="headerlink" title="（五）分页导航"></a>（五）分页导航</h2>作用：方便用户选择页面，显示页面数量<h2 id="（六）瀑布流"><a href="#（六）瀑布流" class="headerlink" title="（六）瀑布流"></a>（六）瀑布流</h2>瀑布流：适合无目的的浏览，简单方便。<br>Ctrl+ALT+T复制后再变换。</li>
-</ol>
-</li>
-</ol>
-<h1 id="四、内页设计"><a href="#四、内页设计" class="headerlink" title="四、内页设计"></a>四、内页设计</h1><h2 id="（一）网站异常流"><a href="#（一）网站异常流" class="headerlink" title="（一）网站异常流"></a>（一）网站异常流</h2><ol>
-<li>登陆异常   </li>
-<li>图片丢失</li>
-<li>加载缓慢</li>
-<li>404<br>下载网页图片方法：<br>1.UC浏览器资源猎手（可筛选图片大小）<br>2.网页空白处右键-存储-页面-全部<br>滑动门<h2 id="（二）帧动画"><a href="#（二）帧动画" class="headerlink" title="（二）帧动画"></a>（二）帧动画</h2></li>
-<li>窗口-时间轴  </li>
-<li>复制HOT图层，向上移动3px   </li>
-<li>隐藏HOT图层</li>
-<li>面板中-时间-0.2s  循环-永远<br><img src="/image/网页设计/一/6.png" alt=""> </li>
-<li>复制所选帧<br><img src="/image/网页设计/一/7.png" alt=""> </li>
-<li>底层对像隐藏，顶层对象显示（HOT）<br>点击播放，查看效果  </li>
-<li>切片工具（C）在HOT附近绘制矩形区域，三键+S存储，选择GIF格式<br><img src="/image/网页设计/一/8.png" alt=""> </li>
-<li>选择所有用户切片<br><img src="/image/网页设计/一/9.png" alt=""><br>切片选择工具（C）-点击切片-DELETE可删除切片<h2 id="（三）HTML5"><a href="#（三）HTML5" class="headerlink" title="（三）HTML5"></a>（三）HTML5</h2></li>
-</ol>
-<ul>
-<li>什么是HTML5<br>一种代码技术，与HTML不同、</li>
-<li>人类忍受网站打开速度的时间<br>15秒，3-5秒打开，用户体验好  </li>
-<li>网站优缺点对比<br>HTML网站：门户类网站、企业站、大多数网站都是HTML网站<br>优点：信息量大，编辑方便<br>缺点：不够美观，无动效<br>HTML5网站：针对性强、时效性强<br>优点：画面美观，有动效<br>缺点：信息量偏小<br>FLASH网站：<br>优点：动效流畅，画面美观（同步加载）<br>缺点：不支持移动端，信息量小，加载缓慢<br>网站新建画布尺寸， 响应式网站   </li>
-<li>根据自己显示器，设置画布<br>1366×768→1366×（600-650）<br>1920×1080→1920×（900-950）</li>
-<li>loading页的作用（加载页）</li>
-<li>loading页心理学    节奏变化为最好<br>##（四）项目分析和参考案例（素材网 500px 千图 ）</li>
-</ul>
-<h1 id="五、HTML5首页打造"><a href="#五、HTML5首页打造" class="headerlink" title="五、HTML5首页打造"></a>五、HTML5首页打造</h1><p>##（一）径向模糊注意事项</p>
-<ol>
-<li>普通图层径向模糊时，要载入本图层选区   </li>
-<li>智能对象径向模糊以画布中心为旋转轴中心<br>   Ctrl+ALT+G创建剪贴蒙版   <h2 id="（二）加载页（LOADING页）"><a href="#（二）加载页（LOADING页）" class="headerlink" title="（二）加载页（LOADING页）"></a>（二）加载页（LOADING页）</h2>LOGO或进度条<br>500px下载图片：</li>
-<li>右键：检查（审查元素）Ctrl+shift+I  </li>
-<li>点击箭头后，点击图片位置<br><img src="/image/网页设计/一/10.png" alt="">   </li>
-<li>IMG开头一段代码，在链接所在位置右键，新链接中打开<br><img src="/image/网页设计/一/11.png" alt="">   </li>
-<li>右键另存，<br>通过剪切的图层：Ctrl+shift+J<br>选区内图像与原图层分离，生成新图层 </li>
-</ol>
-<p>#六、H5营销微场景</p>
-<p>##（一）查看H5的集合网站<br>爱果果   哇呸网 </p>
-<p>##（二）什么是H5<br>H5指依赖HTML5技术的移动端广告形式。（微信的营销页）<br>HTML5是一种技术<br>H5主要解决什么商业问题<br>1.扩大产品知名度<br>2.提高销量<br>3.改善产品定位，扭转客户对产品的认识<br>4.寻找潜在客户<br>加大传播度   </p>
-<h2 id="（三）H5分类"><a href="#（三）H5分类" class="headerlink" title="（三）H5分类"></a>（三）H5分类</h2><ol>
-<li>活动运营型    </li>
-<li>品牌宣传型</li>
-<li>产品介绍型   </li>
-<li>游戏型<br>H5不为人知的小秘密<br>1.加载<br>3-5秒，加载完成效果较好<br>2.高峰期   中午，晚上八点以后<br>3.时效性<br>7-20天<br>4.操作习惯<br>手指滑动<br>停留时长   转换率最高<br>第一页，最后一页   <h2 id="（四）"><a href="#（四）" class="headerlink" title="（四）"></a>（四）</h2>滑动切换，常规滑动切换/整屏切换，左右上下<br>摇一摇   微信摇一摇  歌曲 电视  人<br>音频、视频、提示用户在WIFI下浏览    <h2 id="（五）H5与APP的区别"><a href="#（五）H5与APP的区别" class="headerlink" title="（五）H5与APP的区别"></a>（五）H5与APP的区别</h2>开发周期<br>H5页面开发周期短，成本低<br>更新迭代<br>H5页面技术更新后，页面随之更新<br>APP需要下载升级包<br>前期准备工作（有时调研准备工作可能需要3-5个工作日）<br>##（六）目前市面实现简单H5的一些工具（不用代码，无脑实现）<br>IH5 易企秀   <h2 id="（七）H5如何做到有共鸣"><a href="#（七）H5如何做到有共鸣" class="headerlink" title="（七）H5如何做到有共鸣"></a>（七）H5如何做到有共鸣</h2>选择时尚、娱乐话题  <h2 id="（八）H5设计规范"><a href="#（八）H5设计规范" class="headerlink" title="（八）H5设计规范"></a>（八）H5设计规范</h2>尺寸<br>IPONE5   640×1136 推荐<br>状态栏   40<br>导航栏   88<br>最终页面大小：640×1008<br>IPONE6    750×1334<br>字体<br>宋体 、微软雅黑，<br>最小字体18px<br>最小触控区域   44×44px</li>
-</ol>
-]]></content>
-    
-    <summary type="html">
-    
-      学习笔记
-    
-    </summary>
-    
-      <category term="网页设计基础" scheme="http://haijm.github.io/categories/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80/"/>
-    
-    
-      <category term="web网页设计" scheme="http://haijm.github.io/tags/web%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>平面巩固</title>
-    <link href="http://haijm.github.io/2016/02/18/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1/%E5%B9%B3%E9%9D%A2%E5%B7%A9%E5%9B%BA/"/>
-    <id>http://haijm.github.io/2016/02/18/平面设计/平面巩固/</id>
-    <published>2016-02-18T11:51:59.000Z</published>
-    <updated>2017-12-20T06:21:44.122Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="平面巩固"><a href="#平面巩固" class="headerlink" title="平面巩固"></a>平面巩固</h1><h2 id="问题解决方案"><a href="#问题解决方案" class="headerlink" title="问题解决方案"></a>问题解决方案</h2><ol>
-<li>骑马钉画册知识点<br><img src="/image/AI笔记图片/第七天/1.jpg" alt=""><br>骑马钉画册设计时页码必须是4的倍数，如果不是4的倍数，必须增加或者减少页面。<br><img src="/image/AI笔记图片/第七天/2.png" alt=""> <a id="more"></a> 
-<img src="/image/AI笔记图片/第七天/3.png" alt=""><br>一般情况页码设计为4的倍数，否则无法装订成册。<br>骑马钉不宜做大，厚的画册（小于28p）太厚的画册可考虑无线胶装或锁线胶装或蝴蝶装，<br><img src="/image/AI笔记图片/第七天/4.png" alt="">   </li>
-</ol>
-<ul>
-<li>无线胶装/锁线胶装<br>无线胶装和锁线胶装在设计封面时需要将书脊的厚度留出来<br>封皮设计尺寸=封面大小+书脊大小+封底大小<br>书脊厚度计算公式：<br>P数÷2×克重÷1000=书脊厚度（精装书加纸板厚度）<br>铜版纸克数（单位g/m2)<br>常见有：80、105、128、157、200、250、300、350<br>2.手提袋设计与制作<br>按常见材料分类</li>
-<li>白卡纸手提袋</li>
-<li>铜板纸手提袋</li>
-<li>黑卡纸手提袋</li>
-<li>牛皮纸手提袋</li>
-<li>无纺布手提袋</li>
-<li>帆布手提袋</li>
-<li>塑料手提袋<br><strong><em> 白卡纸和铜板纸建议覆膜，否则韧性差容易坏。覆膜建议哑膜<br><img src="/image/AI笔记图片/第七天/5.png" alt=""><br><img src="/image/AI笔记图片/第七天/6.png" alt=""><br><img src="/image/AI笔记图片/第七天/7.png" alt=""><br> <img src="/image/AI笔记图片/第七天/8png" alt="">
-</em></strong>手提袋设计时需要注意的事项<br>1 文档建立必须是CMYK色彩模式<br>2 文档如果颜色平铺四边需要加3mm出血，白色不需要加出血<br>3 分辨率为300px<br>4 使用软件最好为Illustrator或coreldraw<br>5 使用文字黑色时要使用单色黑（C0M0Y0K100）<br>6 置入的图片必须在PS里转为CMYK颜色模式<br>7 无纺布手提袋印刷一般要用丝网印刷，需要出专色黑版<br>8 设计时文字和图片内容要避开提绳的位置<br>9 文件可以单个按面来做不需要画模切<br>10 铜版纸手提袋需要覆膜，否则容易提坏<br>11 折痕的区域不要有文字或图片内容    </li>
-<li>问题2 ps做的易拉宝 需要去ai里转曲 制作印刷文件吗<br>车贴、吊旗、展架、易拉宝、灯箱片、菜谱、写真相册等室内写真喷绘，是不需要转曲的，给输出公司JPG或者TIFF格式都可以，<br>如果文件是用AI软件来制作的，那么可以直接导出为JPG格式即可。包括户外的广告牌等都是需要提供TIFF或JPG图即可。</li>
-<li>问题4 什么类型的印刷图片可以是RGB格式，什么类型必须cmyk，还有文字的黑色什么时候四色黑什么时候单色黑<br>RGB:室内写真，网页设计，电商凡是在平面介质上显示的都用<br>RGB色彩模式。<br>CMYK：印刷方面基本都是CMYK色彩模式，户外喷绘也是CMYK色彩模式。<br>文字的四色黑和单色黑问题：四色黑（一般室内和室外的写真喷绘全用四色黑）单色黑（一般印刷文件的正文文字，还有后期工艺的版模切、UV、烫印都用单色黑）   </li>
-<li>问题5 不干胶<br>设计时需要明确尺寸大小，需要让客户提供，如果客户不明确们可以尝试提供几个尺寸让客户来选择，普通纸质的不干胶按照一般方法设计即可，四周要留有空隙，空隙大小根据实际情况来定，普通的矩形或者正方形只要尺寸对，直接给印刷厂即可，如果不干胶是异形的，需要设计师把模切板画出来。彩色的不干胶设计时没有特别需要的地方，按照设计画册的方式即可，如果不干胶是黑色必须设计是无论文字还有图形全部用单色黑（可以在四色通道去检查，看是否只有黑色通道有颜色）透明不干胶需要把文件做完之后做成透底图    </li>
-<li>问题六：三折页或者四折页每个面大小的问题<br>无论是三折页还是四折页（针对包心折或开门折），内页都要比封面和封底小，要不然合不上，所以在设计的时候如果封面是有颜色到边缘的，一定要超过辅助线1-2MM以内，否则折出来的折页会出现漏白边现象。（风琴折除外）   </li>
-<li>问题七：印刷品覆膜问题<br>  印刷品覆膜（铜版纸才需要覆膜（亮膜和哑膜））这个并不是必须覆膜，假如客户预算有限可以不覆膜，覆膜可以防止画面蹭脏<br>  可以增加画面的质感，提高纸的柔韧度，使用寿命长。</li>
-<li>关于展会背景墙异形背景墙问题解决方案<br><img src="/image/AI笔记图片/第七天/9.png" alt=""><br>设计完文件之后选择抓手工具， 在画面中右击选择打印尺寸，用抓手平移画布检查画面（每次做室内写真的设计画面完毕之后都要放大进行检查）<br>像异形的背景墙，一定要按照原大小来设计，分辨率72，制作时要按照最高边和最宽变来设计，加入上面有电视机，可以去现场或者要求工作人员去现场吧电视机的位置两出来，然后在设计文件用参考线吧电视机进行定位，定位后最好填充一块黑色。设计时候要注意重要内容避开造型    <ul>
-<li>关于工作中设计中表格的问题<br>1 如果设计中，是室内写真（易拉宝，展架、展板、吊旗，菜谱、灯箱片）网页中的一些表格，一般客户会提供PPT,WORD，EXCEL表格，基本上选择直接粘贴即可 。     </li>
-<li>方法：可以在WORD表格左上点击全选，ctrl+c,回到AI里边ctrl+v粘贴进来，粘贴进来之后需要解除编组和释放蒙版。<br>2 如果是用在印刷中，需要重新绘制表格<br>可以先绘制直线，计算出有多少行多少列，一般比如8行就要设置9条线，进行等分，外轮廓线一般都要比内部的线要粗，具体多粗要根据设计需要。绘制好的表格可以根据版式需要，调整他的宽度。<br>工作中客户的一些潜台词    </li>
-</ul>
-</li>
-<li><p>客户说：感觉文字有点小，能不能大点？<br>并不是真的要图片大，其实可想想要求突出<br>（采用强对比，背景单一，文字突出，加大）尽量画面要干净，要适当的留白（留白并不是留白色，而是要画面看起来透气）    </p>
-<ul>
-<li>客户说：其实我们没什么要求，你们专业，你们来做，主要要求大气，上档次。<br>这个时候需要设计给他们做引导，（给客户创建一个榜样，提供行业内具有标杆意义的企业）大气（最好给客户提供一些参考）目的缩小范围。      <ul>
-<li>客户说：你先做个样子我们给老总看看<br>没什么想法，但是设计是听了他们的意见，执行起来非常困难（他们会不断更改方案）<br>解决方法：可以给客户提供需求单，让客户去填写需求，可以缩小范围，根据需求，在进行资料的收集再进行设计。</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>客户说：我见某某个地方颜色非常好，我也希望我的XX设计要这种颜色。前提客户已经配了一些颜色了<br>颜色没有好看与不好看，只有搭配的合适不合适，明度和饱和度都比较高的颜色适合突出重点和点缀作用，如果大面积使用效果适得其反。   </p>
-</li>
-<li>平面方面需要注意的问题<br>印刷（单页，画册、手提袋、精装……）<br>设计完之后必须要求客户打样，打样之后让客户在样本上签字在决定印刷。<br>设计师在甲方：要求项目负责人打样（一些设计在电脑上看不出问题，只有打样才能发现问题）<br>设计师在乙方：必须打样后要求甲方负责人确认签字，签字之后可以快递，或者传真过来，收到签字传真后才可以制作。</li>
-<li>和甲方沟通最好通过邮件。  </li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      学习笔记
-    
-    </summary>
-    
-      <category term="平面设计基础" scheme="http://haijm.github.io/categories/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80/"/>
-    
-    
-      <category term="平面设计" scheme="http://haijm.github.io/tags/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>展架易拉宝折页设计</title>
-    <link href="http://haijm.github.io/2016/02/15/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1/%E5%B1%95%E6%9E%B6%E6%98%93%E6%8B%89%E5%AE%9D%E6%8A%98%E9%A1%B5%E8%AE%BE%E8%AE%A1/"/>
-    <id>http://haijm.github.io/2016/02/15/平面设计/展架易拉宝折页设计/</id>
-    <published>2016-02-15T13:06:33.000Z</published>
-    <updated>2017-12-20T06:21:25.490Z</updated>
-    
-    <content type="html"><![CDATA[<p>#展架易拉宝折页设计   </p>
-<h2 id="一-展架和易拉宝"><a href="#一-展架和易拉宝" class="headerlink" title="(一)展架和易拉宝"></a>(一)展架和易拉宝</h2><p>(室内展示使用)   </p>
-<ol>
-<li>X展架的尺寸<br>60×160(厘米)      ,80×180(厘米)    </li>
-<li>易拉宝尺寸<br>80,90(最常用)100,120,150(高度统一200厘米) <a id="more"></a>  </li>
-<li>易拉宝的输出方式<br>室内写真喷绘机<br><img src="/image/AI笔记图片/第六天/1.png" alt="">  </li>
-<li>室内写真都可以做什么.<br>展架   ,易拉宝室内展板,汽车车贴,室内灯箱,吊旗,菜谱,写真集 </li>
-<li>室内写真的材质及工艺.<br>展架和易拉宝:高光相纸(表面需要覆膜(亮膜,哑膜))<br>北方:用高光相纸比较多(无天气影响)<br>南方:用PVC<br><strong><em>高光相纸也有背胶<br><img src="/image/AI笔记图片/第六天/2.png" alt=""><br>展板：pp纸（背胶纸）必须覆膜，必须裱到KT版或者PVC板上。<br><img src="/image/AI笔记图片/第六天/3.png" alt=""><br>车贴：车贴专用背胶，需要覆膜（韧性非常好，抗撕拉，不容易留胶）<br><img src="/image/AI笔记图片/第六天/4.png" alt=""><br>室内吊旗:写真布（材料和布相似，表面有涂层）<br><img src="/image/AI笔记图片/第六天/5.png" alt=""><br>灯箱：室内灯箱片（背面覆膜）<br><img src="/image/AI笔记图片/第六天/6.png" alt=""><br>菜谱：背胶相纸，PP纸等（手工对裱）<br><img src="/image/AI笔记图片/第六天/7.png" alt="">    
-</em></strong>室内写真喷绘分辨率常用72点。<br>户外喷绘机<br>商店门楣：主柱广告   楼体广告  建筑围挡<br>材料：宝丽布、刀划布<br>分辨率要求：72点一下，30点以上（根据画面来定）   </li>
-<li>写真喷绘的要求   </li>
-</ol>
-<ul>
-<li>制作软件可以是PS，也可以是AI（一定要按实际尺寸来建文件）- 室内写真喷绘常用分辨率72，一些特殊情况可以在此基础上提高或减少分辨率要求比较高的客户，菜谱，写真相册必须300以上分辨率。  </li>
-<li>室内写真颜色模式可以是CMYK(也可以是RGB，推荐使用RGB，户外喷绘（大喷）颜色模式必须是CMYK(户外机器不识别RGB）)  </li>
-<li>室内写真、户外喷绘黑色文字要使用四色黑（颜色较饱满）（CMYK都要有色值）<br><em>*</em>Ctrl+alt+i等比例缩小<br>设计完之后需要使用抓手工具右击鼠标弹出菜单选择打印尺寸，查看最终效果。   </li>
-<li>给印刷厂文件最好JPG,或者TIFF   </li>
-<li>给客户看时最好把尺寸改小一点<br>-无论室内写真喷绘还是户外喷绘都不需要加出血  <h2 id="折页设计"><a href="#折页设计" class="headerlink" title="折页设计"></a>折页设计</h2></li>
-</ul>
-<ol>
-<li>折页的认识   </li>
-</ol>
-<ul>
-<li>风琴折：奇数页，3、5、7、9封面在最右，封底在反面最右<br>偶数页，2、4、6、8封面和封底在同一面，封面在最右，封底在最左。<br><img src="/image/AI笔记图片/第六天/8.png" alt=""> </li>
-</ul>
-<ol>
-<li>折页的输出方式及后期工艺   </li>
-</ol>
-<ul>
-<li>四色印刷（CMYK）<br>在名片上实现的工艺在这页上基本都可以实现   </li>
-<li>数码快印<br>应及时用，立等可取。  </li>
-</ul>
-<ol>
-<li>折页的纸张   </li>
-</ol>
-<ul>
-<li>铜版纸印刷（光铜，无光铜（哑粉纸））<br>（128g/157g/175g/200g/250g/300g)  </li>
-<li>折页覆膜（可覆膜可不覆）厚纸建议覆膜（增加韧性）   </li>
-<li>胶版纸印刷（胶版纸印刷会偏色）（不可覆膜）   </li>
-<li>特种纸印刷（丽芙纸，刚古纸）<br>印刷会偏色（在使用时一定要提前和客户说明）  </li>
-</ul>
-<ol>
-<li>认识纸张<br>A4: 210×297mm<br>A3: 420×297<br>大度： 16开：210×285mm   8开：420×285mm   <pre><code>4开：570×420mm   
-</code></pre>正度：16开： 185×260mm   8开：370×260mm<br>   4开：520×370mm<br><img src="/image/AI笔记图片/第六天/9.png" alt=""> </li>
-<li>设计尺寸   </li>
-</ol>
-<ul>
-<li>成品尺寸：做好之后裁好或者折好之后最终成品尺寸。  </li>
-<li>展开尺寸：把这页展开后的尺寸。   </li>
-<li>设计尺寸：展开尺寸+出血尺寸。<br>例子：<br>客户要求做一个成品尺寸为大度16开的三折页，请问展开尺寸和设计尺寸为多少？<br>展开尺寸：630×285mm   设计尺寸：636×291mm<br><em>*</em>90×210的四折页：展开尺寸：360×210mm    <pre><code>设计尺寸：366×216mm  
-</code></pre>50×180的六折页：展开尺寸：300×180mm<br>设计尺寸：306×186mm<br>Ctrl+alt+；  锁定和解除参考线<br>折页设计时需要注意的问题    </li>
-</ul>
-<ol>
-<li>折页设计时颜色模式为CMYK模式，分辨率为300px，   </li>
-<li>折页设计可以PS和AI配合使用，但是图片必须转为CMYK，RGB会偏色。   </li>
-<li>AI里也支持psd格式，jpg\tiff格式都可以。   </li>
-<li>做折页问必须是单色黑（和名片一样）  </li>
-<li>设计时上下左右要留有空隙，不要太贴边。   </li>
-</ol>
-]]></content>
-    
-    <summary type="html">
-    
-      学习笔记
-    
-    </summary>
-    
-      <category term="平面设计基础" scheme="http://haijm.github.io/categories/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80/"/>
-    
-    
-      <category term="平面设计" scheme="http://haijm.github.io/tags/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>名片设计</title>
-    <link href="http://haijm.github.io/2016/02/10/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1/%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1/"/>
-    <id>http://haijm.github.io/2016/02/10/平面设计/名片设计/</id>
-    <published>2016-02-10T13:30:41.000Z</published>
-    <updated>2017-12-24T10:20:16.380Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="名片设计"><a href="#名片设计" class="headerlink" title="名片设计"></a>名片设计</h1><h2 id="一-名片的分类"><a href="#一-名片的分类" class="headerlink" title="(一)名片的分类"></a>(一)名片的分类</h2><ul>
-<li>按材质分类</li>
-</ul>
-<ol>
-<li>纸质名片   </li>
-<li>PVC名片   </li>
-<li>金属名片<br>纸质名片(铜版纸(光铜,无光铜(哑粉)胶版纸,特种纸))<br>特种纸:刚古纸,丽芙纸    <a id="more"></a>    
-  铜版纸按克数来算:128g,157g,175g,200g,250g,300g.  </li>
-</ol>
-<ul>
-<li>按用途来分<br> 公用名片:政府机关单位所使用的名片(规范要求严格)(非盈利机构)<br> 商用名片:商业交流活动中所使用的名片(要求多样化,丰富,好多要求按照企业的VI系统来执行)<br> 个人名片:个人所用的名片样式比较丰富.  <h2 id="二-名片的纸张和输出"><a href="#二-名片的纸张和输出" class="headerlink" title="(二)名片的纸张和输出"></a>(二)名片的纸张和输出</h2></li>
-<li>纸质名片<br>特点:价格便宜,色彩还原度高(色差小)<br>128g/175g/200g/250g/300g.<br>名片常用:200g,250g,300g.  </li>
-</ul>
-<ol>
-<li>胶版纸<br>政府机关单位用得较多<br>不能用四色印刷机印刷(只能用胶印机套印)  </li>
-<li>特种纸<br>-特点:价格比较贵,具有特殊纹理和肌理<br>缺点:印刷会偏色,一般都是用胶印机来印刷.<br>牛皮纸也属于特种纸,也有白牛皮纸.<br><img src="/image/AI笔记图片/第五天/1.png" alt=""></li>
-</ol>
-<ul>
-<li>名片的输出<br>四色印刷    胶版印刷    数码印刷   </li>
-</ul>
-<ol>
-<li>四色印刷特点:需要一定的周期,大概3-4天左右.<br><img src="/image/AI笔记图片/第五天/2.png" alt="">   </li>
-<li>胶版印刷:大部分的胶版纸,特种纸用胶板机较多<br>可以实现专色印刷(专色油墨,专色金,专色银)<br>周期要比四色印刷长,4-5个工作日,如果有后期工艺会延长.<br><img src="/image/AI笔记图片/第五天/3.png" alt="">  </li>
-<li>数码快印<br><img src="/image/AI笔记图片/第五天/4.png" alt=""><br>特点:速度快,立等可取.<br>缺点:颜色不如四色和胶版印刷,对纸张有限制(仅限铜版纸和个别几种特种纸)   </li>
-</ol>
-<ul>
-<li>印刷的流程<br><img src="/image/AI笔记图片/第五天/5.png" alt=""> </li>
-<li>名片的类型和尺寸<br>横式名片(最常用)   竖式名片   圆角名片 ,折叠名片  ,异型名片.<br><img src="/image/AI笔记图片/第五天/6.png" alt=""><img src="/image/AI笔记图片/第五天/7.png" alt=""> <img src="/image/AI笔记图片/第五天/8.png" alt=""> <img src="/image/AI笔记图片/第五天/9.png" alt=""><br>横式:9<em>4.5(cm)最常用<br>竖式:5.4</em>9(cm)<br>折叠名片尺寸和样式需要客户实际要求来制定   </li>
-<li>名片包含哪些内容<br>必备内容:姓名,职称,公司名称,公司LOGO,联系信息地址,电话,传真,邮箱,邮编,QQ,微信.<br>可选内容:二维码,广告语,业务范围,照片,装饰图案等.<br>注:名片内容不宜过多.<br>特别注意:<strong>**</strong><br>设计名片时,二维码一定要扫描,确认以免连接错误.   </li>
-<li>名片常见工艺(印后工艺)<br>工艺一般是指印刷后期工艺(印后工艺)<br>烫印工艺,UV工艺,起鼓工艺,(击凸工艺),模切工艺(扪切工艺)(最常用),浮雕工艺,镂空工艺,刷彩边工艺等.<br>烫印工艺:烫金,烫黑,红,蓝,绿,紫,镭射金等,<br><img src="/image/AI笔记图片/第五天/11.png" alt=""><br><img src="/image/AI笔记图片/第五天/12.png" alt=""><br><img src="/image/AI笔记图片/第五天/13.png" alt=""><br>UV工艺(水晶)<br><img src="/image/AI笔记图片/第五天/14.png" alt=""><br>起鼓（击凸）<br><img src="/image/AI笔记图片/第五天/15.png" alt=""><br>压凹工艺<br><img src="/image/AI笔记图片/第五天/16.png" alt=""><br>浮雕工艺<br><img src="/image/AI笔记图片/第五天/17.png" alt=""><br>模切工艺（扪切工艺）适宜做异形名片<br><img src="/image/AI笔记图片/第五天/18.png" alt=""><br>镂空工艺<br><img src="/image/AI笔记图片/第五天/19.png" alt=""><br>刷彩边工艺<br><img src="/image/AI笔记图片/第五天/20.png" alt=""><br><img src="/image/AI笔记图片/第五天/21.png" alt=""> </li>
-</ul>
-<h2 id="三-VI系统"><a href="#三-VI系统" class="headerlink" title="(三)VI系统"></a>(三)VI系统</h2><p>视觉形象识别系统<br>(MI/BI/VI)<br>MI理念识别系统(企业目标,企业宗旨,企业核心价值观)<br>BI行为识别系统(员工的礼仪,增加企业凝聚力,提升企业形象)<br>VI视觉形象识别系统(基础部分,应用部分)<br>(基础部分:标志的规范,标准色的规范,标准字的规范)<br>(应用部分:办公用品,名片信封,信纸,工作证….)<br>vI手册采用活页圈装形式装订,数码快印<br><img src="/image/AI笔记图片/第五天/22.png" alt=""><br>VI编码形式基础形式基础部分以A表示,应用部分B<br>A-1-01\A-01-02    </p>
-<h2 id="四-名片设计时需要注意的事项"><a href="#四-名片设计时需要注意的事项" class="headerlink" title="(四)名片设计时需要注意的事项"></a>(四)名片设计时需要注意的事项</h2><ol>
-<li>颜色贴边的必须拉出血线位置.<br><img src="/image/AI笔记图片/第五天/23.png" alt="">       </li>
-<li>印刷时字体黑色必须要用单色黑(K:100)灰色的字要用单色灰(1-100之间)   </li>
-<li>置入到AI里的位图文件必须在PS里转换为CMYK颜色模式,有多少转多少张(重要).   </li>
-<li>名片里的二维码一定要扫一下,确认链接地址(重要)   </li>
-<li>给客户看的JPG文件要转换为RGB模式,方便客户浏览.   </li>
-<li>给客户看的JPG文件要将出血减去(在PS里改画布大小)   </li>
-<li>印刷前要先打样,打样完毕要将打样稿发给客户,签字确认(重要)    </li>
-<li>转曲后的文件务必要另存,不要将原文件覆盖.   </li>
-<li>不小心覆盖的话,不要关闭文件,撤销到未转曲状态,将文件另存,再转曲再另存.    </li>
-<li>UV版透明是不需要删除原图的,烫印,专色.<br>覆盖型的要删除原图形或文字.   </li>
-<li>无论是烫金版,烫银版,UV版,模切版(专色版)必须是单色黑(重要)   </li>
-<li>模切版必须是线稿形式(单色黑)模切版的大小决定了成品的大小.   </li>
-<li>正文文字最好不要小于5.5号,6号以上9号以下.   </li>
-<li>字体微软雅黑,黑体,中黑,宋体,中宋,姓名可以用楷体,公司名称除外.   </li>
-</ol>
-<ul>
-<li>PVC卡尺寸:8.5*5.4cm<br>PVC卡制作文件不需要做圆角,给客户的效果图需要做出圆角的效果来.<br>给客户:JPG(RGB模式)给客户效果图(JPG)<br>给印刷厂:(转曲后)PDF(CMYK)模式(转曲不要覆盖文件,要另存).</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      学习笔记
-    
-    </summary>
-    
-      <category term="平面设计基础" scheme="http://haijm.github.io/categories/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80/"/>
-    
-    
-      <category term="平面设计" scheme="http://haijm.github.io/tags/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1/"/>
     
   </entry>
   

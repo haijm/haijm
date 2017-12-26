@@ -3,14 +3,6 @@
   
     
     <entry>
-      <title><![CDATA[C4D]]></title>
-      <url>/2017/12/24/C4D/</url>
-      <content type="html"></content>
-      
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Don't stop when you are tired]]></title>
       <url>/2017/07/22/Don-t-stop-when-you-are-tired/</url>
       <content type="html"><![CDATA[<h1 id="原文x"><a href="#原文x" class="headerlink" title="原文x"></a>原文x</h1><p>Don’t stop when you are tired. Stop when you are done.<br>Everyone you meet has something to teach you.</p>
@@ -95,6 +87,306 @@
         <tags>
             
             <tag> 翻译 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[C4D-材质灯光渲染]]></title>
+      <url>/2017/06/13/C4D-%E6%9D%90%E8%B4%A8%E7%81%AF%E5%85%89%E6%B8%B2%E6%9F%93/</url>
+      <content type="html"><![CDATA[<h1 id="C4D-材质灯光渲染"><a href="#C4D-材质灯光渲染" class="headerlink" title="C4D-材质灯光渲染"></a>C4D-材质灯光渲染</h1><h2 id="一、材质"><a href="#一、材质" class="headerlink" title="一、材质"></a>一、材质</h2><ol>
+<li>材质类型：在材质窗口菜单中执行创建→新材质，可创建默认白色材质球。这是C4D的标准材质，<br> 是最常用的材质。快捷键Ctrl+N<br> <img src="/image/C4D/3/1.png" alt=""><a id="more"></a></li>
+<li>着色器：除标准材质外，C4D还提供了多种着色器，可以直接选你需要的材质。使用频率比较多少材质是，玻璃、木材、金属、素描材质。<br> <img src="/image/C4D/3/2.png" alt=""></li>
+<li>材质编辑器：编辑器主要分为两部分，左侧为材质预览区和材质通道，右侧是通道属性。<br> <img src="/image/C4D/3/3.png" alt=""> <ul>
+<li>颜色：物体固有颜色，可以选择任意颜色作为物体固有色。默认颜色为： R  G  B模式选色。<br><img src="/image/C4D/3/4.png" alt=""><br><img src="/image/C4D/3/5.png" alt="">:色轮     <img src="/image/C4D/3/6.png" alt="">：光谱       <img src="/image/C4D/3/7.png" alt="">：从图像中取色       <img src="/image/C4D/3/8.png" alt="">：RGB取色       <img src="/image/C4D/3/9.png" alt="">：色相饱和明度取色</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li><p>纹理：纹理是每个材质通道都有的属性，单击纹理参数中的按钮，会列出多种纹理选择。</p>
+<ol>
+<li>清除：清除所加载的纹理效果</li>
+<li>加载图像：可以加载位图，来实现材质效果。<br><img src="/image/C4D/3/10.jpg" alt="">    <img src="/image/C4D/3/11.png" alt="">    <img src="/image/C4D/3/12.png" alt=""></li>
+</ol>
+</li>
+<li><p>反射（光滑）：物体表面是否光滑，可以观察出来。光滑的物体高光越明显，如玻璃、金属、车漆等，这些都是物体的反射结果。物体本身材质不一样，对应的高光、反射也不一样。<br>   <img src="/image/C4D/3/13.png" alt=""></p>
+</li>
+<li>自发光：可以设置物体自发光，有三种用途。<ol>
+<li>自发光反光板     <img src="/image/C4D/3/14.jpg" alt=""></li>
+<li>HDR环境帖图材质载体</li>
+<li>环境光（如红色、蓝色、紫色环境光）<br><img src="/image/C4D/3/15.png" alt=""><h2 id="二、灯光"><a href="#二、灯光" class="headerlink" title="二、灯光"></a>二、灯光</h2></li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>灯光类型<br> （1）默认灯光：创建C4D文件时，系统默认照明场景的。在选项—-&gt;默认灯光中移动高光点可以<br>改变灯光照射位置。<br> <img src="/image/C4D/3/16.png" alt=""><br> （2）泛光灯 <img src="/image/C4D/3/17.png" alt="">：最常见的灯光类型，光线从单一的点向四周发射，类似现实中的灯泡。移动泛光灯的位置，泛光灯离物体越远，照射的范围就越大。<br> （3）聚光灯 <img src="/image/C4D/3/18.png" alt="">：光线向一个方向呈锥形传播。选择聚光灯后，圆锥上有5个黄点，中心点调节聚光灯光束长度，四周黄点用来调节光照范围。<br> <img src="/image/C4D/3/19.png" alt=""><br> （4）区域灯 <img src="/image/C4D/3/20.png" alt=""> ：光线沿着一个区域向四周各个方向发射光线，形成一个有规则的照射平面。属于高级光源类型。常模拟室内来自窗户的天空光，面光源十分柔和均匀。类似于产品摄影中的反光板。</li>
+<li>灯光选项卡<img src="/image/C4D/3/21.png" alt=""><br> （1）颜色：用于改变灯光颜色<br> （2）强度：设置灯光强弱值，默认是100%，可以托动增加强度没有上限。强度越高就相当于摄影中的曝光过度。0%代表没有光线。<br> （3）类型：用于改变灯光类型<br> （4）投影：无-灯光照射在物体上不产生投影，阴影贴图（软阴影）-产生柔和阴影，光线跟踪（强烈）-产生阴影强烈，阴影边缘不会模糊，区域-根据光线远近产生不同变化的阴影，距离越近，阴影越强，距离越远，阴影越模糊，能产生比较真实的阴影效果。<br>  <img src="/image/C4D/3/22.png" alt="">    <img src="/image/C4D/3/23.png" alt="">     <img src="/image/C4D/3/24.png" alt="">                <img src="/image/C4D/3/25.png" alt=""></li>
+<li>布光方法<br>（1）3点布光法：即有2盏光源，分别是主光源、辅助光和背光。商业摄影中也多用此方法。<br>（2）布光循序:先确定好主光源的位置（距离、高度）与强度，在决定好辅助光的强度与角度。分配背景光。布光效果主次分明，互相补充。目的是为了通过光源照射来呈现出一个很有质感的物体。<br><img src="/image/C4D/3/26.png" alt=""><br><img src="/image/C4D/3/27.png" alt=""><br>（3）常用布光方式：<br><img src="/image/C4D/3/28.jpg" alt=""></li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> C4D </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> C4D </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[C4D曲面建模]]></title>
+      <url>/2017/06/05/C4D%E6%9B%B2%E9%9D%A2%E5%BB%BA%E6%A8%A1/</url>
+      <content type="html"><![CDATA[<h1 id="C4D曲面建模"><a href="#C4D曲面建模" class="headerlink" title="C4D曲面建模"></a>C4D曲面建模</h1><h2 id="NURBS建模"><a href="#NURBS建模" class="headerlink" title="NURBS建模"></a>NURBS建模</h2><p>NURBS建模即曲面建模，是由曲线组成曲面，再有曲面组成立体模型，曲线有控制点可以控制曲线曲率、方向、长短。<br><img src="/image/C4D/2/1.png" alt=""><br><a id="more"></a></p>
+<ul>
+<li>扫描<br><img src="/image/C4D/2/2.png" alt=""><br>在画笔工具中选择花瓣，再用画笔画一条曲线，<br><img src="/image/C4D/2/3.png" alt=""><br>在细分曲面工具栏中点击选择扫描，花瓣一定在线条前面，选中花瓣和线条一起拖向扫描，出现向下的箭头松开鼠标，即可实现扫描状态<br><img src="/image/C4D/2/4.png" alt=""></li>
+<li>挤压<br><img src="/image/C4D/2/5.png" alt=""><br>先用文字工具写出想要的文字<br><img src="/image/C4D/2/6.png" alt=""><br>然后在细分曲面工具栏中点击选择挤压，点击文字拖至挤压出现向下箭头松开即可实现<br><img src="/image/C4D/2/7.png" alt=""></li>
+<li>旋转<br><img src="/image/C4D/2/8.png" alt=""><br>用画笔画出样条<br><img src="/image/C4D/2/9.png" alt=""><br>然后在细分曲面工具栏中点击选择旋转，此后步骤同上<br><img src="/image/C4D/2/10.png" alt=""></li>
+<li>放样<br><img src="/image/C4D/2/11.png" alt=""><br>用画笔画两条样条，分开放置<br><img src="/image/C4D/2/12.png" alt=""><br>然后在细分曲面工具栏中点击选择放样，步骤同上<br><img src="/image/C4D/2/13.png" alt=""><br>案例：<br><img src="/image/C4D/2/14.jpg" alt="">  </li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> C4D </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> C4D </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[C4D-基本操作]]></title>
+      <url>/2017/05/28/C4D-%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
+      <content type="html"><![CDATA[<h1 id="C4D-基本操作"><a href="#C4D-基本操作" class="headerlink" title="C4D-基本操作"></a>C4D-基本操作</h1><h2 id="一、C4D的应用范围"><a href="#一、C4D的应用范围" class="headerlink" title="一、C4D的应用范围"></a>一、C4D的应用范围</h2><ol>
+<li>全称CINEMA 4D，由德国Maxon 公司研发的3D绘图软件。以其高的运算速度和强大的渲染插件著称，主要定位在工业设计行业和影视包装行业。C4D更加注重流畅性、舒适性、合理性、易用性和高效性。</li>
+<li>C4D在UI设计方面应用：电商立体字渲染、电商立体banner/场景、UI立体图标<a id="more"></a>
+<h2 id="二、界面认识"><a href="#二、界面认识" class="headerlink" title="二、界面认识"></a>二、界面认识</h2></li>
+<li>标题栏：软件最顶端，显示软件版本号和当前编辑文件名称信息。<br><img src="/image/C4D/1/1.png" alt=""></li>
+<li>主菜单栏：主菜单栏位于标题栏下方，可以调出绝大部分工具、命令和显示快捷键。<br><img src="/image/C4D/1/2.png" alt=""></li>
+<li>恢复默认界面：菜单栏—-&gt;界面—-&gt;启动<br><img src="/image/C4D/1/3.png" alt=""> </li>
+<li>工具栏：工具栏位于主菜单栏下方，包含常用工具和工具组（将功能相似的工具集合在一个图标下）<br> 显著特征是在图标右下角带有<img src="/image/C4D/1/4.png" alt=""> 小三角。</li>
+<li>视图窗口：在C4D中有四个视图，分别是透视图、顶视图、右视图、正视图。默认编辑视图一般在透视图中。<br> <img src="/image/C4D/1/5.png" alt=""><br> <img src="/image/C4D/1/6.png" alt="">每个视图右上角四个图标依次功能是：平移视图、中心缩放视图、旋转视图、切换视图。<br> <img src="/image/C4D/1/7.png" alt="">平移视图：鼠标左键按住不松动图标出现<img src="/image/C4D/1/8.png" alt=""> 蓝底色时，可以平移当前视图。快捷键：Alt+中键<br> <img src="/image/C4D/1/9.png" alt="">缩放视图：鼠标左键按住不松动图标出现 <img src="/image/C4D/1/10.png" alt="">蓝底色时，可以缩放当前视图。快捷键：Alt+右键<br> 或者鼠标中标滑动缩放。<br> <img src="/image/C4D/1/11.png" alt=""> 旋转视图：鼠标左键按住不松动图标出现<img src="/image/C4D/1/12.png" alt=""> 蓝底色时，可以旋转当前视图。快捷键：Alt+左键<br> <img src="/image/C4D/1/13.png" alt=""> 切换视图：鼠标左键单击可以切换最大化/最小化视图。快捷键：点击鼠标中键切换</li>
+<li>编辑工具栏：于界面的最左端，可以切换不同的编辑工具。如：模型、纹理、点、线、面模式。<br> <img src="/image/C4D/1/14.png" alt=""> ：将对象转换为多边形（CD4对象模型都是参数对象，当需要对模型进行点、线、面编辑时，必须把对象转换多    边形对象）<br> <img src="/image/C4D/1/15.png" alt="">：模型模式，只能对模型进行等比例缩放<br> <img src="/image/C4D/1/16.png" alt="">：纹理模式，对贴图纹理进行编辑，需要使用纹理贴图<br> <img src="/image/C4D/1/17.png" alt=""> ：点模式，对多边形上的点进行编辑（移动、缩放、旋转、删除）选中点</li>
+<li>对象窗口：是用于管理场景中的对象，这些对象以树形层级结构显示（父子级关系）。对象窗口 有三个区域分别是：菜单区、对象列表区、显示/隐藏区和标签区。<br> <img src="/image/C4D/1/18.png" alt=""></li>
+<li>属性面板：位于界面右下方，属性面板是非常重要的窗口之一，用于设置所选对象所有属性参数。使用频率很高。</li>
+<li>保存文件：可以保存当前编辑文件，保存工程文件：可以将整个文件的资源打包，避免日后资源丢 失。方便交接给其它人员继续使用。<br> <img src="/image/C4D/1/19.png" alt=""></li>
+<li>导出文件：在C4D中可将文件导出为：.3ds、.xml、.dxf、.obj格式等。后期导入KeyShot 中渲染直接导出文件为.3ds格式。<br> <img src="/image/C4D/1/20.png" alt=""></li>
+<li>显示图标/快捷键：菜单—-&gt;设置—-&gt;用户界面，可以将菜单栏中图标与快捷键进行隐藏与显示。<br><img src="/image/C4D/1/21.png" alt=""><img src="/image/C4D/1/21.png" alt=""></li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> C4D </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> C4D </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[AE-图形及形状高级动画]]></title>
+      <url>/2017/05/05/AE-%E5%9B%BE%E5%BD%A2%E5%8F%8A%E5%BD%A2%E7%8A%B6%E9%AB%98%E7%BA%A7%E5%8A%A8%E7%94%BB/</url>
+      <content type="html"><![CDATA[<h1 id="图形及形状高级动画"><a href="#图形及形状高级动画" class="headerlink" title="图形及形状高级动画"></a>图形及形状高级动画</h1><h2 id="（一）从其他软件中制作路径："><a href="#（一）从其他软件中制作路径：" class="headerlink" title="（一）从其他软件中制作路径："></a>（一）从其他软件中制作路径：</h2><ul>
+<li>AI：<ol>
+<li>打开素材文件，选择要粘贴的部分，ctrl+C </li>
+<li>打开AE，建立合成，新建固态层（ctrl+Y）  </li>
+<li>粘贴ctrl+V </li>
+</ol>
+</li>
+<li>将遮罩选中，效果——生成——描边<a id="more"></a>
+将遮罩的透明度调整为0%；<br><img src="/image/AE/2/1.png" alt=""></li>
+<li>定位点工具使用补充：<br>在移动定位点时，按住ctrl键，可以直接定位到对象中心；<br>按住Alt键移动，中心点不动，对象动；</li>
+<li>制作开始和结束动画（描边）<br><img src="/image/AE/2/2.png" alt=""><ol>
+<li>开始：表示开始点显示的范围；100%为消失，0%为完全显示路径；</li>
+<li>结束：表示结束点显示的范围；100%为显示，0%为完全隐藏<h2 id="（二）如何从AE中直接绘制路径并制作动画："><a href="#（二）如何从AE中直接绘制路径并制作动画：" class="headerlink" title="（二）如何从AE中直接绘制路径并制作动画："></a>（二）如何从AE中直接绘制路径并制作动画：</h2></li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>鼠标按工具箱中的工具一会儿（切换工具）</li>
+<li>保证在时间轴面板的空白处单击，不选择任何图层；</li>
+<li>在画布上绘制图形；</li>
+</ol>
+<ul>
+<li>编辑形状：<ol>
+<li>切换填充类型，点击填充两个文字<br><img src="/image/AE/2/3.png" alt=""><img src="/image/AE/2/4.png" alt=""></li>
+</ol>
+</li>
+<li>修整路径动画：在AE中绘制形状制作动画；<br><img src="/image/AE/2/5.png" alt=""><br>Ctrl+R:标尺   可以辅助查找对象中心，  锁定参考线：视图下查找<br>0   1   2   3   4    5   6    7   8   9<br>字符偏移：制作数字动态加载效果；<br><img src="/image/AE/2/6.png" alt=""><br><img src="/image/AE/2/7.png" alt=""><h2 id="（三）手机加速：效果——生成——书写"><a href="#（三）手机加速：效果——生成——书写" class="headerlink" title="（三）手机加速：效果——生成——书写"></a>（三）手机加速：效果——生成——书写</h2></li>
+<li>第一种方法：<ol>
+<li>选择彩色条层</li>
+<li>添加书写效果</li>
+<li>调整笔触粗细，将粗细制作关键帧</li>
+<li>将混合样式改为显示原始图像<br><img src="/image/AE/2/8.png" alt=""></li>
+</ol>
+</li>
+<li>第二种方法：<ol>
+<li>将ps中的路径复制（开放）</li>
+<li>选择AE，新建一个固态层ctrl+Y</li>
+<li>粘贴路径，添加描边（效果下——生产——描边）</li>
+<li>选择在透明通道上（开放路径去除底色）<br><img src="/image/AE/2/9.png" alt=""></li>
+<li>添加结束动画（第一帧：0    1S上添加100%）<br><img src="/image/AE/2/10.png" alt=""></li>
+<li>给彩色的图形添加轨道蒙版为<br><img src="/image/AE/2/11.png" alt=""><h2 id="（四）将动画放入样机中显示-：效果——扭曲——边角固定"><a href="#（四）将动画放入样机中显示-：效果——扭曲——边角固定" class="headerlink" title="（四）将动画放入样机中显示 ：效果——扭曲——边角固定"></a>（四）将动画放入样机中显示 ：效果——扭曲——边角固定</h2></li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>导入手机素材（分层）</li>
+<li>将制作好的动画合成，拖拽到新的手机素材</li>
+<li>将手机素材添加效果——扭曲——边角固定</li>
+<li>设置四个角的位置<h2 id="（五）图标动画——综合动画："><a href="#（五）图标动画——综合动画：" class="headerlink" title="（五）图标动画——综合动画："></a>（五）图标动画——综合动画：</h2></li>
+<li>圆形变化：效果——过渡——径向擦除</li>
+<li>光线发射：制作好一个线条动画后，预合成ctrl+shift+C</li>
+<li>慧尾效果：通过复制图层降低不透明度，调整时间差；</li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> AE </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> AE </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[AE-遮罩及效果动画]]></title>
+      <url>/2016/05/14/AE-%E9%81%AE%E7%BD%A9%E5%8F%8A%E6%95%88%E6%9E%9C%E5%8A%A8%E7%94%BB/</url>
+      <content type="html"><![CDATA[<h1 id="遮罩及效果动画"><a href="#遮罩及效果动画" class="headerlink" title="遮罩及效果动画"></a>遮罩及效果动画</h1><h2 id="（一）树叶加载动画：路径动画-遮罩动画"><a href="#（一）树叶加载动画：路径动画-遮罩动画" class="headerlink" title="（一）树叶加载动画：路径动画+遮罩动画"></a>（一）树叶加载动画：路径动画+遮罩动画</h2><p>遮罩动画：用于控制动画或图像的范围<br><img src="/image/AE/3/1.png" alt=""><br><a id="more"></a></p>
+<ol>
+<li>选择图层；</li>
+<li>选择工具（在工具箱中按一会）</li>
+<li>直接绘制所需要的图形；<br>重点：可以对遮罩的属性添加动画：<br><img src="/image/AE/3/2.png" alt=""><h2 id="（二）路径动画：将动画的运动轨迹指定到特定的路径上（开放或闭合的路径）"><a href="#（二）路径动画：将动画的运动轨迹指定到特定的路径上（开放或闭合的路径）" class="headerlink" title="（二）路径动画：将动画的运动轨迹指定到特定的路径上（开放或闭合的路径）"></a>（二）路径动画：将动画的运动轨迹指定到特定的路径上（开放或闭合的路径）</h2></li>
+<li>要有一个制作路径的对象层（图形图像均可）；</li>
+<li>新建一个固态层（ctrl+Y）,在固态层上绘制路径；</li>
+<li>将遮罩形状复制，粘贴到对象属性中的位置属性上；</li>
+<li>自动生成帧；<br>重点：时间轴反向帧<br><img src="/image/AE/3/3.png" alt=""><br>等比调整关键帧时间：按住Alt键，拖动时间轴上的关键帧；<br>（三）效果动画与遮罩</li>
+</ol>
+<ul>
+<li>效果动画：模拟仿真：<ol>
+<li>需要新建一个固态层（ctrl+Y）黑色</li>
+<li>更改混合模式为添加（滤色）<br><img src="/image/AE/3/4.png" alt=""><br>CC降雨  CC降雪：比较真实<br>卡通版：cc下雪  cc下雨<br>Ctrl +shift+Y:调整固态层设置</li>
+</ol>
+</li>
+<li>Cc粒子仿真世界：<br><img src="/image/AE/3/5.png" alt=""></li>
+<li>从材质中替换（将文件放到时间轴上）<br>3、 <img src="/image/AE/3/6.png" alt=""><br>4、替换的文件导入时选择（文件大小）</li>
+<li>如果添加效果的图层添加遮罩后，没有控制住范围<br>1、遮罩上面选择模式为无<br><img src="/image/AE/3/7.png" alt=""><br>2、如果第一个问题解决，依然不能控制范围<br> 将图层建立预合成（编组），选择第二项；然后再添加遮罩；<br><img src="/image/AE/3/8.png" alt="">9<h2 id="（四）AE中的图形高级应用："><a href="#（四）AE中的图形高级应用：" class="headerlink" title="（四）AE中的图形高级应用："></a>（四）AE中的图形高级应用：</h2></li>
+<li>图形绘制的两种方法：<ol>
+<li>直接绘制：不能够编辑锚点，不能变形；</li>
+<li>在绘制前，按住Alt+shift键绘制：可以编辑锚点</li>
+</ol>
+</li>
+<li>如何编辑图形：<ol>
+<li>选择锚点：使用钢笔工具，在锚点处变为实心箭头时选择</li>
+<li>取消全部选择：选择钢笔，按住Ctrl键，在空白处单击</li>
+<li>调整单个手柄：按住ctrl键，放到控制手柄上，变为转换点工具，可以调整单个手柄；<h2 id="（五）表动画："><a href="#（五）表动画：" class="headerlink" title="（五）表动画："></a>（五）表动画：</h2></li>
+</ol>
+</li>
+<li>可编辑的图层样式：将ps中的图层样式转换到AE中；<br><img src="/image/AE/3/9.png" alt=""><br><img src="/image/AE/3/10.png" alt=""></li>
+<li>如果在ps 中，制作了图层编组，在AE中直接转化为合成；<br>在AE中，给对象添加图层样式（可以按照整体画布光源制作真实的投影效果）：<br><img src="/image/AE/3/11.png" alt=""></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> AE </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> AE </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[AE-动效理论与AE基础]]></title>
+      <url>/2016/04/26/AE-%E5%8A%A8%E6%95%88%E7%90%86%E8%AE%BA%E4%B8%8EAE%E5%9F%BA%E7%A1%80/</url>
+      <content type="html"><![CDATA[<h1 id="动效理论与＆Ae基础"><a href="#动效理论与＆Ae基础" class="headerlink" title="动效理论与＆Ae基础"></a>动效理论与＆Ae基础</h1><h2 id="（一）UI设计理论"><a href="#（一）UI设计理论" class="headerlink" title="（一）UI设计理论"></a>（一）UI设计理论</h2><p>格式：.avi  .mov   .flv  .gif……</p>
+<h2 id="（二）界面："><a href="#（二）界面：" class="headerlink" title="（二）界面："></a>（二）界面：</h2><p><img src="/image/AE/1/1.png" alt=""><br><a id="more"></a><br><img src="/image/AE/1/2.png" alt=""></p>
+<ul>
+<li>窗口——各种面板<br><img src="/image/AE/1/3.png" alt=""><br><img src="/image/AE/1/4.png" alt=""><h2 id="（三）动效制作所需内容："><a href="#（三）动效制作所需内容：" class="headerlink" title="（三）动效制作所需内容："></a>（三）动效制作所需内容：</h2></li>
+</ul>
+<ol>
+<li>素材（ps  AI   AE ）<ul>
+<li>导入素材：<ol>
+<li>Ctrl+I:导入素材 ；</li>
+<li>双击项目面板空白处；</li>
+<li>直接将素材拖拽到项目面板；</li>
+</ol>
+</li>
+<li>导入选项：<br><img src="/image/AE/1/5.png" alt=""></li>
+<li>需要建立合成（动画文件）<br>Ctrl+N：<br><img src="/image/AE/1/6.png" alt=""><br>0（小时）:00（分钟）:00（秒）:00（帧）；<h2 id="（四）关于时间轴上的基本操作："><a href="#（四）关于时间轴上的基本操作：" class="headerlink" title="（四）关于时间轴上的基本操作："></a>（四）关于时间轴上的基本操作：</h2>图层顺序调整：拖动或者ctrl+[   ]  ctrl+shift+[    ]</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>时间轴关键帧开关：<br><img src="/image/AE/1/7.png" alt=""><br>认识关键帧的基本属性：<br><img src="/image/AE/1/8.png" alt=""><br>0X：圈数<br>+0.0°：旋转角度（顺时针）;    可以手动输入-0.0°（逆时针）<br>制作旋转属性动画时，使用定位点工具Y  <img src="/image/AE/1/9.png" alt="">  ，移动旋转中心；</li>
+<li>关于预览时间轴：<br>数字小键盘的0  渲染预览：时间和最终时间相同；<br> <img src="/image/AE/1/10.png" alt=""><br>空格：快速预览，  时间与最终可能不同；<h2 id="（五）存储："><a href="#（五）存储：" class="headerlink" title="（五）存储："></a>（五）存储：</h2>格式：.aep<br><img src="/image/AE/1/11.png" alt=""><br>渲染动画：ctrl+M<br>输出格式:.avi   .flv   .mov<br><img src="/image/AE/1/12.png" alt=""> </li>
+</ul>
+<ol>
+<li>需要选中格式</li>
+<li>需要指定位置</li>
+<li>点击渲染按钮<h2 id="（六）关于基础变换动画补充："><a href="#（六）关于基础变换动画补充：" class="headerlink" title="（六）关于基础变换动画补充："></a>（六）关于基础变换动画补充：</h2><img src="/image/AE/1/13.png" alt=""><br>定位点：A  用的很少；<br>位置 P（跑）：位置移动<br>缩放S（缩）：大小变化<br>旋转R（绕圈）：旋转动画<br>透明度T（透明）：透明动画  渐隐<br>U：将所有添加关键帧的属性显示；<h2 id="（七）建立第二个项目："><a href="#（七）建立第二个项目：" class="headerlink" title="（七）建立第二个项目："></a>（七）建立第二个项目：</h2>Ctrl+alt+N :新建项目  关闭当前项目，恢复到默认打开软件的状态；</li>
+</ol>
+<ul>
+<li>帧的加速度：由快到慢  ……<br>1、将帧变为柔缓曲线F9<br>2、点击时间轴上方的图形编辑器  <img src="/image/AE/1/15.png" alt=""><br>3、调整时间曲线<br><img src="/image/AE/1/16.png" alt=""><h2 id="（八）重复性动画——复制ctrl-D"><a href="#（八）重复性动画——复制ctrl-D" class="headerlink" title="（八）重复性动画——复制ctrl+D"></a>（八）重复性动画——复制ctrl+D</h2>Ctrl+D 复制时间轴：<br>时间轴错位：可以制作出有时间差的动画</li>
+<li>裁剪多余时间轴：</li>
+</ul>
+<ol>
+<li>将工作区终点进行调整<br><img src="/image/AE/1/17.png" alt=""></li>
+<li>图像合成——修剪合成至工作区<br><img src="/image/AE/1/18.png" alt=""><ul>
+<li>缩放时间轴显示效果：<br><img src="/image/AE/1/19.png" alt=""></li>
+<li>第二种修改时间轴总时长的方法：ctrl+K<br><img src="/image/AE/1/20.png" alt=""><h2 id="（九）酷丁鱼加载动画"><a href="#（九）酷丁鱼加载动画" class="headerlink" title="（九）酷丁鱼加载动画"></a>（九）酷丁鱼加载动画</h2>父级关系：<br><img src="/image/AE/1/21.png" alt=""> <h2 id="（十）水波加载loading："><a href="#（十）水波加载loading：" class="headerlink" title="（十）水波加载loading："></a>（十）水波加载loading：</h2>如何将一个动画编组制作新的动画（一个对象上制作多个动画时间轴）<br>跟踪蒙版<br>Ctrl+shift+C  预合成：将多个动画层进行编组，编组后可以再次添加新的变换属性；<br><img src="/image/AE/1/22.png" alt=""><br>编辑预合成动画：双击预合成</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>轨道蒙版：剪贴蒙版，用于控制范围<br><img src="/image/AE/1/23.png" alt=""><br>格式工厂：上下颠倒选择 是 ；</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> AE </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> AE </tag>
             
         </tags>
         
