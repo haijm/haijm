@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <meta name="description" content="学习笔记" />
+  
+
+  
+  
+  
+  
+  
+  
+  <title>C4D-材质灯光渲染 | Haijm&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="学习笔记">
+<meta name="keywords" content="C4D">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C4D-材质灯光渲染">
+<meta property="og:url" content="http://haijm.github.io/2017/06/20/C4D/C4D-材质灯光渲染/index.html">
+<meta property="og:site_name" content="Haijm&#39;s Blog">
+<meta property="og:description" content="学习笔记">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/1.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/2.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/3.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/4.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/5.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/6.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/7.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/8.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/9.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/10.jpg">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/11.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/12.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/13.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/14.jpg">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/15.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/16.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/17.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/18.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/19.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/20.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/21.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/22.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/23.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/24.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/25.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/26.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/27.png">
+<meta property="og:image" content="http://haijm.github.io/image/C4D/3/28.jpg">
+<meta property="og:updated_time" content="2017-12-27T02:00:39.559Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="C4D-材质灯光渲染">
+<meta name="twitter:description" content="学习笔记">
+<meta name="twitter:image" content="http://haijm.github.io/image/C4D/3/1.png">
+  
+  
+    <link rel="icon" href="/css/images/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+  
+  <!-- baidu webmaster push -->
+  <script src='//push.zhanzhang.baidu.com/push.js'></script>
+</head>
+<body class="home blog custom-background custom-font-enabled single-author">
+  <div id="page" class="hfeed site">
+      <header id="masthead" class="site-header" role="banner">
+    <hgroup>
+      <h1 class="site-title">
+        <a href="/" title="Haijm&#39;s Blog" rel="home">Haijm&#39;s Blog</a>
+      </h1>
+      
+        <h2 class="site-description">
+          <a href="/" id="subtitle">海金梅的博客</a>
+        </h2>
+      
+    </hgroup>
+
+    <nav id="site-navigation" class="main-navigation" role="navigation">
+            <button class="menu-toggle">菜单</button>
+            <a class="assistive-text" href="/#content" title="跳至内容">跳至内容</a><!--TODO-->
+            <div class="menu-main-container">
+                <ul id="menu-main" class="nav-menu">
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/">Home</a></li>
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/archives">Archives</a></li>
+                
+                </ul>
+            </div>
+    </nav>
+</header>
+      <div id="main" class="wrapper">
+        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-C4D/C4D-材质灯光渲染" class="post-C4D/C4D-材质灯光渲染 post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title article-title">
+      C4D-材质灯光渲染
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="javascript:void(0);" data-url="http://haijm.github.io/2017/06/20/C4D/C4D-材质灯光渲染/" data-id="cjboi1isp002ldod4l7h8p86i" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <h1 id="C4D-材质灯光渲染"><a href="#C4D-材质灯光渲染" class="headerlink" title="C4D-材质灯光渲染"></a>C4D-材质灯光渲染</h1><h2 id="一、材质"><a href="#一、材质" class="headerlink" title="一、材质"></a>一、材质</h2><ol>
+<li>材质类型：在材质窗口菜单中执行创建→新材质，可创建默认白色材质球。这是C4D的标准材质，<br> 是最常用的材质。快捷键Ctrl+N<br> <img src="/image/C4D/3/1.png" alt=""><a id="more"></a></li>
+<li>着色器：除标准材质外，C4D还提供了多种着色器，可以直接选你需要的材质。使用频率比较多少材质是，玻璃、木材、金属、素描材质。<br> <img src="/image/C4D/3/2.png" alt=""></li>
+<li>材质编辑器：编辑器主要分为两部分，左侧为材质预览区和材质通道，右侧是通道属性。<br> <img src="/image/C4D/3/3.png" alt=""> <ul>
+<li>颜色：物体固有颜色，可以选择任意颜色作为物体固有色。默认颜色为： R  G  B模式选色。<br><img src="/image/C4D/3/4.png" alt=""><br><img src="/image/C4D/3/5.png" alt="">:色轮     <img src="/image/C4D/3/6.png" alt="">：光谱       <img src="/image/C4D/3/7.png" alt="">：从图像中取色       <img src="/image/C4D/3/8.png" alt="">：RGB取色       <img src="/image/C4D/3/9.png" alt="">：色相饱和明度取色</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li><p>纹理：纹理是每个材质通道都有的属性，单击纹理参数中的按钮，会列出多种纹理选择。</p>
+<ol>
+<li>清除：清除所加载的纹理效果</li>
+<li>加载图像：可以加载位图，来实现材质效果。<br><img src="/image/C4D/3/10.jpg" alt="">    <img src="/image/C4D/3/11.png" alt="">    <img src="/image/C4D/3/12.png" alt=""></li>
+</ol>
+</li>
+<li><p>反射（光滑）：物体表面是否光滑，可以观察出来。光滑的物体高光越明显，如玻璃、金属、车漆等，这些都是物体的反射结果。物体本身材质不一样，对应的高光、反射也不一样。<br>   <img src="/image/C4D/3/13.png" alt=""></p>
+</li>
+<li>自发光：可以设置物体自发光，有三种用途。<ol>
+<li>自发光反光板     <img src="/image/C4D/3/14.jpg" alt=""></li>
+<li>HDR环境帖图材质载体</li>
+<li>环境光（如红色、蓝色、紫色环境光）<br><img src="/image/C4D/3/15.png" alt=""><h2 id="二、灯光"><a href="#二、灯光" class="headerlink" title="二、灯光"></a>二、灯光</h2></li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>灯光类型<br> （1）默认灯光：创建C4D文件时，系统默认照明场景的。在选项—-&gt;默认灯光中移动高光点可以<br>改变灯光照射位置。<br> <img src="/image/C4D/3/16.png" alt=""><br> （2）泛光灯 <img src="/image/C4D/3/17.png" alt="">：最常见的灯光类型，光线从单一的点向四周发射，类似现实中的灯泡。移动泛光灯的位置，泛光灯离物体越远，照射的范围就越大。<br> （3）聚光灯 <img src="/image/C4D/3/18.png" alt="">：光线向一个方向呈锥形传播。选择聚光灯后，圆锥上有5个黄点，中心点调节聚光灯光束长度，四周黄点用来调节光照范围。<br> <img src="/image/C4D/3/19.png" alt=""><br> （4）区域灯 <img src="/image/C4D/3/20.png" alt=""> ：光线沿着一个区域向四周各个方向发射光线，形成一个有规则的照射平面。属于高级光源类型。常模拟室内来自窗户的天空光，面光源十分柔和均匀。类似于产品摄影中的反光板。</li>
+<li>灯光选项卡<img src="/image/C4D/3/21.png" alt=""><br> （1）颜色：用于改变灯光颜色<br> （2）强度：设置灯光强弱值，默认是100%，可以托动增加强度没有上限。强度越高就相当于摄影中的曝光过度。0%代表没有光线。<br> （3）类型：用于改变灯光类型<br> （4）投影：无-灯光照射在物体上不产生投影，阴影贴图（软阴影）-产生柔和阴影，光线跟踪（强烈）-产生阴影强烈，阴影边缘不会模糊，区域-根据光线远近产生不同变化的阴影，距离越近，阴影越强，距离越远，阴影越模糊，能产生比较真实的阴影效果。<br>  <img src="/image/C4D/3/22.png" alt="">    <img src="/image/C4D/3/23.png" alt="">     <img src="/image/C4D/3/24.png" alt="">                <img src="/image/C4D/3/25.png" alt=""></li>
+<li>布光方法<br>（1）3点布光法：即有2盏光源，分别是主光源、辅助光和背光。商业摄影中也多用此方法。<br>（2）布光循序:先确定好主光源的位置（距离、高度）与强度，在决定好辅助光的强度与角度。分配背景光。布光效果主次分明，互相补充。目的是为了通过光源照射来呈现出一个很有质感的物体。<br><img src="/image/C4D/3/26.png" alt=""><br><img src="/image/C4D/3/27.png" alt=""><br>（3）常用布光方式：<br><img src="/image/C4D/3/28.jpg" alt=""></li>
+</ol>
+
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/2017/06/20/C4D/C4D-材质灯光渲染/">
+    <time datetime="2017-06-20T14:22:10.000Z" class="entry-date">
+        2017-06-20
+    </time>
+</a>
+    
+  <span class="article-delim">&#8226;</span>
+  <div class="article-category">
+  <a class="article-category-link" href="/categories/C4D/">C4D</a>
+  </div>
+
+    
+  <span class="article-delim">&#8226;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C4D/">C4D</a></li></ul>
+
+    </footer>
+</article>
+
+
+    
+<nav class="nav-single">
+    <h3 class="assistive-text">文章导航</h3>
+    
+        <span class="nav-previous"><a href="/2017/06/26/C4D/C4D曲面建模/" rel="prev"><span class="meta-nav">←</span> C4D曲面建模</a></span>
+    
+    
+        <span class="nav-next"><a href="/2017/06/16/C4D/C4D-基本操作/" rel="next">C4D-基本操作 <span class="meta-nav">→</span></a></span>
+    
+</nav><!-- .nav-single -->
+
+
+
+
+
+
+
+</div></div>
+        <div id="secondary" class="widget-area" role="complementary">
+  
+    <aside id="search" class="widget widget_search"><form role="search" method="get" accept-charset="utf-8" id="searchform" class="searchform" action="//google.com/search">
+    <div>
+        <input type="text" value="" name="s" id="s" />
+        <input type="submit" id="searchsubmit" value="搜索" />
+    </div>
+</form></aside>
+  
+    
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget-content">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/AE/">AE</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/AI基础学习/">AI基础学习</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/C4D/">C4D</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/H5页面设计/">H5页面设计</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/HTML-CSS-学习/">HTML-CSS 学习</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/HTML5-CSS3样式/">HTML5-CSS3样式</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JS/">JS</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Js/">Js</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/LOGO作品收集/">LOGO作品收集</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/UI设计/">UI设计</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/UI设计基础/">UI设计基础</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/html-css学习/">html-css学习</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/平面设计基础/">平面设计基础</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/文字排版/">文字排版</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/文集/">文集</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/电商设计/">电商设计</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/素材收集/">素材收集</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/编程/">编程</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/网页设计基础/">网页设计基础</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/装饰素材/">装饰素材</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </aside>
+
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget-content">
+      <ul>
+        
+          <li>
+            <a href="/2017/06/26/C4D/C4D曲面建模/">C4D曲面建模</a>
+          </li>
+        
+          <li>
+            <a href="/2017/06/20/C4D/C4D-材质灯光渲染/">C4D-材质灯光渲染</a>
+          </li>
+        
+          <li>
+            <a href="/2017/06/16/C4D/C4D-基本操作/">C4D-基本操作</a>
+          </li>
+        
+          <li>
+            <a href="/2017/05/24/AE/AE-效果动画及商业案例/">AE-效果动画及商业案例</a>
+          </li>
+        
+          <li>
+            <a href="/2017/05/14/AE/AE-遮罩及效果动画/">AE-遮罩及效果动画</a>
+          </li>
+        
+      </ul>
+    </div>
+  </aside>
+
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget-content">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/AE/">AE</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/AI/">AI</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C4D/">C4D</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HTML-CSS/">HTML-CSS</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HTML-CSS基础课程/">HTML-CSS基础课程</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HTML5-CSS3/">HTML5-CSS3</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JS/">JS</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/LOGO作品收集/">LOGO作品收集</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PS/">PS</a><span class="tag-list-count">10</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UI/">UI</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/web网页设计/">web网页设计</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/平面设计/">平面设计</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/文字排版/">文字排版</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/电商/">电商</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/素材收集/">素材收集</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/翻译/">翻译</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/装饰素材/">装饰素材</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </aside>
+
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget-content tagcloud">
+      <a href="/tags/AE/" style="font-size: 16px;">AE</a> <a href="/tags/AI/" style="font-size: 16px;">AI</a> <a href="/tags/C4D/" style="font-size: 14px;">C4D</a> <a href="/tags/HTML-CSS/" style="font-size: 12px;">HTML-CSS</a> <a href="/tags/HTML-CSS基础课程/" style="font-size: 18px;">HTML-CSS基础课程</a> <a href="/tags/HTML5-CSS3/" style="font-size: 10px;">HTML5-CSS3</a> <a href="/tags/JS/" style="font-size: 12px;">JS</a> <a href="/tags/LOGO作品收集/" style="font-size: 10px;">LOGO作品收集</a> <a href="/tags/PS/" style="font-size: 20px;">PS</a> <a href="/tags/UI/" style="font-size: 14px;">UI</a> <a href="/tags/web网页设计/" style="font-size: 10px;">web网页设计</a> <a href="/tags/平面设计/" style="font-size: 14px;">平面设计</a> <a href="/tags/文字排版/" style="font-size: 10px;">文字排版</a> <a href="/tags/电商/" style="font-size: 18px;">电商</a> <a href="/tags/素材收集/" style="font-size: 10px;">素材收集</a> <a href="/tags/翻译/" style="font-size: 12px;">翻译</a> <a href="/tags/装饰素材/" style="font-size: 10px;">装饰素材</a>
+    </div>
+  </aside>
+
+  
+</div>
+      </div>
+      <footer id="colophon" role="contentinfo">
+    <p>&copy; 2017 Haijm
+    All rights reserved.</p>
+    <p>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></p>
+</footer>
+    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+<script src="/js/navigation.js"></script>
+
+<div id="bg"></div>
+
+  </div>
+</body>
+</html>

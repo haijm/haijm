@@ -3,90 +3,27 @@
   
     
     <entry>
-      <title><![CDATA[Don't stop when you are tired]]></title>
-      <url>/2017/07/22/Don-t-stop-when-you-are-tired/</url>
-      <content type="html"><![CDATA[<h1 id="原文x"><a href="#原文x" class="headerlink" title="原文x"></a>原文x</h1><p>Don’t stop when you are tired. Stop when you are done.<br>Everyone you meet has something to teach you.</p>
-<a id="more"></a>
-<p>Stop crying over yesterday and start smiling for tomorrow.<br>Being positive in a negative situation is not naive, it’s leadership.</p>
-<p>At the end of the day, you can only trust yourself.<br>You will never change your life until you change something you do daily.</p>
-<p>Sometimes people don’t realize that there’s a huge difference between giving up and having enough.<br>Sometimes it’s the smallest decisions that can change you life foever.</p>
-<p>Don’t rush anything when the time is right, it will happen.<br>You can fake your smile and laughters but you can never fake your teasrs and feelings.</p>
-<p>Never lie to someone who trust you. Never trust someone who lies to you.<br>Don’t fear change. You may lose something good, but you may also gain something great.</p>
-<p>The best thing in life is to find someone who knows all your flaws, mistake, and weakness, and still thinks you are completely amazing.<br>Standing alone is better than standing with people who hurt you.</p>
-<p>God gave you another day for a reason. Now go find out what it is.<br>Perfect maturity is when a person hurts you, and you try to understand their situation and don’t hurt them back. </p>
-<p>Nomatter what hapeens in life, be good to people.<br>Being good to people is a wonderful legacy to leave behind.</p>
-<p>Sometimes you win, sometimes you learn.</p>
-<p>Never chase love, affection or attention. If it isn’t given freely by another person, it isn’t worth having.<br>You willl not be the same after the storms of life; you will be stronger, wiser and more alive than ever before.</p>
-<p>Notice the people who are happy for your happiness, and sad for your sadness. They are the ones who deserve special place in your heart.<br>Pray as if everything depends on God, work as if everything on you.</p>
-<p>Stay strong. Be positive. We all struggle sometimes.</p>
-<p><div style="text-align:center;"><br><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1500717860676&di=c62412478770f87b61281261a518e631&imgtype=0&src=http%3A%2F%2Fp4.sanwen8.com%2F96%2F2016%2F04%2F1106%2F69551984_5.jpg"><br></div><br><br></p>
-<h1 id="译文"><a href="#译文" class="headerlink" title="译文"></a>译文</h1><p>累的时候别停下来。<br>每一个你遇到的人都会教你一些东西。</p>
-<p>不为昨天而哭泣，笑对明天。<br>在困境中保持乐观不是幼稚，那是领导才能。</p>
-<p>每天结束时，你能相信的只有你自己。<br>你永远无啊发改变现在的生活知道改变每天所做的事。</p>
-<p>人们无法意识到放弃和拥有之间有多大区别。<br>有时生活中一个小小的决定就能改变你的一生。<br>时间对了，一切自然会来，不要着急。</p>
-<p>你可以假装开心，但你不能隐藏你的悲伤。<br>永远不要欺骗信任你的人，也不要信任对你撒谎的人。</p>
-<p>别害怕改变，你或许会失去，但你也会得到更多。<br>生活中最幸福的事莫过于有一个了解你所有缺点，却依然认为你最迷人。</p>
-<p>宁愿独自战斗也不要和伤害你的人在一起。</p>
-<p>上帝给你的每一天都有原因，去寻找吧。<br>真的成熟时当别人伤害你时，你却去理解他们的处境而不是也去伤害他们。</p>
-<p>不管生活中发生什么，都要善待他人。<br>我们忘了善待他人是最好的馈赠。</p>
-<p>要么你赢，要么你学到了。</p>
-<p>永远不要去争爱情，影响力或吸引力也好，如果没有自由，就不值得拥有。<br>暴风雨后你会百年的比以前坚强，聪明，有活力。</p>
-<p>记住那些为你的幸福而开心，为你的悲伤而难过的人，他们应该在你心中是最特别的位置。</p>
-<p>由上帝决定的事，为之祈祷，有自己决定的事，为之努力。<br>内心强大，心态乐观。</p>
+      <title><![CDATA[C4D曲面建模]]></title>
+      <url>/2017/06/26/C4D/C4D%E6%9B%B2%E9%9D%A2%E5%BB%BA%E6%A8%A1/</url>
+      <content type="html"><![CDATA[<h1 id="C4D曲面建模"><a href="#C4D曲面建模" class="headerlink" title="C4D曲面建模"></a>C4D曲面建模</h1><h2 id="NURBS建模"><a href="#NURBS建模" class="headerlink" title="NURBS建模"></a>NURBS建模</h2><p>NURBS建模即曲面建模，是由曲线组成曲面，再有曲面组成立体模型，曲线有控制点可以控制曲线曲率、方向、长短。<br><img src="/image/C4D/2/1.png" alt=""><br><a id="more"></a></p>
+<ul>
+<li>扫描<br><img src="/image/C4D/2/2.png" alt=""><br>在画笔工具中选择花瓣，再用画笔画一条曲线，<br><img src="/image/C4D/2/3.png" alt=""><br>在细分曲面工具栏中点击选择扫描，花瓣一定在线条前面，选中花瓣和线条一起拖向扫描，出现向下的箭头松开鼠标，即可实现扫描状态<br><img src="/image/C4D/2/4.png" alt=""></li>
+<li>挤压<br><img src="/image/C4D/2/5.png" alt=""><br>先用文字工具写出想要的文字<br><img src="/image/C4D/2/6.png" alt=""><br>然后在细分曲面工具栏中点击选择挤压，点击文字拖至挤压出现向下箭头松开即可实现<br><img src="/image/C4D/2/7.png" alt=""></li>
+<li>旋转<br><img src="/image/C4D/2/8.png" alt=""><br>用画笔画出样条<br><img src="/image/C4D/2/9.png" alt=""><br>然后在细分曲面工具栏中点击选择旋转，此后步骤同上<br><img src="/image/C4D/2/10.png" alt=""></li>
+<li>放样<br><img src="/image/C4D/2/11.png" alt=""><br>用画笔画两条样条，分开放置<br><img src="/image/C4D/2/12.png" alt=""><br>然后在细分曲面工具栏中点击选择放样，步骤同上<br><img src="/image/C4D/2/13.png" alt=""><br>案例：<br><img src="/image/C4D/2/14.jpg" alt="">  </li>
+</ul>
 ]]></content>
       
         <categories>
             
-            <category> 文集 </category>
+            <category> C4D </category>
             
         </categories>
         
         
         <tags>
             
-            <tag> 翻译 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[对你朝思暮想]]></title>
-      <url>/2017/07/12/%E5%AF%B9%E4%BD%A0%E6%9C%9D%E6%80%9D%E6%9A%AE%E6%83%B3/</url>
-      <content type="html"><![CDATA[<h1 id="随笔"><a href="#随笔" class="headerlink" title="随笔"></a>随笔</h1><h2 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h2><p>Maybe we don’t have a future together,that doesn’t mean we should ruin our present by staying away from each other.<br> <a id="more"></a><br>I went to sleep last night thinking about you,i woke up this morning still thinking about you.</p>
-<p>When i’m down,i whisper your name to myself and smile.</p>
-<p>I still love you ,don’t doubt it,</p>
-<p>sometimes we are only given few minutes to be with the one we love,and thousand hours to spend thinking of them.</p>
-<p>Words fall short when ever i want to tell you how special you are to me,but all i can say is that my word is full of joy when ever i think of you.</p>
-<p>Every night i got to sleep.I think about you and how much i love you.</p>
-<p>There are many thought that make me happy,but you are my favorite.</p>
-<p>When you are away i try to sleep my mind away from you but its like magnet.</p>
-<p>I can’t help but think about you when you are not here with me.</p>
-<p>The times we were happy together are worth the times i cry alone.</p>
-<p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1499869211332&amp;di=9891e76de4eae26b7b082ecf8fe88934&amp;imgtype=0&amp;src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01c52056419ab532f87512f6da853e.jpg" alt=""><br>译文：</p>
-<p>或许我们没有共同的未来，并不意味我们要毁掉现在去远离对方。</p>
-<p>对你朝思暮想。</p>
-<p>失落时，我微笑着默念你的名字。</p>
-<p>我依然爱你，不要怀疑。</p>
-<p>我们很少和爱的人在一起，很多时候都是在想念他们。</p>
-<p>语言无法表达你对我多么特别，但我所能说的是想起你时我的世界就充满欢乐‘</p>
-<p>每个夜晚，都在想你，我想我很爱你。</p>
-<p>有很多事让我开心，但你是最爱。</p>
-<p>当你离开时，我试着去忘记你，但这对我来说太难。</p>
-<p>你不在时，我总忍不住的想你。</p>
-<p>相聚时的欢乐胜过独自哭泣。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 文集 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 翻译 </tag>
+            <tag> C4D </tag>
             
         </tags>
         
@@ -94,7 +31,7 @@
     
     <entry>
       <title><![CDATA[C4D-材质灯光渲染]]></title>
-      <url>/2017/06/13/C4D-%E6%9D%90%E8%B4%A8%E7%81%AF%E5%85%89%E6%B8%B2%E6%9F%93/</url>
+      <url>/2017/06/20/C4D/C4D-%E6%9D%90%E8%B4%A8%E7%81%AF%E5%85%89%E6%B8%B2%E6%9F%93/</url>
       <content type="html"><![CDATA[<h1 id="C4D-材质灯光渲染"><a href="#C4D-材质灯光渲染" class="headerlink" title="C4D-材质灯光渲染"></a>C4D-材质灯光渲染</h1><h2 id="一、材质"><a href="#一、材质" class="headerlink" title="一、材质"></a>一、材质</h2><ol>
 <li>材质类型：在材质窗口菜单中执行创建→新材质，可创建默认白色材质球。这是C4D的标准材质，<br> 是最常用的材质。快捷键Ctrl+N<br> <img src="/image/C4D/3/1.png" alt=""><a id="more"></a></li>
 <li>着色器：除标准材质外，C4D还提供了多种着色器，可以直接选你需要的材质。使用频率比较多少材质是，玻璃、木材、金属、素描材质。<br> <img src="/image/C4D/3/2.png" alt=""></li>
@@ -142,35 +79,8 @@
     </entry>
     
     <entry>
-      <title><![CDATA[C4D曲面建模]]></title>
-      <url>/2017/06/05/C4D%E6%9B%B2%E9%9D%A2%E5%BB%BA%E6%A8%A1/</url>
-      <content type="html"><![CDATA[<h1 id="C4D曲面建模"><a href="#C4D曲面建模" class="headerlink" title="C4D曲面建模"></a>C4D曲面建模</h1><h2 id="NURBS建模"><a href="#NURBS建模" class="headerlink" title="NURBS建模"></a>NURBS建模</h2><p>NURBS建模即曲面建模，是由曲线组成曲面，再有曲面组成立体模型，曲线有控制点可以控制曲线曲率、方向、长短。<br><img src="/image/C4D/2/1.png" alt=""><br><a id="more"></a></p>
-<ul>
-<li>扫描<br><img src="/image/C4D/2/2.png" alt=""><br>在画笔工具中选择花瓣，再用画笔画一条曲线，<br><img src="/image/C4D/2/3.png" alt=""><br>在细分曲面工具栏中点击选择扫描，花瓣一定在线条前面，选中花瓣和线条一起拖向扫描，出现向下的箭头松开鼠标，即可实现扫描状态<br><img src="/image/C4D/2/4.png" alt=""></li>
-<li>挤压<br><img src="/image/C4D/2/5.png" alt=""><br>先用文字工具写出想要的文字<br><img src="/image/C4D/2/6.png" alt=""><br>然后在细分曲面工具栏中点击选择挤压，点击文字拖至挤压出现向下箭头松开即可实现<br><img src="/image/C4D/2/7.png" alt=""></li>
-<li>旋转<br><img src="/image/C4D/2/8.png" alt=""><br>用画笔画出样条<br><img src="/image/C4D/2/9.png" alt=""><br>然后在细分曲面工具栏中点击选择旋转，此后步骤同上<br><img src="/image/C4D/2/10.png" alt=""></li>
-<li>放样<br><img src="/image/C4D/2/11.png" alt=""><br>用画笔画两条样条，分开放置<br><img src="/image/C4D/2/12.png" alt=""><br>然后在细分曲面工具栏中点击选择放样，步骤同上<br><img src="/image/C4D/2/13.png" alt=""><br>案例：<br><img src="/image/C4D/2/14.jpg" alt="">  </li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> C4D </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> C4D </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[C4D-基本操作]]></title>
-      <url>/2017/05/28/C4D-%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
+      <url>/2017/06/16/C4D/C4D-%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
       <content type="html"><![CDATA[<h1 id="C4D-基本操作"><a href="#C4D-基本操作" class="headerlink" title="C4D-基本操作"></a>C4D-基本操作</h1><h2 id="一、C4D的应用范围"><a href="#一、C4D的应用范围" class="headerlink" title="一、C4D的应用范围"></a>一、C4D的应用范围</h2><ol>
 <li>全称CINEMA 4D，由德国Maxon 公司研发的3D绘图软件。以其高的运算速度和强大的渲染插件著称，主要定位在工业设计行业和影视包装行业。C4D更加注重流畅性、舒适性、合理性、易用性和高效性。</li>
 <li>C4D在UI设计方面应用：电商立体字渲染、电商立体banner/场景、UI立体图标<a id="more"></a>
@@ -205,60 +115,17 @@
     </entry>
     
     <entry>
-      <title><![CDATA[AE-图形及形状高级动画]]></title>
-      <url>/2017/05/05/AE-%E5%9B%BE%E5%BD%A2%E5%8F%8A%E5%BD%A2%E7%8A%B6%E9%AB%98%E7%BA%A7%E5%8A%A8%E7%94%BB/</url>
-      <content type="html"><![CDATA[<h1 id="图形及形状高级动画"><a href="#图形及形状高级动画" class="headerlink" title="图形及形状高级动画"></a>图形及形状高级动画</h1><h2 id="（一）从其他软件中制作路径："><a href="#（一）从其他软件中制作路径：" class="headerlink" title="（一）从其他软件中制作路径："></a>（一）从其他软件中制作路径：</h2><ul>
-<li>AI：<ol>
-<li>打开素材文件，选择要粘贴的部分，ctrl+C </li>
-<li>打开AE，建立合成，新建固态层（ctrl+Y）  </li>
-<li>粘贴ctrl+V </li>
-</ol>
-</li>
-<li>将遮罩选中，效果——生成——描边<a id="more"></a>
-将遮罩的透明度调整为0%；<br><img src="/image/AE/2/1.png" alt=""></li>
-<li>定位点工具使用补充：<br>在移动定位点时，按住ctrl键，可以直接定位到对象中心；<br>按住Alt键移动，中心点不动，对象动；</li>
-<li>制作开始和结束动画（描边）<br><img src="/image/AE/2/2.png" alt=""><ol>
-<li>开始：表示开始点显示的范围；100%为消失，0%为完全显示路径；</li>
-<li>结束：表示结束点显示的范围；100%为显示，0%为完全隐藏<h2 id="（二）如何从AE中直接绘制路径并制作动画："><a href="#（二）如何从AE中直接绘制路径并制作动画：" class="headerlink" title="（二）如何从AE中直接绘制路径并制作动画："></a>（二）如何从AE中直接绘制路径并制作动画：</h2></li>
-</ol>
-</li>
-</ul>
+      <title><![CDATA[AE-效果动画及商业案例]]></title>
+      <url>/2017/05/24/AE/AE-%E6%95%88%E6%9E%9C%E5%8A%A8%E7%94%BB%E5%8F%8A%E5%95%86%E4%B8%9A%E6%A1%88%E4%BE%8B/</url>
+      <content type="html"><![CDATA[<h1 id="效果动画及商业案例"><a href="#效果动画及商业案例" class="headerlink" title="效果动画及商业案例"></a>效果动画及商业案例</h1><h2 id="（一）融动画：快速模糊（高斯模糊）-简单抑制"><a href="#（一）融动画：快速模糊（高斯模糊）-简单抑制" class="headerlink" title="（一）融动画：快速模糊（高斯模糊）+简单抑制"></a>（一）融动画：快速模糊（高斯模糊）+简单抑制</h2><p>调节层：可以针对下方所有图层添加效果，影响下方所有图层；<br> <img src="/image/AE/4/1.png" alt=""><br>效果——模糊与锐化——高斯模糊<br>  <img src="/image/AE/4/2.png" alt=""><br>效果——蒙版——简单抑制<br> <img src="/image/AE/4/3.png" alt=""><br> <img src="/image/AE/4/4.png" alt=""><br>重点：绘制两个独立的图形，绘制前，在空白区单击；</p>
+<h2 id="（二）帧的状态："><a href="#（二）帧的状态：" class="headerlink" title="（二）帧的状态："></a>（二）帧的状态：</h2><p>普通帧：菱形  匀速运动，调整速度根据时间轴长短；<br>柔缓曲线：F9   创建加速减速效果；通过点击图形编辑器修改<br> <img src="/image/AE/4/5.png" alt=""><br>变化慢 <img src="/image/AE/4/6.png" alt=""> 变化快<br>柔缓曲线入点：  <img src="/image/AE/4/7.png" alt=""> 由快到慢<br>柔缓曲线出点： <img src="/image/AE/4/8.png" alt=""> 由慢到快<br>柔缓曲线转为菱形帧：按住ctrl键，在柔缓曲线帧上单击；<br>保持关键帧： <img src="/image/AE/4/9.png" alt=""> 可以直接创建帧的跳转，不产生过渡动画；<br> <img src="/image/AE/4/10.png" alt=""><br>漂浮穿梭时间帧： <img src="/image/AE/4/11.png" alt=""> 由路径动画直接生成，一般不需要修改；<br>（三）水波动画：电波+快速模糊+置换映射<br>电波参数：效果——生成——电波<br> <img src="/image/AE/4/12.png" alt=""> </p>
 <ol>
-<li>鼠标按工具箱中的工具一会儿（切换工具）</li>
-<li>保证在时间轴面板的空白处单击，不选择任何图层；</li>
-<li>在画布上绘制图形；</li>
-</ol>
-<ul>
-<li>编辑形状：<ol>
-<li>切换填充类型，点击填充两个文字<br><img src="/image/AE/2/3.png" alt=""><img src="/image/AE/2/4.png" alt=""></li>
-</ol>
-</li>
-<li>修整路径动画：在AE中绘制形状制作动画；<br><img src="/image/AE/2/5.png" alt=""><br>Ctrl+R:标尺   可以辅助查找对象中心，  锁定参考线：视图下查找<br>0   1   2   3   4    5   6    7   8   9<br>字符偏移：制作数字动态加载效果；<br><img src="/image/AE/2/6.png" alt=""><br><img src="/image/AE/2/7.png" alt=""><h2 id="（三）手机加速：效果——生成——书写"><a href="#（三）手机加速：效果——生成——书写" class="headerlink" title="（三）手机加速：效果——生成——书写"></a>（三）手机加速：效果——生成——书写</h2></li>
-<li>第一种方法：<ol>
-<li>选择彩色条层</li>
-<li>添加书写效果</li>
-<li>调整笔触粗细，将粗细制作关键帧</li>
-<li>将混合样式改为显示原始图像<br><img src="/image/AE/2/8.png" alt=""></li>
-</ol>
-</li>
-<li>第二种方法：<ol>
-<li>将ps中的路径复制（开放）</li>
-<li>选择AE，新建一个固态层ctrl+Y</li>
-<li>粘贴路径，添加描边（效果下——生产——描边）</li>
-<li>选择在透明通道上（开放路径去除底色）<br><img src="/image/AE/2/9.png" alt=""></li>
-<li>添加结束动画（第一帧：0    1S上添加100%）<br><img src="/image/AE/2/10.png" alt=""></li>
-<li>给彩色的图形添加轨道蒙版为<br><img src="/image/AE/2/11.png" alt=""><h2 id="（四）将动画放入样机中显示-：效果——扭曲——边角固定"><a href="#（四）将动画放入样机中显示-：效果——扭曲——边角固定" class="headerlink" title="（四）将动画放入样机中显示 ：效果——扭曲——边角固定"></a>（四）将动画放入样机中显示 ：效果——扭曲——边角固定</h2></li>
-</ol>
-</li>
-</ul>
-<ol>
-<li>导入手机素材（分层）</li>
-<li>将制作好的动画合成，拖拽到新的手机素材</li>
-<li>将手机素材添加效果——扭曲——边角固定</li>
-<li>设置四个角的位置<h2 id="（五）图标动画——综合动画："><a href="#（五）图标动画——综合动画：" class="headerlink" title="（五）图标动画——综合动画："></a>（五）图标动画——综合动画：</h2></li>
-<li>圆形变化：效果——过渡——径向擦除</li>
-<li>光线发射：制作好一个线条动画后，预合成ctrl+shift+C</li>
-<li>慧尾效果：通过复制图层降低不透明度，调整时间差；</li>
+<li>新建合成，白色</li>
+<li>新建一个固态层ctrl+Y 宝蓝色</li>
+<li>新建一个固态层ctrl+Y 黑色，效果——生成电波，模糊——快速模糊，调整电波中心，及频率、扩展、及开始宽度；<br>  <img src="/image/AE/4/13.png" alt=""></li>
+<li>将黑色固态层，预合成ctrl+shift+C（选择第二项）</li>
+<li>将宝蓝色图层添加 效果——扭曲——置换映射<br>  <img src="/image/AE/4/14.png" alt=""></li>
+<li>隐藏黑色电波层；<br>重点：如果水波较生硬，将模糊值调大；<h2 id="（四）时间："><a href="#（四）时间：" class="headerlink" title="（四）时间："></a>（四）时间：</h2><img src="/image/AE/4/15.png" alt=""><br>时间伸缩： 通过调整时间比例，将速度变快或变慢；<br><img src="/image/AE/4/16.png" alt=""><br>启用时间重置：将整体动画时间，重新指定，可以调整起点和终点；<br><img src="/image/AE/4/17.png" alt=""><br>冻结帧：动画保持在某一个状态，不动；<br>反向帧：将动画的起始位置颠倒；<br><img src="/image/AE/4/18.png" alt=""><br>（五）Keylight:用于视频抠像<br>一般使用蓝色或绿色背景时进行抠像，一般用于视频合成；<br><img src="/image/AE/4/19.png" alt=""> <img src="/image/AE/4/.png" alt=""></li>
 </ol>
 ]]></content>
       
@@ -279,7 +146,7 @@
     
     <entry>
       <title><![CDATA[AE-遮罩及效果动画]]></title>
-      <url>/2016/05/14/AE-%E9%81%AE%E7%BD%A9%E5%8F%8A%E6%95%88%E6%9E%9C%E5%8A%A8%E7%94%BB/</url>
+      <url>/2017/05/14/AE/AE-%E9%81%AE%E7%BD%A9%E5%8F%8A%E6%95%88%E6%9E%9C%E5%8A%A8%E7%94%BB/</url>
       <content type="html"><![CDATA[<h1 id="遮罩及效果动画"><a href="#遮罩及效果动画" class="headerlink" title="遮罩及效果动画"></a>遮罩及效果动画</h1><h2 id="（一）树叶加载动画：路径动画-遮罩动画"><a href="#（一）树叶加载动画：路径动画-遮罩动画" class="headerlink" title="（一）树叶加载动画：路径动画+遮罩动画"></a>（一）树叶加载动画：路径动画+遮罩动画</h2><p>遮罩动画：用于控制动画或图像的范围<br><img src="/image/AE/3/1.png" alt=""><br><a id="more"></a></p>
 <ol>
 <li>选择图层；</li>
@@ -331,8 +198,81 @@
     </entry>
     
     <entry>
+      <title><![CDATA[AE-图形及形状高级动画]]></title>
+      <url>/2017/05/05/AE/AE-%E5%9B%BE%E5%BD%A2%E5%8F%8A%E5%BD%A2%E7%8A%B6%E9%AB%98%E7%BA%A7%E5%8A%A8%E7%94%BB/</url>
+      <content type="html"><![CDATA[<h1 id="图形及形状高级动画"><a href="#图形及形状高级动画" class="headerlink" title="图形及形状高级动画"></a>图形及形状高级动画</h1><h2 id="（一）从其他软件中制作路径："><a href="#（一）从其他软件中制作路径：" class="headerlink" title="（一）从其他软件中制作路径："></a>（一）从其他软件中制作路径：</h2><ul>
+<li>AI：<ol>
+<li>打开素材文件，选择要粘贴的部分，ctrl+C </li>
+<li>打开AE，建立合成，新建固态层（ctrl+Y）  </li>
+<li>粘贴ctrl+V </li>
+</ol>
+</li>
+<li>将遮罩选中，效果——生成——描边<a id="more"></a>
+将遮罩的透明度调整为0%；<br><img src="/image/AE/2/1.png" alt=""></li>
+<li>定位点工具使用补充：<br>在移动定位点时，按住ctrl键，可以直接定位到对象中心；<br>按住Alt键移动，中心点不动，对象动；</li>
+<li>制作开始和结束动画（描边）<br><img src="/image/AE/2/2.png" alt=""><ol>
+<li>开始：表示开始点显示的范围；100%为消失，0%为完全显示路径；</li>
+<li>结束：表示结束点显示的范围；100%为显示，0%为完全隐藏<h2 id="（二）如何从AE中直接绘制路径并制作动画："><a href="#（二）如何从AE中直接绘制路径并制作动画：" class="headerlink" title="（二）如何从AE中直接绘制路径并制作动画："></a>（二）如何从AE中直接绘制路径并制作动画：</h2></li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>鼠标按工具箱中的工具一会儿（切换工具）</li>
+<li>保证在时间轴面板的空白处单击，不选择任何图层；</li>
+<li>在画布上绘制图形；</li>
+</ol>
+<ul>
+<li>编辑形状：<ol>
+<li>切换填充类型，点击填充两个文字<br><img src="/image/AE/2/3.png" alt=""><img src="/image/AE/2/3.png" alt=""></li>
+</ol>
+</li>
+<li>修整路径动画：在AE中绘制形状制作动画；<br><img src="/image/AE/2/5.png" alt=""><br>Ctrl+R:标尺   可以辅助查找对象中心，  锁定参考线：视图下查找<br>0   1   2   3   4    5   6    7   8   9<br>字符偏移：制作数字动态加载效果；<br><img src="/image/AE/2/6.png" alt=""><br><img src="/image/AE/2/7.png" alt=""><h2 id="（三）手机加速：效果——生成——书写"><a href="#（三）手机加速：效果——生成——书写" class="headerlink" title="（三）手机加速：效果——生成——书写"></a>（三）手机加速：效果——生成——书写</h2></li>
+<li>第一种方法：<ol>
+<li>选择彩色条层</li>
+<li>添加书写效果</li>
+<li>调整笔触粗细，将粗细制作关键帧</li>
+<li>将混合样式改为显示原始图像<br><img src="/image/AE/2/8.png" alt=""></li>
+</ol>
+</li>
+<li>第二种方法：<ol>
+<li>将ps中的路径复制（开放）</li>
+<li>选择AE，新建一个固态层ctrl+Y</li>
+<li>粘贴路径，添加描边（效果下——生产——描边）</li>
+<li>选择在透明通道上（开放路径去除底色）<br><img src="/image/AE/2/9.png" alt=""></li>
+<li>添加结束动画（第一帧：0    1S上添加100%）<br><img src="/image/AE/2/10.png" alt=""></li>
+<li>给彩色的图形添加轨道蒙版为<br><img src="/image/AE/2/11.png" alt=""><h2 id="（四）将动画放入样机中显示-：效果——扭曲——边角固定"><a href="#（四）将动画放入样机中显示-：效果——扭曲——边角固定" class="headerlink" title="（四）将动画放入样机中显示 ：效果——扭曲——边角固定"></a>（四）将动画放入样机中显示 ：效果——扭曲——边角固定</h2></li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>导入手机素材（分层）</li>
+<li>将制作好的动画合成，拖拽到新的手机素材</li>
+<li>将手机素材添加效果——扭曲——边角固定</li>
+<li>设置四个角的位置<h2 id="（五）图标动画——综合动画："><a href="#（五）图标动画——综合动画：" class="headerlink" title="（五）图标动画——综合动画："></a>（五）图标动画——综合动画：</h2></li>
+<li>圆形变化：效果——过渡——径向擦除</li>
+<li>光线发射：制作好一个线条动画后，预合成ctrl+shift+C</li>
+<li>慧尾效果：通过复制图层降低不透明度，调整时间差；</li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> AE </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> AE </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[AE-动效理论与AE基础]]></title>
-      <url>/2016/04/26/AE-%E5%8A%A8%E6%95%88%E7%90%86%E8%AE%BA%E4%B8%8EAE%E5%9F%BA%E7%A1%80/</url>
+      <url>/2017/04/26/AE/AE-%E5%8A%A8%E6%95%88%E7%90%86%E8%AE%BA%E4%B8%8EAE%E5%9F%BA%E7%A1%80/</url>
       <content type="html"><![CDATA[<h1 id="动效理论与＆Ae基础"><a href="#动效理论与＆Ae基础" class="headerlink" title="动效理论与＆Ae基础"></a>动效理论与＆Ae基础</h1><h2 id="（一）UI设计理论"><a href="#（一）UI设计理论" class="headerlink" title="（一）UI设计理论"></a>（一）UI设计理论</h2><p>格式：.avi  .mov   .flv  .gif……</p>
 <h2 id="（二）界面："><a href="#（二）界面：" class="headerlink" title="（二）界面："></a>（二）界面：</h2><p><img src="/image/AE/1/1.png" alt=""><br><a id="more"></a><br><img src="/image/AE/1/2.png" alt=""></p>
 <ul>
@@ -387,6 +327,181 @@
         <tags>
             
             <tag> AE </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[装饰素材]]></title>
+      <url>/2017/04/06/%E8%A3%85%E9%A5%B0%E7%B4%A0%E6%9D%90/</url>
+      <content type="html"><![CDATA[<p><img src="image/装饰素材/1.png" alt=""><br><img src="image/装饰素材/2.png" alt=""><br><img src="image/装饰素材/3.png" alt=""><br><img src="image/装饰素材/4.png" alt=""><br><img src="image/装饰素材/5.png" alt=""><br><img src="image/装饰素材/6.png" alt=""><br><img src="image/装饰素材/7.png" alt=""><br><img src="image/装饰素材/8.png" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 装饰素材 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 装饰素材 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[LOGO收集]]></title>
+      <url>/2017/03/25/LOGO%E6%94%B6%E9%9B%86/</url>
+      <content type="html"><![CDATA[<p><img src="/image/LOGO/1.jpg" alt=""><br> <img src="/image/LOGO/2.jpg" alt=""><br> <img src="/image/LOGO/3.jpg" alt=""><br> <img src="/image/LOGO/4.jpg" alt=""><br> <img src="/image/LOGO/5.jpg" alt=""><br> <img src="/image/LOGO/6.jpg" alt=""><br> <img src="/image/LOGO/7.jpg" alt=""><br> <img src="/image/LOGO/8.jpg" alt=""><br>  <img src="/image/LOGO/9.jpg" alt=""><br> <img src="/image/LOGO/10.jpg" alt=""><br> <img src="/image/LOGO/11.jpg" alt=""><br> <img src="/image/LOGO/12.jpg" alt=""><br> <img src="/image/LOGO/13.JPG" alt=""><br> <img src="/image/LOGO/14.jpg" alt=""><br> <img src="/image/LOGO/16.jpg" alt=""><br> <img src="/image/LOGO/17.jpg" alt=""><br> <img src="/image/LOGO/18.jpg" alt=""><br> <img src="/image/LOGO/19.jpg" alt=""><br> <img src="/image/LOGO/20.jpg" alt=""><br> <img src="/image/LOGO/21.jpg" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> LOGO作品收集 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> LOGO作品收集 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[背景美图收集]]></title>
+      <url>/2017/03/14/%E8%83%8C%E6%99%AF%E7%BE%8E%E5%9B%BE%E6%94%B6%E9%9B%86/</url>
+      <content type="html"><![CDATA[<h1 id="背景图"><a href="#背景图" class="headerlink" title="背景图"></a>背景图</h1><h2 id="唯美系"><a href="#唯美系" class="headerlink" title="唯美系"></a>唯美系</h2><p><img src="/image/背景素材/banner背景素材/1.jpg" alt=""><br><img src="/image/背景素材/banner背景素材/2.jpg" alt=""><br><a id="more"></a><br><img src="/image/背景素材/banner背景素材/3.jpg" alt=""><br><img src="/image/背景素材/banner背景素材/4.jpg" alt=""><br><img src="/image/背景素材/banner背景素材/5.png" alt=""><br><img src="/image/背景素材/banner背景素材/7.png" alt=""><br><img src="/image/背景素材/banner背景素材/9.jpg" alt=""><br><img src="/image/背景素材/banner背景素材/10.png" alt=""><br><img src="/image/背景素材/banner背景素材/12.jpg" alt=""></p>
+<h2 id="实景系"><a href="#实景系" class="headerlink" title="实景系"></a>实景系</h2><p><img src="/image/背景素材/banner背景素材/1.1.jpg" alt=""><br><img src="/image/背景素材/banner背景素材/2.2.jpg" alt=""><br><img src="/image/背景素材/banner背景素材/3.3.jpg" alt=""><br><img src="/image/背景素材/banner背景素材/4.4.jpg" alt=""><br><img src="/image/背景素材/banner背景素材/5.5.jpg" alt=""><br><img src="/image/背景素材/banner背景素材/6.6.jpg" alt=""><br><img src="/image/背景素材/banner背景素材/7.7.png" alt=""><br><img src="/image/背景素材/banner背景素材/8.8.png" alt=""><br><img src="/image/背景素材/banner背景素材/9.9.jpg" alt=""><br><img src="/image/背景素材/banner背景素材/10.1.png" alt=""><br><img src="/image/背景素材/banner背景素材/11.1.png" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 素材收集 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 素材收集 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[文字排版素材]]></title>
+      <url>/2017/02/27/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88%E7%B4%A0%E6%9D%90/</url>
+      <content type="html"><![CDATA[<h1 id="文字排版"><a href="#文字排版" class="headerlink" title="文字排版"></a>文字排版</h1><p><img src="/image/文字排版/文字排版参考临摹/1.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/2.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/3.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/4.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/5.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/6.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/7.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/8.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/9.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/10.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/11.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/12.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/13.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/14.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/15.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/16.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/17.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/18.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/19.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/20.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/21.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/22.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/23.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/24.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/25.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/26.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/27.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/28.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/29.jpg" alt=""><br><img src="/image/文字排版/文字排版参考临摹/30.jpg" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 文字排版 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 文字排版 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Don't stop when you are tired]]></title>
+      <url>/2016/07/22/Don-t-stop-when-you-are-tired/</url>
+      <content type="html"><![CDATA[<h1 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h1><p>Don’t stop when you are tired. Stop when you are done.<br>Everyone you meet has something to teach you.</p>
+<a id="more"></a>
+<p>Stop crying over yesterday and start smiling for tomorrow.<br>Being positive in a negative situation is not naive, it’s leadership.</p>
+<p>At the end of the day, you can only trust yourself.<br>You will never change your life until you change something you do daily.</p>
+<p>Sometimes people don’t realize that there’s a huge difference between giving up and having enough.<br>Sometimes it’s the smallest decisions that can change you life foever.</p>
+<p>Don’t rush anything when the time is right, it will happen.<br>You can fake your smile and laughters but you can never fake your teasrs and feelings.</p>
+<p>Never lie to someone who trust you. Never trust someone who lies to you.<br>Don’t fear change. You may lose something good, but you may also gain something great.</p>
+<p>The best thing in life is to find someone who knows all your flaws, mistake, and weakness, and still thinks you are completely amazing.<br>Standing alone is better than standing with people who hurt you.</p>
+<p>God gave you another day for a reason. Now go find out what it is.<br>Perfect maturity is when a person hurts you, and you try to understand their situation and don’t hurt them back. </p>
+<p>Nomatter what hapeens in life, be good to people.<br>Being good to people is a wonderful legacy to leave behind.</p>
+<p>Sometimes you win, sometimes you learn.</p>
+<p>Never chase love, affection or attention. If it isn’t given freely by another person, it isn’t worth having.<br>You willl not be the same after the storms of life; you will be stronger, wiser and more alive than ever before.</p>
+<p>Notice the people who are happy for your happiness, and sad for your sadness. They are the ones who deserve special place in your heart.<br>Pray as if everything depends on God, work as if everything on you.</p>
+<p>Stay strong. Be positive. We all struggle sometimes.</p>
+<p><div style="text-align:center;"><br><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1500717860676&di=c62412478770f87b61281261a518e631&imgtype=0&src=http%3A%2F%2Fp4.sanwen8.com%2F96%2F2016%2F04%2F1106%2F69551984_5.jpg"><br></div><br><br></p>
+<h1 id="译文"><a href="#译文" class="headerlink" title="译文"></a>译文</h1><p>累的时候别停下来。<br>每一个你遇到的人都会教你一些东西。</p>
+<p>不为昨天而哭泣，笑对明天。<br>在困境中保持乐观不是幼稚，那是领导才能。</p>
+<p>每天结束时，你能相信的只有你自己。<br>你永远无啊发改变现在的生活知道改变每天所做的事。</p>
+<p>人们无法意识到放弃和拥有之间有多大区别。<br>有时生活中一个小小的决定就能改变你的一生。<br>时间对了，一切自然会来，不要着急。</p>
+<p>你可以假装开心，但你不能隐藏你的悲伤。<br>永远不要欺骗信任你的人，也不要信任对你撒谎的人。</p>
+<p>别害怕改变，你或许会失去，但你也会得到更多。<br>生活中最幸福的事莫过于有一个了解你所有缺点，却依然认为你最迷人。</p>
+<p>宁愿独自战斗也不要和伤害你的人在一起。</p>
+<p>上帝给你的每一天都有原因，去寻找吧。<br>真的成熟时当别人伤害你时，你却去理解他们的处境而不是也去伤害他们。</p>
+<p>不管生活中发生什么，都要善待他人。<br>我们忘了善待他人是最好的馈赠。</p>
+<p>要么你赢，要么你学到了。</p>
+<p>永远不要去争爱情，影响力或吸引力也好，如果没有自由，就不值得拥有。<br>暴风雨后你会百年的比以前坚强，聪明，有活力。</p>
+<p>记住那些为你的幸福而开心，为你的悲伤而难过的人，他们应该在你心中是最特别的位置。</p>
+<p>由上帝决定的事，为之祈祷，有自己决定的事，为之努力。<br>内心强大，心态乐观。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 文集 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 翻译 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[对你朝思暮想]]></title>
+      <url>/2016/07/12/%E5%AF%B9%E4%BD%A0%E6%9C%9D%E6%80%9D%E6%9A%AE%E6%83%B3/</url>
+      <content type="html"><![CDATA[<h1 id="随笔"><a href="#随笔" class="headerlink" title="随笔"></a>随笔</h1><h2 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h2><p>Maybe we don’t have a future together,that doesn’t mean we should ruin our present by staying away from each other.<br> <a id="more"></a><br>I went to sleep last night thinking about you,i woke up this morning still thinking about you.</p>
+<p>When i’m down,i whisper your name to myself and smile.</p>
+<p>I still love you ,don’t doubt it,</p>
+<p>sometimes we are only given few minutes to be with the one we love,and thousand hours to spend thinking of them.</p>
+<p>Words fall short when ever i want to tell you how special you are to me,but all i can say is that my word is full of joy when ever i think of you.</p>
+<p>Every night i got to sleep.I think about you and how much i love you.</p>
+<p>There are many thought that make me happy,but you are my favorite.</p>
+<p>When you are away i try to sleep my mind away from you but its like magnet.</p>
+<p>I can’t help but think about you when you are not here with me.</p>
+<p>The times we were happy together are worth the times i cry alone.</p>
+<p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1499869211332&amp;di=9891e76de4eae26b7b082ecf8fe88934&amp;imgtype=0&amp;src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01c52056419ab532f87512f6da853e.jpg" alt=""><br>译文：</p>
+<p>或许我们没有共同的未来，并不意味我们要毁掉现在去远离对方。</p>
+<p>对你朝思暮想。</p>
+<p>失落时，我微笑着默念你的名字。</p>
+<p>我依然爱你，不要怀疑。</p>
+<p>我们很少和爱的人在一起，很多时候都是在想念他们。</p>
+<p>语言无法表达你对我多么特别，但我所能说的是想起你时我的世界就充满欢乐‘</p>
+<p>每个夜晚，都在想你，我想我很爱你。</p>
+<p>有很多事让我开心，但你是最爱。</p>
+<p>当你离开时，我试着去忘记你，但这对我来说太难。</p>
+<p>你不在时，我总忍不住的想你。</p>
+<p>相聚时的欢乐胜过独自哭泣。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 文集 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 翻译 </tag>
             
         </tags>
         
