@@ -125,7 +125,7 @@
 <li>新建一个固态层ctrl+Y 黑色，效果——生成电波，模糊——快速模糊，调整电波中心，及频率、扩展、及开始宽度；<br>  <img src="/image/AE/4/13.png" alt=""></li>
 <li>将黑色固态层，预合成ctrl+shift+C（选择第二项）</li>
 <li>将宝蓝色图层添加 效果——扭曲——置换映射<br>  <img src="/image/AE/4/14.png" alt=""></li>
-<li>隐藏黑色电波层；<br>重点：如果水波较生硬，将模糊值调大；<h2 id="（四）时间："><a href="#（四）时间：" class="headerlink" title="（四）时间："></a>（四）时间：</h2><img src="/image/AE/4/15.png" alt=""><br>时间伸缩： 通过调整时间比例，将速度变快或变慢；<br><img src="/image/AE/4/16.png" alt=""><br>启用时间重置：将整体动画时间，重新指定，可以调整起点和终点；<br><img src="/image/AE/4/17.png" alt=""><br>冻结帧：动画保持在某一个状态，不动；<br>反向帧：将动画的起始位置颠倒；<br><img src="/image/AE/4/18.png" alt=""><br>（五）Keylight:用于视频抠像<br>一般使用蓝色或绿色背景时进行抠像，一般用于视频合成；<br><img src="/image/AE/4/19.png" alt=""> <img src="/image/AE/4/.png" alt=""></li>
+<li>隐藏黑色电波层；<br>重点：如果水波较生硬，将模糊值调大；<h2 id="（四）时间："><a href="#（四）时间：" class="headerlink" title="（四）时间："></a>（四）时间：</h2><img src="/image/AE/4/15.png" alt=""><br>时间伸缩： 通过调整时间比例，将速度变快或变慢；<br><img src="/image/AE/4/16.png" alt=""><br>启用时间重置：将整体动画时间，重新指定，可以调整起点和终点；<br><img src="/image/AE/4/17.png" alt=""><br>冻结帧：动画保持在某一个状态，不动；<br>反向帧：将动画的起始位置颠倒；<br><img src="/image/AE/4/18.png" alt=""><br>（五）Keylight:用于视频抠像<br>一般使用蓝色或绿色背景时进行抠像，一般用于视频合成；<br><img src="/image/AE/4/19.png" alt=""> <img src="/image/AE/4/20.png" alt=""></li>
 </ol>
 ]]></content>
       
@@ -1299,7 +1299,7 @@
     
     <entry>
       <title><![CDATA[javascript动画]]></title>
-      <url>/2016/03/18/javascript%E5%8A%A8%E7%94%BB/</url>
+      <url>/2016/03/18/%E4%BB%A3%E7%A0%81/javascript%E5%8A%A8%E7%94%BB/</url>
       <content type="html"><![CDATA[<h2 id="四、1-1-JQ自定义动画"><a href="#四、1-1-JQ自定义动画" class="headerlink" title="四、1.1 JQ自定义动画"></a>四、1.1 JQ自定义动画</h2><p>$(obj).animate({},时间，形式，回调)；<br>注：</p>
 <ol>
 <li>{}和css多属性操作语法完全一样，用来设置一个或多个需要做动画的css属性。</li>
@@ -1343,7 +1343,7 @@
     
     <entry>
       <title><![CDATA[Javascript基础]]></title>
-      <url>/2016/03/14/Javascript%E5%9F%BA%E7%A1%80/</url>
+      <url>/2016/03/14/%E4%BB%A3%E7%A0%81/Javascript%E5%9F%BA%E7%A1%80/</url>
       <content type="html"><![CDATA[<h1 id="Javascript"><a href="#Javascript" class="headerlink" title="Javascript"></a>Javascript</h1><h2 id="一、1-1-JS是什么？"><a href="#一、1-1-JS是什么？" class="headerlink" title="一、1.1 JS是什么？"></a>一、1.1 JS是什么？</h2><p>JS就是javascript的缩写，它是一门编程语言，有自己的语法规则。</p>
 <h3 id="1-2-JS能做什么？"><a href="#1-2-JS能做什么？" class="headerlink" title="1.2 JS能做什么？"></a>1.2 JS能做什么？</h3><ol>
 <li>JS可以实现网页效果和实现数据交互。</li>
@@ -1450,7 +1450,7 @@
       
         <categories>
             
-            <category> Js </category>
+            <category> JS </category>
             
         </categories>
         
@@ -1465,7 +1465,7 @@
     
     <entry>
       <title><![CDATA[html5-css3基本介绍]]></title>
-      <url>/2016/03/11/html5-css3%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/</url>
+      <url>/2016/03/11/%E4%BB%A3%E7%A0%81/html5-css3%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/</url>
       <content type="html"><![CDATA[<h1 id="html5基本介绍"><a href="#html5基本介绍" class="headerlink" title="html5基本介绍"></a>html5基本介绍</h1><h2 id="一、-H5是什么？"><a href="#一、-H5是什么？" class="headerlink" title="一、 H5是什么？"></a>一、 H5是什么？</h2><p>H5在当前市面上主要指的就是手机端滑屏单页，而我们此课时的H5指的只是HTML5.</p>
 <h3 id="1-2H5的特点"><a href="#1-2H5的特点" class="headerlink" title="1.2H5的特点"></a>1.2H5的特点</h3><ul>
 <li>01HTML5的网页骨架很简洁</li>
@@ -1606,7 +1606,7 @@
     
     <entry>
       <title><![CDATA[html-css样式]]></title>
-      <url>/2016/03/07/html-css%E6%A0%B7%E5%BC%8F/</url>
+      <url>/2016/03/07/%E4%BB%A3%E7%A0%81/html-css%E6%A0%B7%E5%BC%8F/</url>
       <content type="html"><![CDATA[<h1 id="一、html-amp-css样式"><a href="#一、html-amp-css样式" class="headerlink" title="一、html&amp;css样式"></a>一、html&amp;css样式</h1><h2 id="（一）符合选择样式"><a href="#（一）符合选择样式" class="headerlink" title="（一）符合选择样式"></a>（一）符合选择样式</h2><ul>
 <li>标签指定式（交集）标签名.类名{}<br>eg:div.box{}</li>
 <li>选择符分组（并集）选择器，选择器，选择器{}<br>eg:div,.box,h1{}</li>
@@ -1684,7 +1684,7 @@
     
     <entry>
       <title><![CDATA[HTML的认识]]></title>
-      <url>/2016/03/02/HTML/</url>
+      <url>/2016/03/02/%E4%BB%A3%E7%A0%81/HTML/</url>
       <content type="html"><![CDATA[<h1 id="一"><a href="#一" class="headerlink" title="一"></a>一</h1><h2 id="（一）什么是HTML"><a href="#（一）什么是HTML" class="headerlink" title="（一）什么是HTML"></a>（一）什么是HTML</h2><p>超文本标记语言，最基础的网络语言</p>
 <h2 id="（二）常用名词"><a href="#（二）常用名词" class="headerlink" title="（二）常用名词"></a>（二）常用名词</h2><ol>
 <li>WWW万维网  </li>
